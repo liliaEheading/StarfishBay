@@ -4943,7 +4943,7 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		
 		this.stop();
-		console.log("frame 17, real frame:"+this.currentFrame);
+		
 		this.credit17.visible = false;
 		
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
@@ -5074,7 +5074,7 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		
 		this.stop();
-		console.log("mc2");
+		
 		var mc2A = root.mcAnsA.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(root));
 		
 		this.credit20.visible = false;
@@ -5115,7 +5115,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit20.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo20.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5123,7 +5123,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit20.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		
@@ -5134,8 +5134,6 @@ if (reversed == null) { reversed = false; }
 	this.frame_20 = function() {
 		this.stop();
 		var root= this;
-		
-		console.log("mc2 wrong");
 		
 		
 		var backBtnEvent = root.backBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(root));
@@ -5157,18 +5155,16 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		console.log("mc2 right");
-		//this.flower.visible = false;
-		console.log("frame 22, real frame:"+this.currentFrame);
+		
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			console.log("pressBnext");
+		
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		this.addEventListener('tick', crab_FadeOutCbk);
-		    // root.gotoAndStop(42); 
+		   
 		}
 		
 		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
@@ -5186,11 +5182,11 @@ if (reversed == null) { reversed = false; }
 			{
 				this.crab22.alpha=1;
 				this.removeEventListener('tick', crab_FadeOutCbk);
-				//console.log("CAN CHANGE");
+				
 			    root.gotoAndStop(22); 
 				return;	
 				
-				//this.removeEventListener('tick',sceneCheckStart);
+				
 				
 			}
 		}
@@ -5208,7 +5204,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit22.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo22.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5216,7 +5212,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit22.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		
@@ -6026,13 +6022,11 @@ if (reversed == null) { reversed = false; }
 		
 		
 		//this.flower.visible = false;
-		console.log("frame 22, real frame:"+this.currentFrame);
-		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			console.log("pressBnext");
+			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(39); 
 			root.nextBtn2.stop();
@@ -6082,7 +6076,6 @@ if (reversed == null) { reversed = false; }
 		var root= this;
 		
 		
-		console.log("frame 28, real frame:"+this.currentFrame);
 		var backBtnEvent = root.backBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(root));
 		
 		function fl_ClickToGoToAndPlayAtFrame()
@@ -6101,8 +6094,7 @@ if (reversed == null) { reversed = false; }
 		
 		
 		
-		//this.flower.visible = false;
-		console.log("frame 22, real frame:"+this.currentFrame);
+		
 		
 		var nextButtonEvent = root.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
@@ -6560,7 +6552,6 @@ if (reversed == null) { reversed = false; }
 		
 		
 		//this.flower.visible = false;
-		console.log("frame 22, real frame:"+this.currentFrame);
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		

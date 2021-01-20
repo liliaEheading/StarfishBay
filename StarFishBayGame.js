@@ -8,16 +8,16 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"StarFishBayGame_atlas_1", frames: [[0,0,1917,1441]]},
-		{name:"StarFishBayGame_atlas_2", frames: [[514,842,602,185],[388,1029,652,158],[598,1208,575,120],[0,1189,596,132],[0,1323,428,97],[514,390,354,55],[1042,1037,531,169],[1118,842,577,193],[757,1459,393,45],[314,1482,357,48],[1532,1318,396,108],[430,1330,405,102],[1152,1459,302,40],[1152,1501,302,40],[673,1506,302,40],[314,1434,441,46],[1676,1510,302,40],[1676,1428,278,80],[1563,709,122,106],[1935,819,100,88],[0,904,386,272],[1066,453,495,387],[1563,453,76,72],[1697,709,236,237],[1697,948,236,237],[1647,412,391,295],[514,453,550,366],[1935,709,96,108],[1647,0,370,410],[0,390,512,512],[946,0,699,451],[0,0,944,388],[1575,1187,355,129],[1175,1208,355,129],[837,1330,312,118],[1151,1339,312,118],[0,1422,312,118],[1465,1428,209,110]]},
-		{name:"StarFishBayGame_atlas_3", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710],[0,1424,975,450],[977,1424,800,533]]},
+		{name:"StarFishBayGame_atlas_1", frames: [[0,0,602,185],[1183,0,652,158],[388,329,575,120],[388,195,596,132],[1203,530,428,97],[1203,462,354,55],[1183,160,531,169],[604,0,577,193],[1351,634,393,45],[628,677,357,48],[388,451,396,108],[1633,530,405,102],[1746,634,302,40],[1746,676,302,40],[314,681,302,40],[908,629,441,46],[0,701,302,40],[628,561,278,78],[786,451,122,106],[986,195,100,88],[0,187,386,272],[1954,112,76,72],[1716,160,236,237],[965,331,236,237],[1917,399,96,108],[1203,331,355,129],[1560,399,355,129],[0,461,312,118],[314,561,312,118],[0,581,312,118],[1837,0,209,110]]},
+		{name:"StarFishBayGame_atlas_2", frames: [[0,0,683,710],[0,712,683,710],[1386,925,495,387],[1529,1726,391,295],[977,1378,550,366],[0,1424,975,450],[1529,1314,370,410],[1487,0,512,512],[685,925,699,451],[685,0,800,533],[685,535,944,388]]},
+		{name:"StarFishBayGame_atlas_3", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_4", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_5", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_6", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_7", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_8", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_9", frames: [[900,602,683,710],[0,1314,683,710],[685,1314,683,710],[0,0,898,673],[900,0,900,600]]},
-		{name:"StarFishBayGame_atlas_10", frames: [[1026,722,800,800],[0,722,1024,768],[0,0,1280,720]]},
+		{name:"StarFishBayGame_atlas_9", frames: [[902,802,683,710],[0,770,898,673],[1026,0,800,800],[0,1445,900,600],[0,0,1024,768]]},
+		{name:"StarFishBayGame_atlas_10", frames: [[0,722,1107,830],[0,0,1280,720]]},
 		{name:"StarFishBayGame_atlas_11", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"StarFishBayGame_atlas_12", frames: [[0,0,1024,1024],[0,1026,1280,720]]},
 		{name:"StarFishBayGame_atlas_13", frames: [[0,0,1024,1024]]},
@@ -52,7 +52,8 @@ lib.ssMetadata = [
 		{name:"StarFishBayGame_atlas_42", frames: [[0,0,1606,1068]]},
 		{name:"StarFishBayGame_atlas_43", frames: [[0,0,1776,1182]]},
 		{name:"StarFishBayGame_atlas_44", frames: [[0,0,1780,1186]]},
-		{name:"StarFishBayGame_atlas_45", frames: [[0,0,1892,1258]]}
+		{name:"StarFishBayGame_atlas_45", frames: [[0,0,1917,1441]]},
+		{name:"StarFishBayGame_atlas_46", frames: [[0,0,1892,1258]]}
 ];
 
 
@@ -133,154 +134,161 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_18 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_17 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_16 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_15 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_13 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_12 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_11 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_10 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_9 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_8 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.border_waterCol = function() {
+	this.initialize(ss["StarFishBayGame_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.bubble1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubble2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.clam_shadow = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
@@ -399,183 +407,183 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.Crab3_QuestionMarkCrab_00001 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["StarFishBayGame_atlas_8"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00002 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_8"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00003 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00004 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00005 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_7"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00006 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_7"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00007 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00008 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00009 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_6"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00010 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_6"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00011 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00012 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00013 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_5"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00014 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_5"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00015 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00016 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00017 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_4"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00018 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_4"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00019 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00020 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00021 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00022 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00023 = function() {
+(lib.Crab3_QuestionMarkCrab_00021 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00024 = function() {
+(lib.Crab3_QuestionMarkCrab_00022 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00025 = function() {
+(lib.Crab3_QuestionMarkCrab_00023 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00026 = function() {
+(lib.Crab3_QuestionMarkCrab_00024 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00025 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00026 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -680,9 +688,15 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.crab_shadow = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.droneShot1 = function() {
+	this.initialize(img.droneShot1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,5472,3648);
 
 
 (lib.droneShot10min = function() {
@@ -722,28 +736,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 
 
 (lib.flower = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(22);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(24);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo1min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_45"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -751,28 +765,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 
 (lib.Photo10min = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo11min = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(26);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo13min = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo14min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -786,7 +800,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 
 (lib.Photo17min = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -820,8 +834,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 
 
 (lib.Photo21_cropmin = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -839,15 +853,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 p.nominalBounds = new cjs.Rectangle(0,0,4864,3648);
 
 
-(lib.Photo23 = function() {
-	this.initialize(img.Photo23);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,4864,3648);
-
-
 (lib.Photo24min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -906,91 +914,91 @@ p.nominalBounds = new cjs.Rectangle(0,0,4025,3019);
 
 (lib.Photo8min = function() {
 	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.raindrop = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sb2 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(28);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sbbbbb = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(29);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.speechBubble = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(30);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.speechBubble3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.title = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(31);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn1_blue = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2_blue = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(35);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2_grey = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(36);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(37);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1644,6 +1652,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.speechBubble_1, new cjs.Rectangle(-91,-18,538.7,511.7), null);
 
 
+(lib.sb3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.speechBubble3();
+	this.instance.setTransform(0,0,0.7813,0.7195);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.sb3, new cjs.Rectangle(0,0,625,383.5), null);
+
+
 (lib.rainDrop = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1952,6 +1982,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.Photo2_1, new cjs.Rectangle(0,0,527.3,386.5), null);
 
 
+(lib.photo1819_detail = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Photo20min();
+	this.instance.setTransform(0,0,0.4116,0.4116);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.photo1819_detail, new cjs.Rectangle(0,0,526.9,296.4), null);
+
+
 (lib.photo1819 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2016,6 +2068,28 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.photo27, new cjs.Rectangle(0,0,419.8,314.9), null);
+
+
+(lib.photo26 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Photo26min();
+	this.instance.setTransform(0,0,0.2974,0.2974);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.photo26, new cjs.Rectangle(0,0,477.7,317.7), null);
 
 
 (lib.photo25 = function(mode,startPosition,loop,reversed) {
@@ -2237,6 +2311,28 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.photo13, new cjs.Rectangle(0,0,394.6,295.7), null);
+
+
+(lib.photo_23 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Photo23min();
+	this.instance.setTransform(0,0,0.083,0.083);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.photo_23, new cjs.Rectangle(0,0,403.6,302.7), null);
 
 
 (lib.photo_22 = function(mode,startPosition,loop,reversed) {
@@ -2618,6 +2714,34 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.flowerEffect, new cjs.Rectangle(0,0,76,72), null);
 
 
+(lib.finalSb = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Thank you for taking time to learn about the intertidal biodiversity of Starfish Bay. This unique bay, like much of Hong Kong’s coastal environment, is vulnerable to the pressures of human activities, such as plastic pollution, and so it is important that we learn about it and do what we can to protect it. Please go and visit Starfish Bay, enjoy the marine life that you can find there and share this hidden Hong Kong treasure with others!", "18px 'Arial'", "#0D3147");
+	this.text.lineHeight = 22;
+	this.text.lineWidth = 390;
+	this.text.parent = this;
+	this.text.setTransform(53.3,44.2);
+
+	this.instance = new lib.speechBubble3();
+	this.instance.setTransform(0,0,0.6197,0.6392);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.finalSb, new cjs.Rectangle(0,0,495.8,340.7), null);
+
+
 (lib.F5text = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2908,6 +3032,36 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.creditp1819, new cjs.Rectangle(-72.4,28.6,274.20000000000005,132.4), null);
 
 
+(lib.creditp26 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Photo 26 – Own Photo", "15px 'Arial'", "#333333");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 19;
+	this.text.lineWidth = 163;
+	this.text.parent = this;
+	this.text.setTransform(91.4,7.35);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AxhFtIAArZMAjDAAAIAALZg");
+	this.shape.setTransform(93.198,15.4674,0.8307,0.4243);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.creditp26, new cjs.Rectangle(0,0,186.4,72.9), null);
+
+
 (lib.creditp25 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2920,7 +3074,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Photo 25 – Source: https://medium.com/wwfhk-e/birds-and-beyond-3cc460c6c1d4 ", "11px 'Arial'");
+	this.text = new cjs.Text("Photo 25 – Source: https://medium.com/wwfhk-e/birds-and-\nbeyond-3cc460c6c1d4 ", "11px 'Arial'");
 	this.text.lineHeight = 14;
 	this.text.lineWidth = 214;
 	this.text.parent = this;
@@ -2934,7 +3088,37 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.creditp25, new cjs.Rectangle(0,0,222.1,61.1), null);
+}).prototype = getMCSymbolPrototype(lib.creditp25, new cjs.Rectangle(0,0,222.1,75.3), null);
+
+
+(lib.creditp23 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Photo 23 – Own Photo", "15px 'Arial'", "#333333");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 19;
+	this.text.lineWidth = 197;
+	this.text.parent = this;
+	this.text.setTransform(100.45,2);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AvsCPIAAkdIfZAAIAAEdg");
+	this.shape.setTransform(100.475,14.3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.creditp23, new cjs.Rectangle(0,0,201,39.6), null);
 
 
 (lib.creditp22 = function(mode,startPosition,loop,reversed) {
@@ -3008,7 +3192,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Photo 17 – Source:  http://www.hkwildlife.net/lungmei/gallery/source/ochetostoma_erythrogrammon.html \n", "11px 'Arial Narrow'", "#333333");
+	this.text = new cjs.Text("Photo 17 – Source:  http://www.hkwildlife.net/lungmei/gallery/source/ocheto\nstoma_erythrogrammon.html \n", "11px 'Arial Narrow'", "#333333");
 	this.text.lineHeight = 15;
 	this.text.lineWidth = 220;
 	this.text.parent = this;
@@ -3022,7 +3206,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.creditp17, new cjs.Rectangle(0,0,235.7,86.1), null);
+}).prototype = getMCSymbolPrototype(lib.creditp17, new cjs.Rectangle(0,0,235.7,94.1), null);
 
 
 (lib.creditp15 = function(mode,startPosition,loop,reversed) {
@@ -3194,6 +3378,66 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.credit19, new cjs.Rectangle(5.6,0,168,40.2), null);
+
+
+(lib.credit_p26 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Photo 26 – Own Photo", "15px 'Arial'", "#333333");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 19;
+	this.text.lineWidth = 179;
+	this.text.parent = this;
+	this.text.setTransform(91.45,4.95);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AvsE7IAAp1IfZAAIAAJ1g");
+	this.shape.setTransform(91.4793,12.9835,0.9104,0.413);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.credit_p26, new cjs.Rectangle(0,0,183,42.6), null);
+
+
+(lib.credit_28 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Photo 28 – Own Photo", "16px 'Arial'", "#333333");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 20;
+	this.text.lineWidth = 171;
+	this.text.parent = this;
+	this.text.setTransform(88.45,3.85);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AtvCWIAAkrIbfAAIAAErg");
+	this.shape.setTransform(87.975,13.1209,1,0.8766);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.credit_28, new cjs.Rectangle(0,0,176,26.3), null);
 
 
 (lib.nextPageButton = function(mode,startPosition,loop,reversed) {
@@ -3620,12 +3864,12 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {home:0,studentInfo:2,MC1:6,mc1wrong:7,mc1right:8,q1:11,q2:14,MC2:19,Mc2Wrong:20,mc2right:21,q3:22,mc3:26,mc3back:27,mc3right:28,q4:32,mc4:39,mc4back:40,mc4right:41,q5:43,"Mangrove Ecosystem":51,mc5:54,mc5back:55,mc5right:56,q6:57,mc6:61,mc6back:62,mc6right:63,mc7:65,mc7back:66,mc7right:67,mc8:68,mc8back:69,mc8right:70,mc9:72,mc9back:73,mc9right:74,mc10:75,mc10back:76,mc10right:77,credit:119,credit2:120};
+	props.labels = {home:0,studentInfo:2,MC1:6,mc1wrong:7,mc1right:8,q1:11,q2:14,MC2:19,Mc2Wrong:20,mc2right:21,q3:22,fadeInTemplate1:24,fadeInTemplate2:25,mc3:26,mc3back:27,mc3right:28,q4:32,mc4:39,mc4back:40,mc4right:41,q5:43,"Mangrove Ecosystem":51,mc5:54,mc5back:55,mc5right:56,q6:57,mc6:61,mc6back:62,mc6right:63,mc7:65,mc7back:66,mc7right:67,mc8:68,mc8back:69,mc8right:70,mc9:72,mc9back:73,mc9right:74,mc10:75,mc10back:76,mc10right:77,credit:119,credit2:120};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,119,120];
+	this.actionFrames = [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,119,120];
 	// timeline functions:
 	this.frame_0 = function() {
 		this.stop();
@@ -3638,7 +3882,7 @@ if (reversed == null) { reversed = false; }
 		{
 			root.StartBtn.removeEventListener("click",fl_ClickToGoToAndPlayAtFrame.bind(root));
 			root.StartBtn.stop();
-			root.gotoAndStop(3); 
+			root.gotoAndStop(2); 
 		
 		}
 		
@@ -3710,13 +3954,17 @@ if (reversed == null) { reversed = false; }
 		if(studentName!="" && school!="" && studentClass!=""&&studentEmail!="") 
 		{
 			alert("Hello "+studentName +" !");
-			studentName = studentName ;
+		
 			console.log("name = "+studentName);
-			console.log(val2);
+			console.log("school = "+school);
+			console.log("studentClass = "+studentClass);
+			console.log("email = "+studentEmail);
+		
+		
 			root.okBtn.removeEventListener("click", getValue.bind(root));
 			root.gotoAndPlay(3); 
 			root.okBtn.stop();
-			console.log("name page");
+			
 			//this.navNext();
 		    // String isn't null and has a length > 0
 		}
@@ -3740,8 +3988,6 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		
 		this.stop();
-		console.log("frame 4, real frame:"+this.currentFrame);
-		
 		
 		
 		this.credit.visible = false;
@@ -3763,7 +4009,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_2()
 		{
 			this.credit.visible = true;
-			console.log("mouseOver");
+		
 		}
 		
 		this.photoImg.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -3771,7 +4017,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			this.credit.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		
@@ -3788,11 +4034,7 @@ if (reversed == null) { reversed = false; }
 			if(this.photoImg.x <=670)
 			{
 				this.removeEventListener('tick', crab_FadeInCbk4);
-				console.log("ready");
-				//this.photoImg.alpha = 1; 
-				//this.speechBubble4.alpha = 1; 
-				//this.crab4.alpha = 1; 
-				//this.credit4.alpha = 1; 	
+			
 				return;	
 			}
 			this.photoImg.x-= 40;
@@ -3808,7 +4050,7 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		
 		this.stop();
-		console.log("frame 5, real frame:"+this.currentFrame);
+		
 		this.credit.visible = false;
 		
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
@@ -3839,7 +4081,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 			this.credit.visible = true;
-			console.log("mouseOver");
+		
 		}
 		
 		this.photoImg.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -3847,7 +4089,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			this.credit.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		
@@ -3884,7 +4126,7 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		
 		this.stop();
-		console.log("frame 6, real frame:"+this.currentFrame);
+		
 		this.credit2.visible = false;
 		
 		//fade in
@@ -3902,7 +4144,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
 		
-			console.log("frame 6 now");
+			
 			//this.gotoAndStop(this.currentFrame+1);
 			this.nextBtn.removeEventListener("click", buttonEvent);
 			this.nextBtn.stop();
@@ -3921,7 +4163,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_2()
 		{
 			this.credit2.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo2.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -3929,7 +4171,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			this.credit2.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		
@@ -3951,7 +4193,7 @@ if (reversed == null) { reversed = false; }
 			if(this.crab2.alpha <= 0)
 			{
 				this.removeEventListener('tick', crab_FadeOutCbk2);
-				console.log("CAN CHANGE");
+				
 				this.text.alpha = 1 ;
 				root.gotoAndStop(6);
 				this.photo2.alpha = 1; 
@@ -3976,7 +4218,7 @@ if (reversed == null) { reversed = false; }
 			if(this.photo2.x >=300)
 			{
 				this.removeEventListener('tick', crab_FadeInCbk_2);
-				console.log("ready");
+				
 				//this.photoImg.alpha = 1; 
 				//this.speechBubble4.alpha = 1; 
 				//this.crab4.alpha = 1; 
@@ -3995,7 +4237,6 @@ if (reversed == null) { reversed = false; }
 		var root=this;
 		//MC Page
 		this.stop();
-		console.log("frame 7, real frame:"+this.currentFrame);
 		this.credit2_2.visible = false;
 		
 		
@@ -4008,7 +4249,7 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayAtFrame()
 		{	
 		
-				console.log("a"+": attempt: "+attempt);
+				
 				root.ABtn.removeEventListener("click",  ABtnEvent);
 				answerCorrect=false;
 				root.gotoAndStop(7);  
@@ -4019,7 +4260,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayAtFrame1()
 		{
-				console.log("b"+": attempt: "+attempt);
+				
 			  root.BBtn.removeEventListener("click",  BBtnEvent);
 				root.gotoAndStop(8); 
 				root.BBtn.stop();
@@ -4029,7 +4270,6 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayAtFrame2()
 		{	
-				console.log("c"+": attempt: "+attempt);
 				root.CBtn.removeEventListener("click",  CBtnEvent);
 				root.gotoAndStop(7); 
 				root.CBtn.stop();
@@ -4039,7 +4279,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayAtFrame3()
 		{
-				console.log("d"+": attempt: "+attempt);
+				
 				root.DBtn.removeEventListener("click",  DBtnEvent);
 				root.gotoAndStop(7); 
 		    	root.DBtn.stop();
@@ -4058,7 +4298,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_2()
 		{
 			this.credit2_2.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo2_2.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -4066,7 +4306,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			this.credit2_2.visible = false;
-			console.log("mouseOut");
+		
 		}
 		/////credit end
 		
@@ -4080,7 +4320,6 @@ if (reversed == null) { reversed = false; }
 		var root= this;
 		
 		
-		console.log("frame 8, real frame:"+this.currentFrame);
 		var backBtnEvent = root.backBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(root));
 		
 		function fl_ClickToGoToAndPlayAtFrame()
@@ -4096,7 +4335,6 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		this.flower.visible = false;
-		console.log("frame 9, real frame:"+this.currentFrame);
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		//fade in
@@ -4167,14 +4405,9 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		this.credit4.visible = false;
 		
-		//fade in
-		this.photo4.x = -600;
-		//fade in
-		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
-		root.addEventListener('tick', crab_FadeInCbk);
 		
 		
-		console.log("frame 10, real frame:"+this.currentFrame);
+		
 		
 		//next
 		var nextButtonEvent = root.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
@@ -4197,6 +4430,26 @@ if (reversed == null) { reversed = false; }
 		
 		}
 		
+		//fade in
+		this.photo4.x = -600;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo4.x >=320)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo4.alpha = 1; 
+				this.speechBubble4.alpha = 1; 
+				this.crab4.alpha = 1; 
+				this.credit4.alpha = 1; 	
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo4.x+= 40;
+		}
 		
 		
 		///credit
@@ -4220,21 +4473,6 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		
-		//fade in
-		function fl_FadeSymbolIn()
-		{
-			if(this.photo4.x >=320)
-			{
-				root.removeEventListener('tick', crab_FadeInCbk);
-				this.photo4.alpha = 1; 
-				this.speechBubble4.alpha = 1; 
-				this.crab4.alpha = 1; 
-				this.credit4.alpha = 1; 	
-				 fadeInFinish=true;
-				return;	
-			}
-			this.photo4.x+= 40;
-		}
 		
 		
 		
@@ -4357,7 +4595,7 @@ if (reversed == null) { reversed = false; }
 		function getValue() {
 			val= document.getElementById('answer_box_q1').value;
 			q1Ans = val;
-			console.log(q1Ans);
+			console.log("Question 1 answer :"+ q1Ans);
 			
 		}
 		
@@ -4577,7 +4815,7 @@ if (reversed == null) { reversed = false; }
 		function getValue() {
 			val = document.getElementById('answer_box_q2').value;
 			q2Ans = val;
-			console.log("Q2 ans1: " + q2Ans);
+			console.log("Question 2 answer :"+ q2Ans);
 		}
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
@@ -4642,8 +4880,34 @@ if (reversed == null) { reversed = false; }
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			root.gotoAndStop(16);
+			//root.gotoAndStop(16);
 			this.nextBtn.removeEventListener("click", nextButtonEvent);
+		this.addEventListener('tick', crab_FadeOutCbk);
+		    // root.gotoAndStop(42); 
+		}
+		
+		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
+		
+		function fl_FadeSymbolOut()
+		{
+			this.photo16.alpha-=0.05;
+			//this.crab9.alpha -= 0.05;
+			
+			root.speechBubble.alpha-=0.05;
+			
+		
+			
+			if(this.photo16.alpha <= 0)
+			{
+				this.crab16.alpha=1;
+				this.removeEventListener('tick', crab_FadeOutCbk);
+				//console.log("CAN CHANGE");
+			    root.gotoAndStop(16); 
+				return;	
+				
+				//this.removeEventListener('tick',sceneCheckStart);
+				
+			}
 		}
 		
 		
@@ -4903,9 +5167,33 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayAtFrame() {
 			console.log("pressBnext");
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(root.currentFrame+1); 
+		this.addEventListener('tick', crab_FadeOutCbk);
+		    // root.gotoAndStop(42); 
 		}
 		
+		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
+		
+		function fl_FadeSymbolOut()
+		{
+			this.photo22.alpha-=0.05;
+			this.crab22.alpha -= 0.05;
+			
+			root.speechBubble.alpha-=0.05;
+			
+		
+			
+			if(this.photo22.alpha <= 0)
+			{
+				this.crab22.alpha=1;
+				this.removeEventListener('tick', crab_FadeOutCbk);
+				//console.log("CAN CHANGE");
+			    root.gotoAndStop(22); 
+				return;	
+				
+				//this.removeEventListener('tick',sceneCheckStart);
+				
+			}
+		}
 		
 		
 		
@@ -4932,7 +5220,7 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		
-		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
 		
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
@@ -4967,10 +5255,10 @@ if (reversed == null) { reversed = false; }
 		
 		function init() {
 			infoContainer2 = new createjs.Container();
-			stage.addChild(infoContainer);
+			stage.addChild(infoContainer2);
 		
 			button = this.nextBtn;
-			infoContainer.addChild(button);
+			infoContainer2.addChild(button);
 		
 			inputField2 = this.answer_box_q3_1;
 			infoContainer2.addChild(inputField2);
@@ -4999,7 +5287,7 @@ if (reversed == null) { reversed = false; }
 		
 			q3Ans_2 = document.getElementById('answer_box_q3_2').value;
 			
-			console.log("Q3 ans1: "+ q3Ans_1 +"  ans2: "+ q3Ans_2);
+			console.log("Question 3 answer 1: "+ q3Ans_1 +" Question 3 answer 2: "+ q3Ans_2);
 		}
 		
 		
@@ -5020,7 +5308,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit23.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo23.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5028,33 +5316,10 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit23.visible = false;
-			console.log("mouseOut");
+		
 		}
 		
 		
-		
-		/*****fade out
-		function fl_FadeSymbolOut5()
-		{
-			this.photo12.alpha-=0.05;
-			 this.crab12.alpha -= 0.05;
-			//this.text.visible = false;
-			this.speechBubble12.alpha-=0.05;
-			//this.credit4.alpha-=0.05;
-		
-			if(this.crab12.alpha <= 0)
-			{
-				this.removeEventListener('tick', crab_FadeOutCbk5);
-				console.log("CAN CHANGE");
-				root.gotoAndStop(this.currentFrame+1);
-				this.photo12.alpha = 1; 
-				this.speechBubble12.alpha = 1; 
-				this.crab12.alpha = 1; 
-				//this.credit4.alpha = 1; 
-				return;	
-			}
-		}
-		****/
 		
 		
 		
@@ -5086,22 +5351,66 @@ if (reversed == null) { reversed = false; }
 	this.frame_24 = function() {
 		var root=this;
 		
+		
 		this.stop();
 		
 		
+		this.credit25.visible=false;
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			
-			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(25); 
+			if(fadeInFinish==true){
+				root.nextBtn2.removeEventListener("click", nextButtonEvent);
+				root.gotoAndStop(25); 
+			}
+		
 		}
 		
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		
+		
+		//hover over
+		this.photo25.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit25.visible = true;
+		
+		}
+		
+		this.photo25.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit25.visible = false;
+			
+		}
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo25.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo25.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo25.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo25.alpha+= 0.05;
+		}
 	}
 	this.frame_25 = function() {
 		var root=this;
@@ -5117,9 +5426,10 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-		
+			if(fadeInFinish){
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(26); 
+			}
 		}
 		
 		
@@ -5149,6 +5459,28 @@ if (reversed == null) { reversed = false; }
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo26.x = 1100;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo26.x <=690)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo26.x-= 40;
+		}
 	}
 	this.frame_26 = function() {
 		var root=this;
@@ -5274,9 +5606,11 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
+			if(fadeInFinish){
+				 root.nextBtn2.removeEventListener("click", nextButtonEvent);
+				root.gotoAndStop(30); 
+			}
 		
-			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(30); 
 		}
 		
 		
@@ -5300,6 +5634,29 @@ if (reversed == null) { reversed = false; }
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo30.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo30.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo30.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo30.alpha+= 0.05;
+		}
 	}
 	this.frame_30 = function() {
 		var root=this;
@@ -5372,10 +5729,10 @@ if (reversed == null) { reversed = false; }
 		
 		function init() {
 			infoContainer2 = new createjs.Container();
-			stage.addChild(infoContainer);
+			stage.addChild(infoContainer2);
 		
 			button = this.nextBtn;
-			infoContainer.addChild(button);
+			infoContainer2.addChild(button);
 		
 			inputField2 = this.answer_box_q4;
 			infoContainer2.addChild(inputField2);
@@ -5398,7 +5755,7 @@ if (reversed == null) { reversed = false; }
 		function getValue() {
 			q4Ans = document.getElementById('answer_box_q4').value;
 		
-			console.log("Q4 ans: "+ q4Ans);
+			console.log("Question 4 answer: "+ q4Ans);
 		}
 		
 		
@@ -5464,10 +5821,34 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-		
-			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
+		 if(fadeInFinish){
+			  root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(35); 
+			 }
+			
 		}
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo35.x = 1100;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo35.x <=690)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo35.x-= 40;
+		}
+		
 		
 		
 		
@@ -5519,19 +5900,65 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		
 		
-		
-		//this.flower.visible = false;
+		this.credit37.visible = false;
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(37); 
+			if( fadeInFinish){
+				root.nextBtn2.removeEventListener("click", nextButtonEvent);
+		        root.gotoAndStop(37);
+		   }
+			  
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		//hover over
+		this.photo37.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit37.visible = true;
+		
+		}
+		
+		this.photo37.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit37.visible = false;
+			
+		}
+		
+		
+		
+		
+		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo37.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo37.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo37.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo37.alpha+= 0.05;
+		}
 	}
 	this.frame_37 = function() {
 		var root=this;
@@ -5545,9 +5972,10 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			
+			if(fadeInFinish){
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(38); 
+		     root.gotoAndStop(38);
+			}
 		}
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
@@ -5559,7 +5987,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit38.visible = true;
-			console.log("mouseOver");
+		
 		}
 		
 		this.photo38.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5567,10 +5995,29 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit38.visible = false;
-			console.log("mouseOut");
+			
 		}
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo38.x = 1100;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo38.x <=690)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo38.x-= 40;
+		}
 	}
 	this.frame_38 = function() {
 		var root=this;
@@ -5642,7 +6089,7 @@ if (reversed == null) { reversed = false; }
 		{
 			this.backBtn.removeEventListener("click",backBtnEvent);
 			this.backBtn.stop();
-			//console.log("pressBack");
+		
 			root.gotoAndStop(39); 
 			
 		}
@@ -5664,33 +6111,12 @@ if (reversed == null) { reversed = false; }
 		
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 			root.nextBtn2.stop();
-			this.addEventListener('tick', crab_FadeOutCbk);
-		    // root.gotoAndStop(42); 
-		}
-		
-		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
-		
-		function fl_FadeSymbolOut()
-		{
-			this.photo38.alpha-=0.05;
-			//this.crab9.alpha -= 0.05;
-			this.text.alpha -= 0.05;
-			root.speechBubble.alpha-=0.05;
+			   root.gotoAndStop(42); 
 			
 		
-			
-			if(this.photo38.alpha <= 0)
-			{
-				this.crab9.alpha=1;
-				this.removeEventListener('tick', crab_FadeOutCbk);
-				//console.log("CAN CHANGE");
-			    root.gotoAndStop(42); 
-				return;	
-				
-				//this.removeEventListener('tick',sceneCheckStart);
-				
-			}
 		}
+		
+		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 	}
@@ -5705,10 +6131,11 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			console.log("pressBnext");
+			if(fadeInFinish){
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 			root.nextBtn2.stop();
-		     root.gotoAndStop(43); 
+		     root.gotoAndStop(43);
+			}
 		}
 		
 		//hover over
@@ -5734,6 +6161,28 @@ if (reversed == null) { reversed = false; }
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo43.x = 1100;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo43.x <=660)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo43.x-= 40;
+		}
 	}
 	this.frame_43 = function() {
 		var root=this;
@@ -5768,10 +6217,10 @@ if (reversed == null) { reversed = false; }
 		
 		function init() {
 			infoContainer2 = new createjs.Container();
-			stage.addChild(infoContainer);
+			stage.addChild(infoContainer2);
 		
 			button = this.nextBtn2;
-			infoContainer.addChild(button);
+			infoContainer2.addChild(button);
 		
 			inputField2 = this.answer_box_q5;
 			infoContainer2.addChild(inputField2);
@@ -5782,7 +6231,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Tween.get().wait(100).call(setCaret);
 			
 		}
-		
+		init();
 		
 		//answerBox
 		function setCaret() {
@@ -5795,7 +6244,7 @@ if (reversed == null) { reversed = false; }
 			q5Ans = document.getElementById('answer_box_q5').value;
 		
 			
-			console.log("Q5 ans: "+ q4Ans);
+			console.log("Question 5 answer: "+ q5Ans);
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -5815,11 +6264,36 @@ if (reversed == null) { reversed = false; }
 		
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 			root.nextBtn2.stop();
-		     root.gotoAndStop(45); 
+			    root.gotoAndStop(45); 
+		 
+		   
 		}
+		
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		
+		
+		//hover over
+		
+		this.credit45.visible = false;
+		
+		this.photo45.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit45.visible = true;
+			
+		}
+		
+		this.photo45.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit45.visible = false;
+			
+		}
 	}
 	this.frame_45 = function() {
 		var root=this;
@@ -5831,9 +6305,10 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			
+			if(fadeInFinish){
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(46); 
+			}
 		}
 		
 		
@@ -5859,6 +6334,28 @@ if (reversed == null) { reversed = false; }
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo46.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo46.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo46.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo46.alpha+= 0.05;
+		}
 	}
 	this.frame_46 = function() {
 		var root=this;
@@ -5950,7 +6447,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayAtFrame() {
 			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(51); 
+		    this.addEventListener('tick', crab_FadeOutCbk);
+		   
+		}
+		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
+		
+		function fl_FadeSymbolOut()
+		{
+			this.photo51.alpha-=0.05;
+			//this.crab45.alpha -= 0.05;
+			root.speechBubble.alpha-=0.05;
+			if(this.photo51.alpha <= 0)
+			{
+				this.photo51.alpha=1;
+				//this.crab57.alpha=1;
+				this.removeEventListener('tick', crab_FadeOutCbk);
+			    root.gotoAndStop(51); 
+				return;	
+			}
 		}
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -5968,9 +6482,10 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			
+			if(fadeInFinish){
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(52); 
+		     root.gotoAndStop(52);
+			} 
 		}
 		
 		
@@ -5983,6 +6498,7 @@ if (reversed == null) { reversed = false; }
 		{
 		  root.credit52.visible = true;
 			
+			
 		}
 		
 		this.photo52.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5994,6 +6510,29 @@ if (reversed == null) { reversed = false; }
 		}
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo52.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo52.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.photo52.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo52.alpha+= 0.05;
+		}
 	}
 	this.frame_52 = function() {
 		var root=this;
@@ -6033,6 +6572,55 @@ if (reversed == null) { reversed = false; }
 		}
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		
+		//FADE IN
+		
+		//fade in
+		this.photo54.x = 1100;
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(this);
+		root.addEventListener('tick', crab_FadeInCbk);
+		
+		
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo54.x <=670)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+			
+			
+				return;	
+			}
+			this.photo54.x-= 40;
+		}
+		
+		
+		
+		//hover over
+		
+		this.credit54.visible = false;
+		
+		this.photo54.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit54.visible = true;
+			
+		}
+		
+		this.photo54.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit54.visible = false;
+			
+		}
+		
+		
+		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 	}
 	this.frame_54 = function() {
 		var root=this;
@@ -6097,8 +6685,48 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayAtFrame() {
 			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(57); 
+		 this.addEventListener('tick', crab_FadeOutCbk);
+		   
 		}
+		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
+		
+		function fl_FadeSymbolOut()
+		{
+			this.photo57.alpha-=0.05;
+			//this.crab45.alpha -= 0.05;
+			//root.speechBubble.alpha-=0.05;
+			if(this.photo57.alpha <= 0)
+			{
+				this.photo57.alpha=1;
+				//this.crab57.alpha=1;
+				this.removeEventListener('tick', crab_FadeOutCbk);
+			    root.gotoAndStop(57); 
+				return;	
+			}
+		}
+		
+		
+		
+		//hover over
+		
+		this.credit57.visible = false;
+		
+		this.photo57.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit57.visible = true;
+			
+		}
+		
+		this.photo57.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit57.visible = false;
+			
+		}
+		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 	}
@@ -6135,10 +6763,10 @@ if (reversed == null) { reversed = false; }
 		
 		function init() {
 			infoContainer2 = new createjs.Container();
-			stage.addChild(infoContainer);
+			stage.addChild(infoContainer2);
 		
 			button = this.nextBtn4;
-			infoContainer.addChild(button);
+			infoContainer2.addChild(button);
 		
 			inputField2 = this.answer_box_q6;
 			infoContainer2.addChild(inputField2);
@@ -6149,7 +6777,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Tween.get().wait(100).call(setCaret);
 			
 		}
-		
+		init();
 		
 		//answerBox
 		function setCaret() {
@@ -6162,7 +6790,7 @@ if (reversed == null) { reversed = false; }
 			q6Ans = document.getElementById('answer_box_q6').value;
 		
 			
-			console.log("Q6 ans: "+ q4Ans);
+			console.log("Question 6 answer: "+ q6Ans);
 		}
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
@@ -6182,8 +6810,10 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayAtFrame() {
 			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
-		     root.gotoAndStop(59); 
+		
+		    root.gotoAndStop(59); 
 		}
+		
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -6193,7 +6823,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		
+		this.credit60.visible = false;
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
@@ -6204,6 +6834,51 @@ if (reversed == null) { reversed = false; }
 		}
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
+		
+		
+		//FADE IN
+		
+		//fade in
+		this.photo60.x = 1100;
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(this);
+		root.addEventListener('tick', crab_FadeInCbk);
+		
+		
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo60.x <=670)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+			
+			
+				return;	
+			}
+			this.photo60.x-= 40;
+		}
+		
+		
+		//credit
+		
+		var frequency = 3;
+		stage.enableMouseOver(frequency);
+		
+		//hover over
+		this.photo60.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit60.visible = true;
+			console.log("mouseOver");
+		}
+		
+		this.photo60.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit60.visible = false;
+			console.log("mouseOut");
+		}
 	}
 	this.frame_60 = function() {
 		var root=this;
@@ -6236,7 +6911,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit61.visible = true;
-			console.log("mouseOver");
+			
 		}
 		
 		this.photo61.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -6244,11 +6919,32 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit61.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.photo61.x = 1100;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.photo61.x <=690)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				 fadeInFinish=true;
+				return;	
+			}
+			this.photo61.x-= 40;
+		}
 	}
 	this.frame_61 = function() {
 		var root=this;
@@ -6349,6 +7045,31 @@ if (reversed == null) { reversed = false; }
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
+		
+		
+		
+		//hover over
+		
+		//hover over
+		
+		this.credit65.visible = false;
+		
+		this.photo_65.addEventListener("mouseover", fl_MouseOverHandler_65.bind(this));
+		
+		function fl_MouseOverHandler_65()
+		{
+			console.log("mouseover65")
+		    root.credit65.visible = true;
+			
+		}
+		
+		this.photo_65.addEventListener("mouseout", fl_MouseOverHandler652.bind(this));
+		
+		function fl_MouseOverHandler652()
+		{
+			root.credit65.visible = false;
+			
+		}
 	}
 	this.frame_65 = function() {
 		var root=this;
@@ -6627,7 +7348,7 @@ if (reversed == null) { reversed = false; }
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			console.log("pressBnext");
+			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(75); 
 		}
@@ -6672,6 +7393,32 @@ if (reversed == null) { reversed = false; }
 			this.mc10_Dbtn.removeEventListener("click", mc10D);
 			root.mc10_Dbtn.stop();	
 		}
+		
+		
+		//credit
+		this.credit76.visible = false;
+		
+		var frequency = 3;
+		stage.enableMouseOver(frequency);
+		
+		//hover over
+		this.photo76.addEventListener("mouseover", fl_MouseOverHandler_3.bind(this));
+		
+		function fl_MouseOverHandler_3()
+		{
+		  root.credit76.visible = true;
+			
+		}
+		
+		this.photo76.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
+		
+		function fl_MouseOverHandler()
+		{
+			root.credit76.visible = false;
+			
+		}
+		
+		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
 	}
@@ -6710,6 +7457,32 @@ if (reversed == null) { reversed = false; }
 		}
 		this.progressText.text=Math.floor((this.currentFrame/77)*100)+"%";
 		this.bar.scaleX=3.0502;
+	}
+	this.frame_78 = function() {
+		this.stop();
+		var root=this;
+		
+		
+		
+		//fade in
+		var fadeInFinish=false;
+		
+		this.speechBubbleThank.alpha = 0;
+		//fade in
+		var crab_FadeInCbk = fl_FadeSymbolIn.bind(root);
+		root.addEventListener('tick', crab_FadeInCbk);
+		//fade in
+		function fl_FadeSymbolIn()
+		{
+			if(this.speechBubbleThank.alpha >=1)
+			{
+				root.removeEventListener('tick', crab_FadeInCbk);
+				this.speechBubbleThank.alpha = 1; 
+				 fadeInFinish=true;
+				return;	
+			}
+			this.speechBubbleThank.alpha+= 0.05;
+		}
 	}
 	this.frame_119 = function() {
 		this.stop();
@@ -6771,7 +7544,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1).call(this.frame_10).wait(1).call(this.frame_11).wait(1).call(this.frame_12).wait(1).call(this.frame_13).wait(1).call(this.frame_14).wait(1).call(this.frame_15).wait(1).call(this.frame_16).wait(1).call(this.frame_17).wait(1).call(this.frame_18).wait(1).call(this.frame_19).wait(1).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(1).call(this.frame_24).wait(1).call(this.frame_25).wait(1).call(this.frame_26).wait(1).call(this.frame_27).wait(1).call(this.frame_28).wait(1).call(this.frame_29).wait(1).call(this.frame_30).wait(1).call(this.frame_31).wait(1).call(this.frame_32).wait(1).call(this.frame_33).wait(1).call(this.frame_34).wait(1).call(this.frame_35).wait(1).call(this.frame_36).wait(1).call(this.frame_37).wait(1).call(this.frame_38).wait(1).call(this.frame_39).wait(1).call(this.frame_40).wait(1).call(this.frame_41).wait(1).call(this.frame_42).wait(1).call(this.frame_43).wait(1).call(this.frame_44).wait(1).call(this.frame_45).wait(1).call(this.frame_46).wait(1).call(this.frame_47).wait(1).call(this.frame_48).wait(1).call(this.frame_49).wait(1).call(this.frame_50).wait(1).call(this.frame_51).wait(1).call(this.frame_52).wait(1).call(this.frame_53).wait(1).call(this.frame_54).wait(1).call(this.frame_55).wait(1).call(this.frame_56).wait(1).call(this.frame_57).wait(1).call(this.frame_58).wait(1).call(this.frame_59).wait(1).call(this.frame_60).wait(1).call(this.frame_61).wait(1).call(this.frame_62).wait(1).call(this.frame_63).wait(1).call(this.frame_64).wait(1).call(this.frame_65).wait(1).call(this.frame_66).wait(1).call(this.frame_67).wait(1).call(this.frame_68).wait(1).call(this.frame_69).wait(1).call(this.frame_70).wait(1).call(this.frame_71).wait(1).call(this.frame_72).wait(1).call(this.frame_73).wait(1).call(this.frame_74).wait(1).call(this.frame_75).wait(1).call(this.frame_76).wait(1).call(this.frame_77).wait(42).call(this.frame_119).wait(1).call(this.frame_120).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1).call(this.frame_10).wait(1).call(this.frame_11).wait(1).call(this.frame_12).wait(1).call(this.frame_13).wait(1).call(this.frame_14).wait(1).call(this.frame_15).wait(1).call(this.frame_16).wait(1).call(this.frame_17).wait(1).call(this.frame_18).wait(1).call(this.frame_19).wait(1).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(1).call(this.frame_24).wait(1).call(this.frame_25).wait(1).call(this.frame_26).wait(1).call(this.frame_27).wait(1).call(this.frame_28).wait(1).call(this.frame_29).wait(1).call(this.frame_30).wait(1).call(this.frame_31).wait(1).call(this.frame_32).wait(1).call(this.frame_33).wait(1).call(this.frame_34).wait(1).call(this.frame_35).wait(1).call(this.frame_36).wait(1).call(this.frame_37).wait(1).call(this.frame_38).wait(1).call(this.frame_39).wait(1).call(this.frame_40).wait(1).call(this.frame_41).wait(1).call(this.frame_42).wait(1).call(this.frame_43).wait(1).call(this.frame_44).wait(1).call(this.frame_45).wait(1).call(this.frame_46).wait(1).call(this.frame_47).wait(1).call(this.frame_48).wait(1).call(this.frame_49).wait(1).call(this.frame_50).wait(1).call(this.frame_51).wait(1).call(this.frame_52).wait(1).call(this.frame_53).wait(1).call(this.frame_54).wait(1).call(this.frame_55).wait(1).call(this.frame_56).wait(1).call(this.frame_57).wait(1).call(this.frame_58).wait(1).call(this.frame_59).wait(1).call(this.frame_60).wait(1).call(this.frame_61).wait(1).call(this.frame_62).wait(1).call(this.frame_63).wait(1).call(this.frame_64).wait(1).call(this.frame_65).wait(1).call(this.frame_66).wait(1).call(this.frame_67).wait(1).call(this.frame_68).wait(1).call(this.frame_69).wait(1).call(this.frame_70).wait(1).call(this.frame_71).wait(1).call(this.frame_72).wait(1).call(this.frame_73).wait(1).call(this.frame_74).wait(1).call(this.frame_75).wait(1).call(this.frame_76).wait(1).call(this.frame_77).wait(1).call(this.frame_78).wait(41).call(this.frame_119).wait(1).call(this.frame_120).wait(79));
 
 	// Layer_1
 	this.bar = new lib.progressBar();
@@ -6800,12 +7573,12 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_email = new lib.an_TextInput({'id': 'answer_box_email', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_email.name = "answer_box_email";
-	this.answer_box_email.setTransform(550.35,444.9,2.4136,2.6439,0,0,0,50,10.8);
+	this.answer_box_email.setTransform(550.35,440.05,2.4136,2.1938,0,0,0,50,10.8);
 
 	this.answer_box_class = new lib.an_TextInput({'id': 'answer_box_class', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_class.name = "answer_box_class";
-	this.answer_box_class.setTransform(550.35,358.8,2.4136,2.6439,0,0,0,50,10.8);
+	this.answer_box_class.setTransform(550.35,360.65,2.4136,2.1931,0,0,0,50,11);
 
 	this.text = new cjs.Text("email", "28px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
@@ -6834,28 +7607,28 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_school = new lib.an_TextInput({'id': 'answer_box_school', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_school.name = "answer_box_school";
-	this.answer_box_school.setTransform(550.35,278.95,2.4136,2.6439,0,0,0,50,10.8);
+	this.answer_box_school.setTransform(550.35,279.15,2.4136,2.1931,0,0,0,50,10.9);
 
 	this.text_3 = new cjs.Text("ok", "44px 'Tw Cen MT'", "#156074");
 	this.text_3.textAlign = "center";
 	this.text_3.lineHeight = 50;
 	this.text_3.lineWidth = 136;
 	this.text_3.parent = this;
-	this.text_3.setTransform(805.95,511.85);
+	this.text_3.setTransform(821.25,519.85);
 
 	this.instance = new lib.Symbol2("synched",0);
 	this.instance.setTransform(407.5,326.2,1,0.9669,0,0,0,368.5,95.6);
 
 	this.okBtn = new lib.generalBtn_();
 	this.okBtn.name = "okBtn";
-	this.okBtn.setTransform(805.9,537.05,0.8144,0.8547);
+	this.okBtn.setTransform(821.25,545.1,0.6586,0.6912,0,0,0,0.1,0.1);
 	this.okBtn.alpha = 0.8594;
 	new cjs.ButtonHelper(this.okBtn, 0, 1, 1);
 
 	this.answer_box = new lib.an_TextInput({'id': 'answer_box', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box.name = "answer_box";
-	this.answer_box.setTransform(550.35,200,2.4136,2.6439,0,0,0,50,10.8);
+	this.answer_box.setTransform(550.35,201.75,2.4136,2.1936,0,0,0,50,10.9);
 
 	this.instance_1 = new lib.an_CSS({'id': 'instance_1', 'href':'assets/style.css'});
 
@@ -6869,7 +7642,7 @@ if (reversed == null) { reversed = false; }
 
 	this.StartBtn = new lib.Btn();
 	this.StartBtn.name = "StartBtn";
-	this.StartBtn.setTransform(483.75,429.7,0.5972,0.7194,0,0,0,0.1,0.1);
+	this.StartBtn.setTransform(483.85,429.7,0.5233,0.6303,0,0,0,0.3,0.1);
 	this.StartBtn.alpha = 0.8594;
 	new cjs.ButtonHelper(this.StartBtn, 0, 1, 2, false, new lib.Btn(), 3);
 
@@ -6965,7 +7738,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7.setTransform(691.2,538.75,0.5288,0.5288,0,0,0,314.7,126);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_4}]},3).to({state:[{t:this.text_5}]},1).to({state:[{t:this.text_6}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_8},{t:this.text_7},{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_3}]},1).to({state:[{t:this.instance_4},{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_6},{t:this.instance_5},{t:this.answer_box_q2}]},1).to({state:[]},1).to({state:[{t:this.instance_7}]},89).to({state:[]},15).to({state:[]},8).wait(72));
-	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(3).to({_off:false},0).to({_off:true},1).wait(2).to({_off:false,scaleX:0.7993,scaleY:0.7993,x:252.25,y:167.5687,text:"What animal creates these patterns?",font:"31px 'Arial'",color:"#333333",lineHeight:36.6,lineWidth:248},0).wait(1).to({scaleX:0.8218,scaleY:0.8218,x:633.4555,y:197.1,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263},0).wait(1).to({scaleX:0.8953,scaleY:0.8953,x:668.0029,y:165.3709,text:"Yes! \nIt's a crab",font:"41px 'Arial'",color:"#0A3337",lineHeight:47.8,lineWidth:275},0).wait(1).to({scaleX:0.8839,scaleY:0.8839,x:687.5,y:181.35,text:"Let's see what's hiding in the burrow…",font:"25px 'Arial'",lineHeight:29.95,lineWidth:202},0).wait(1).to({scaleX:1,scaleY:1,x:207.2,y:166.5,text:" (Scopimera globosa). ",font:"italic 19px 'Arial'",color:"#0C2D41",lineHeight:23.25,lineWidth:216},0).wait(1).to({scaleX:1.0299,scaleY:1.0299,x:220.3284,y:175.1,text:"How do you think the sand bubbler crab created this pattern?",font:"19px 'Arial'",color:"#333333",lineWidth:213},0).wait(1).to({scaleX:1,scaleY:1,x:-122.25,y:117.1,text:"",font:"19px 'ArialMT'",color:"#FFFFFF",lineWidth:100},0).wait(1).to({scaleX:0.8701,scaleY:0.8701,x:211.95,y:164.45,text:"Look! There are other animals besides crabs living here! \nLet's have a closer look…",font:"24px 'Arial'",color:"#333333",lineHeight:28.85,lineWidth:217},0).wait(1).to({scaleX:0.5813,scaleY:0.5813,x:333.25,y:387.5448,text:"These snails look alike but are not the same species! Can you spot at least 3 differences?",font:"25px 'Arial'",color:"#000000",lineHeight:29.95,lineWidth:506},0).to({_off:true},1).wait(184));
+	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(3).to({_off:false},0).to({_off:true},1).wait(2).to({_off:false,scaleX:0.7993,scaleY:0.7993,x:252.25,y:167.5687,text:"What animal creates these patterns?",font:"31px 'Arial'",color:"#333333",lineHeight:36.6,lineWidth:248},0).wait(1).to({scaleX:0.8218,scaleY:0.8218,x:633.4555,y:197.1,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263},0).wait(1).to({scaleX:0.8953,scaleY:0.8953,x:668.0029,y:165.3709,text:"Yes! \nIt's a crab",font:"41px 'Arial'",color:"#0A3337",lineHeight:47.8,lineWidth:275},0).wait(1).to({scaleX:0.8839,scaleY:0.8839,x:687.5,y:181.35,text:"Let's see what's hiding in the burrow…",font:"25px 'Arial'",lineHeight:29.95,lineWidth:202},0).wait(1).to({scaleX:1,scaleY:1,x:207.2,y:166.5,text:" (Scopimera globosa). ",font:"italic 19px 'Arial'",color:"#0C2D41",lineHeight:23.25,lineWidth:216},0).wait(1).to({scaleX:1.0299,scaleY:1.0299,x:220.3284,y:175.1,text:"How do you think the sand bubbler crab created this pattern?",font:"19px 'Arial'",color:"#0D3147",lineWidth:213},0).wait(1).to({scaleX:1,scaleY:1,x:-122.25,y:117.1,text:"",font:"19px 'ArialMT'",color:"#FFFFFF",lineWidth:100},0).wait(1).to({scaleX:0.8701,scaleY:0.8701,x:211.95,y:164.45,text:"Look! There are other animals besides crabs living here! \nLet's have a closer look…",font:"24px 'Arial'",color:"#333333",lineHeight:28.85,lineWidth:217},0).wait(1).to({scaleX:0.5813,scaleY:0.5813,x:333.25,y:387.5448,text:"These snails look alike but are not the same species! Can you spot at least 3 differences?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:506},0).to({_off:true},1).wait(184));
 
 	// mcAnsT
 	this.text_9 = new cjs.Text("D) A Snail", "24px 'Arial'", "#0A3337");
@@ -7194,12 +7967,12 @@ if (reversed == null) { reversed = false; }
 
 	this.mc8_Dbtn = new lib.MCButtonLong();
 	this.mc8_Dbtn.name = "mc8_Dbtn";
-	this.mc8_Dbtn.setTransform(659.9,590.85,1.0182,1.0814,0,0,0,219.3,26.8);
+	this.mc8_Dbtn.setTransform(659.9,583.85,1.0182,1.0814,0,0,0,219.3,26.8);
 	new cjs.ButtonHelper(this.mc8_Dbtn, 0, 1, 1);
 
 	this.mc8_Cbtn = new lib.MCButtonLong();
 	this.mc8_Cbtn.name = "mc8_Cbtn";
-	this.mc8_Cbtn.setTransform(659.9,526.3,1.0182,1.0814,0,0,0,219.3,26.8);
+	this.mc8_Cbtn.setTransform(659.9,522.65,1.0182,0.9448,0,0,0,219.3,26.9);
 	new cjs.ButtonHelper(this.mc8_Cbtn, 0, 1, 1);
 
 	this.mc8_Abtn = new lib.MCButtonLong();
@@ -7252,7 +8025,7 @@ if (reversed == null) { reversed = false; }
 	this.mc10_Bbtn.setTransform(663.25,465.6,0.8869,0.8844,0,0,0,219.3,26.8);
 	new cjs.ButtonHelper(this.mc10_Bbtn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ABtn},{t:this.CBtn},{t:this.BBtn},{t:this.DBtn}]},6).to({state:[]},1).to({state:[{t:this.instance_8},{t:this.answer_box_q1}]},4).to({state:[]},1).to({state:[{t:this.mcAnsB},{t:this.mcAnsA},{t:this.text_15,p:{scaleX:0.9791,scaleY:1,x:431.7,y:445.75,text:"B) They fight each other just like soldiers",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405}},{t:this.mcAnsC},{t:this.text_14,p:{scaleX:0.9791,x:432.4,y:502.9,text:"C) They know no fear and will defend their territory at all costs",font:"15px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:18.8,lineWidth:404,scaleY:1}},{t:this.text_13,p:{scaleX:0.9791,x:432.4,y:385.3,text:"A) They form large groups that resemble an army",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405,scaleY:1}}]},7).to({state:[]},1).to({state:[{t:this.text_14,p:{scaleX:1,x:414.05,y:396.65,text:"1.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:414.05,y:449.8,text:"2.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.answer_box_q3_1},{t:this.answer_box_q3_2}]},2).to({state:[]},1).to({state:[{t:this.mc3_Abtn},{t:this.mc3_Cbtn},{t:this.mc3_Bbtn},{t:this.mc3_Dbtn},{t:this.text_16,p:{x:519,y:433.5,text:"A) Worms",font:"bold 24px 'Montserrat'",lineHeight:35.1,lineWidth:192,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:761.3,y:433.5,text:"B) Molluscs",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192}},{t:this.text_14,p:{scaleX:0.7427,x:519,y:507.65,text:"C) Jellyfish",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:761.3,y:507.65,text:"D) Sharks",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.answer_box_q4},{t:this.instance_9}]},5).to({state:[]},1).to({state:[{t:this.mc4_Bbtn},{t:this.mc4_Abtn},{t:this.mc4_Cbtn},{t:this.text_15,p:{scaleX:1,scaleY:1,x:456.3,y:415.35,text:"A) Because the red colour acts as a camouflage",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399}},{t:this.text_14,p:{scaleX:1,x:456.3,y:478.15,text:"B) Because the food they eat is always red ",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:455.8,y:534.8,text:"C) Because they have a large number of cells that contain \n     haemoglobin (this protein makes our blood cells red)",font:"17px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:20.5,lineWidth:399,scaleY:1}}]},6).to({state:[]},1).to({state:[{t:this.answer_box_q5},{t:this.instance_10}]},3).to({state:[]},1).to({state:[{t:this.mc5_Bbtn},{t:this.mc5_Abtn},{t:this.mc5_Cbtn},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:442.45,y:416.55,text:"A) Their roots can turn salt into oxygen",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:442.45,y:475.85,text:"B) They have specialised leaves that excrete salt",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.text_13,p:{scaleX:0.9444,x:442.45,y:526.8,text:"C) They have gills that allow them to breath underwater",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},10).to({state:[]},1).to({state:[{t:this.answer_box_q6},{t:this.instance_11}]},2).to({state:[]},1).to({state:[{t:this.mc6_Abtn},{t:this.mc6_Cbtn},{t:this.mc6_Bbtn},{t:this.mc6_Dbtn},{t:this.text_16,p:{x:536.65,y:447.9,text:"A) To climb mangroves",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:776.55,y:447.55,text:"B) To dig burrows faster",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:536.65,y:522.45,text:"C) To chop up their food",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:776.55,y:522.75,text:"D) To attract female crabs",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc7_Abtn},{t:this.mc7_Cbtn},{t:this.mc7_Bbtn},{t:this.mc7_Dbtn},{t:this.text_16,p:{x:495.45,y:453.55,text:"A) Lionfish",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:735.35,y:453.2,text:"B) Anemone",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:495.45,y:526.6,text:"C) Decorator Urchin",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:735.35,y:526.6,text:"D) Crown of Thorns Starfish",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc8_Bbtn},{t:this.mc8_Abtn},{t:this.mc8_Cbtn},{t:this.text_16,p:{x:472.85,y:395.3,text:"A) To protect itself from sunlight",font:"18px 'Arial'",lineHeight:22.1,lineWidth:399,scaleX:0.9444,scaleY:0.9444,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:472.85,y:454.6,text:"B) To look pretty and attract mates\n",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:472.85,y:505.55,text:"C) To defend itself from predators",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.mc8_Dbtn},{t:this.text_13,p:{scaleX:0.9444,x:472.85,y:572.6,text:"D) To show off its rock and shell collection to other urchins",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},2).to({state:[]},1).to({state:[{t:this.mc9_Abtn},{t:this.mc9_Cbtn},{t:this.mc9_Bbtn},{t:this.mc9_Dbtn},{t:this.text_16,p:{x:551.1,y:486.3,text:"A) Sea Slugs",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:791,y:485.95,text:"B) Sea Snails",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:551.1,y:553.85,text:"C) Sponges",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:791,y:552.8,text:"D) Cephalopods",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc10_Bbtn},{t:this.mc10_Abtn},{t:this.text_16,p:{x:488.05,y:398.25,text:"A) They have blue blood",font:"18px 'Tw Cen MT'",lineHeight:21.6,lineWidth:399,scaleX:0.8844,scaleY:0.8844,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.8844,scaleY:0.8844,x:488.05,y:453.8,text:"B) They can change the colour and texture of their skin\n",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399}},{t:this.mc10_Cbtn},{t:this.text_14,p:{scaleX:0.8844,x:488.05,y:511.3,text:"C) They can jump 10 meters out of the water",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}},{t:this.mc10_Dbtn},{t:this.text_13,p:{scaleX:0.8844,x:488.05,y:566.55,text:"D)They have three hearts",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}}]},2).to({state:[]},1).to({state:[]},51).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ABtn},{t:this.CBtn},{t:this.BBtn},{t:this.DBtn}]},6).to({state:[]},1).to({state:[{t:this.instance_8},{t:this.answer_box_q1}]},4).to({state:[]},1).to({state:[{t:this.mcAnsB},{t:this.mcAnsA},{t:this.text_15,p:{scaleX:0.9791,scaleY:1,x:431.7,y:445.75,text:"B) They fight each other just like soldiers",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405}},{t:this.mcAnsC},{t:this.text_14,p:{scaleX:0.9791,x:432.4,y:502.9,text:"C) They know no fear and will defend their territory at all costs",font:"15px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:18.8,lineWidth:404,scaleY:1}},{t:this.text_13,p:{scaleX:0.9791,x:432.4,y:385.3,text:"A) They form large groups that resemble an army",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405,scaleY:1}}]},7).to({state:[]},1).to({state:[{t:this.text_14,p:{scaleX:1,x:414.05,y:396.65,text:"1.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:414.05,y:449.8,text:"2.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.answer_box_q3_1},{t:this.answer_box_q3_2}]},2).to({state:[]},1).to({state:[{t:this.mc3_Abtn},{t:this.mc3_Cbtn},{t:this.mc3_Bbtn},{t:this.mc3_Dbtn},{t:this.text_16,p:{x:519,y:433.5,text:"A) Worms",font:"bold 24px 'Montserrat'",lineHeight:35.1,lineWidth:192,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:761.3,y:433.5,text:"B) Molluscs",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192}},{t:this.text_14,p:{scaleX:0.7427,x:519,y:507.65,text:"C) Jellyfish",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:761.3,y:507.65,text:"D) Sharks",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.answer_box_q4},{t:this.instance_9}]},5).to({state:[]},1).to({state:[{t:this.mc4_Bbtn},{t:this.mc4_Abtn},{t:this.mc4_Cbtn},{t:this.text_15,p:{scaleX:1,scaleY:1,x:456.3,y:415.35,text:"A) Because the red colour acts as a camouflage",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399}},{t:this.text_14,p:{scaleX:1,x:456.3,y:478.15,text:"B) Because the food they eat is always red ",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:455.8,y:534.8,text:"C) Because they have a large number of cells that contain \n     haemoglobin (this protein makes our blood cells red)",font:"17px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:20.5,lineWidth:399,scaleY:1}}]},6).to({state:[]},1).to({state:[{t:this.answer_box_q5},{t:this.instance_10}]},3).to({state:[]},1).to({state:[{t:this.mc5_Bbtn},{t:this.mc5_Abtn},{t:this.mc5_Cbtn},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:442.45,y:416.55,text:"A) Their roots can turn salt into oxygen",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:442.45,y:475.85,text:"B) They have specialised leaves that excrete salt",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.text_13,p:{scaleX:0.9444,x:442.45,y:526.8,text:"C) They have gills that allow them to breath underwater",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},10).to({state:[]},1).to({state:[{t:this.answer_box_q6},{t:this.instance_11}]},2).to({state:[]},1).to({state:[{t:this.mc6_Abtn},{t:this.mc6_Cbtn},{t:this.mc6_Bbtn},{t:this.mc6_Dbtn},{t:this.text_16,p:{x:536.65,y:447.9,text:"A) To climb mangroves",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:776.55,y:447.55,text:"B) To dig burrows faster",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:536.65,y:522.45,text:"C) To chop up their food",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:776.55,y:522.75,text:"D) To attract female crabs",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc7_Abtn},{t:this.mc7_Cbtn},{t:this.mc7_Bbtn},{t:this.mc7_Dbtn},{t:this.text_16,p:{x:495.45,y:453.55,text:"A) Lionfish",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:735.35,y:453.2,text:"B) Anemone",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:495.45,y:526.6,text:"C) Decorator Urchin",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:735.35,y:526.6,text:"D) Crown of Thorns Starfish",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc8_Bbtn},{t:this.mc8_Abtn},{t:this.mc8_Cbtn},{t:this.text_16,p:{x:472.85,y:395.3,text:"A) To protect itself from sunlight",font:"18px 'Arial'",lineHeight:22.1,lineWidth:399,scaleX:0.9444,scaleY:0.9444,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:472.85,y:454.6,text:"B) To look pretty and attract mates\n",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:472.85,y:511.55,text:"C) To defend itself from predators",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.mc8_Dbtn},{t:this.text_13,p:{scaleX:0.9444,x:471.5,y:563.6,text:"D) To show off its rock and shell collection to other urchins",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},2).to({state:[]},1).to({state:[{t:this.mc9_Abtn},{t:this.mc9_Cbtn},{t:this.mc9_Bbtn},{t:this.mc9_Dbtn},{t:this.text_16,p:{x:551.1,y:486.3,text:"A) Sea Slugs",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:791,y:485.95,text:"B) Sea Snails",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:551.1,y:553.85,text:"C) Sponges",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:791,y:552.8,text:"D) Cephalopods",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc10_Bbtn},{t:this.mc10_Abtn},{t:this.text_16,p:{x:488.05,y:398.25,text:"A) They have blue blood",font:"18px 'Tw Cen MT'",lineHeight:21.6,lineWidth:399,scaleX:0.8844,scaleY:0.8844,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.8844,scaleY:0.8844,x:488.05,y:453.8,text:"B) They can change the colour and texture of their skin\n",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399}},{t:this.mc10_Cbtn},{t:this.text_14,p:{scaleX:0.8844,x:488.05,y:511.3,text:"C) They can jump 10 meters out of the water",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}},{t:this.mc10_Dbtn},{t:this.text_13,p:{scaleX:0.8844,x:488.05,y:566.55,text:"D)They have three hearts",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}}]},2).to({state:[]},1).to({state:[]},51).wait(72));
 
 	// hCrabAnim
 	this.instance_12 = new lib.movingHappyCrab();
@@ -7290,7 +8063,22 @@ if (reversed == null) { reversed = false; }
 	this.crab13 = new lib.movingHappyCrab();
 	this.crab13.name = "crab13";
 	this.crab13.setTransform(300.4,455.6,0.3106,0.3106,0,0,0,450.2,45.4);
-	this.crab13._off = true;
+
+	this.crab16 = new lib.movingHappyCrab();
+	this.crab16.name = "crab16";
+	this.crab16.setTransform(169.8,498.95,0.3122,0.3122,0,0,0,450.3,127);
+
+	this.crab22 = new lib.movingHappyCrab();
+	this.crab22.name = "crab22";
+	this.crab22.setTransform(570.8,498.75,0.3137,0.3137,0,0,0,450.9,127.9);
+
+	this.crab45 = new lib.movingHappyCrab();
+	this.crab45.name = "crab45";
+	this.crab45.setTransform(200.85,477.75,0.3243,0.3243,0,0,0,451.2,128.4);
+
+	this.crab57 = new lib.movingHappyCrab();
+	this.crab57.name = "crab57";
+	this.crab57.setTransform(240.9,480.05,0.2907,0.2907,0,0,0,451.1,128.2);
 
 	this.text_17 = new cjs.Text("Try again\n", "36px 'Arial'", "#0D3147");
 	this.text_17.textAlign = "center";
@@ -7308,11 +8096,10 @@ if (reversed == null) { reversed = false; }
 	this.backBtn2.setTransform(858.05,598.45,0.5869,0.5869,0,0,0,0,0.1);
 	new cjs.ButtonHelper(this.backBtn2, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},3).to({state:[{t:this.crab}]},1).to({state:[{t:this.crab2}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab4,p:{regX:450,regY:163.8,scaleX:0.3063,scaleY:0.2998,skewY:180,x:699.6,y:470}}]},1).to({state:[{t:this.crab4,p:{regX:450.1,regY:127.1,scaleX:0.299,scaleY:0.299,skewY:0,x:193.55,y:472.15}}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab13}]},1).to({state:[{t:this.crab13}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab13}]},1).to({state:[{t:this.crab13}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab13}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},4).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.crab9}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},4).to({state:[{t:this.crab12}]},5).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},3).to({state:[{t:this.instance_15},{t:this.text_17}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab9}]},1).to({state:[]},26).to({state:[{t:this.backBtn2}]},36).to({state:[]},14).wait(45));
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,regX:-3.1,regY:-1,x:379.9,y:455.85},0).to({_off:true},1).wait(6).to({_off:false,x:335.15,y:449.55},0).to({_off:true},1).wait(2).to({_off:false,regX:-3,regY:-0.9,scaleX:0.3325,scaleY:0.3325,x:234.05,y:480.55},0).to({_off:true},2).wait(8).to({_off:false,regX:-3.1,regY:-1,scaleX:0.4047,scaleY:0.4047,x:375.6,y:432.8},0).to({_off:true},1).wait(4).to({_off:false,regX:-2.9,regY:-0.8,scaleX:0.348,scaleY:0.348,x:209.35,y:473.15},0).to({_off:true},4).wait(6).to({_off:false,regX:-3.1,regY:-1,scaleX:0.4047,scaleY:0.4047,x:446.65,y:455.4},0).to({_off:true},1).wait(10).to({_off:false,x:224.55,y:453.8},0).to({_off:true},1).wait(2).to({_off:false,x:411.8,y:426.05},0).to({_off:true},1).wait(3).to({_off:false,regX:-3,regY:-0.8,scaleX:0.3492,scaleY:0.3492,x:218.85,y:476.7},0).to({_off:true},1).wait(2).to({_off:false,regY:-1.1,scaleX:0.3705,scaleY:0.3705,x:422.7,y:409.2},0).to({_off:true},1).wait(122));
-	this.timeline.addTween(cjs.Tween.get(this.crab9).wait(8).to({_off:false},0).to({_off:true},1).wait(9).to({_off:false,scaleX:0.3346,scaleY:0.3346,x:235.5,y:485.8},0).to({_off:true},1).wait(2).to({_off:false,regY:127.9,scaleX:0.3137,scaleY:0.3137,x:570.8,y:498.75},0).to({_off:true},1).wait(1).to({_off:false,regY:127.8,scaleX:0.3346,scaleY:0.3346,x:195,y:481.25},0).to({_off:true},1).wait(1).to({_off:false,x:210.45,y:490.3},0).to({_off:true},1).wait(2).to({_off:false,regX:451,regY:128.1,scaleX:0.358,scaleY:0.358,x:314.8,y:457.1},0).wait(1).to({regX:451.2,regY:128.2,scaleX:0.3137,scaleY:0.3137,x:247.4,y:454.55},0).to({_off:true},1).wait(3).to({_off:false,regX:451.1,regY:184.6,scaleX:0.2907,scaleY:0.2907,x:244.6,y:487.7},0).to({_off:true},4).wait(1).to({_off:false,regY:128.2,x:215.85,y:491.55},0).to({_off:true},1).wait(2).to({_off:false,x:208.65},0).to({_off:true},2).wait(1).to({_off:false,regX:451.2,regY:128.4,scaleX:0.3243,scaleY:0.3243,x:200.85,y:477.75},0).to({_off:true},1).wait(4).to({_off:false,regX:451.1,regY:128.2,scaleX:0.2907,scaleY:0.2907,x:195,y:484.55},0).to({_off:true},5).wait(2).to({_off:false,x:240.9,y:480.05},0).to({_off:true},1).wait(1).to({_off:false,regX:293.7,regY:62.6,x:123.1,y:489},0).to({_off:true},3).wait(2).to({_off:false,regX:451.1,regY:128.2,x:197.6,y:505.95},0).to({_off:true},2).wait(2).to({_off:false,x:184.6,y:491.55},0).to({_off:true},1).wait(2).to({_off:false,x:217.45},0).to({_off:true},2).wait(2).to({_off:false,x:197.1,y:512.4},0).to({_off:true},1).wait(2).to({_off:false,x:243.4,y:511.25},0).wait(1).to({x:306.85,y:491.55},0).to({_off:true},26).wait(95));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},3).to({state:[{t:this.crab}]},1).to({state:[{t:this.crab2}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab4,p:{regX:450,regY:163.8,scaleX:0.3063,scaleY:0.2998,skewY:180,x:699.6,y:470}}]},1).to({state:[{t:this.crab4,p:{regX:450.1,regY:127.1,scaleX:0.299,scaleY:0.299,skewY:0,x:193.55,y:472.15}}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab13,p:{regY:45.4,scaleX:0.3106,scaleY:0.3106,x:300.4,y:455.6,regX:450.2,skewY:0}}]},1).to({state:[{t:this.crab13,p:{regY:127,scaleX:0.3087,scaleY:0.3087,x:161.05,y:500.35,regX:450.2,skewY:0}}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab16,p:{x:169.8,y:498.95}}]},1).to({state:[{t:this.crab16,p:{x:214.45,y:490.7}}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab22}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab13,p:{regY:127,scaleX:0.2959,scaleY:0.3106,x:664.55,y:500.2,regX:450,skewY:180}}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},4).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.crab45}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},4).to({state:[{t:this.crab12}]},5).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab57}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},3).to({state:[{t:this.instance_15},{t:this.text_17}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},2).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab12}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.crab9}]},1).to({state:[{t:this.crab9}]},1).to({state:[]},26).to({state:[{t:this.backBtn2}]},36).to({state:[]},14).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,regX:-3.1,regY:-1,x:379.9,y:455.85},0).to({_off:true},1).wait(6).to({_off:false,x:335.15,y:449.55},0).to({_off:true},1).wait(2).to({_off:false,regX:-3,regY:-0.9,scaleX:0.3325,scaleY:0.3325,x:234.05,y:480.55},0).to({_off:true},2).wait(8).to({_off:false,regX:-3.1,regY:-1,scaleX:0.4047,scaleY:0.4047,x:375.6,y:432.8},0).to({_off:true},1).wait(4).to({_off:false,regX:-2.9,regY:-0.8,scaleX:0.348,scaleY:0.348,x:209.35,y:473.15},0).to({_off:true},4).wait(6).to({_off:false,regX:-3.1,regY:-1,scaleX:0.4047,scaleY:0.4047,x:446.65,y:455.4},0).to({_off:true},1).wait(10).to({_off:false,x:224.55,y:453.8},0).to({_off:true},1).wait(2).to({_off:false,x:411.8,y:426.05},0).to({_off:true},1).wait(3).to({_off:false,regX:-3,regY:-0.8,scaleX:0.3492,scaleY:0.3492,x:255.85,y:466.7},0).to({_off:true},1).wait(2).to({_off:false,regY:-1.1,scaleX:0.3705,scaleY:0.3705,x:422.7,y:409.2},0).to({_off:true},1).wait(122));
+	this.timeline.addTween(cjs.Tween.get(this.crab9).wait(8).to({_off:false},0).to({_off:true},1).wait(9).to({_off:false,scaleX:0.3346,scaleY:0.3346,x:235.5,y:485.8},0).to({_off:true},1).wait(4).to({_off:false,x:195,y:481.25},0).to({_off:true},1).wait(1).to({_off:false,x:210.45,y:490.3},0).to({_off:true},1).wait(2).to({_off:false,regX:451,regY:128.1,scaleX:0.358,scaleY:0.358,x:314.8,y:457.1},0).wait(1).to({regX:451.2,regY:128.2,scaleX:0.3137,scaleY:0.3137,x:247.4,y:454.55},0).to({_off:true},1).wait(3).to({_off:false,regX:451.1,regY:184.6,scaleX:0.2907,scaleY:0.2907,x:244.6,y:487.7},0).to({_off:true},4).wait(1).to({_off:false,regY:128.2,x:215.85,y:491.55},0).to({_off:true},1).wait(2).to({_off:false,x:208.65},0).to({_off:true},2).wait(6).to({_off:false,x:195,y:484.55},0).to({_off:true},5).wait(4).to({_off:false,regX:293.7,regY:62.6,x:123.1,y:489},0).to({_off:true},3).wait(2).to({_off:false,regX:451.1,regY:128.2,x:197.6,y:505.95},0).to({_off:true},2).wait(2).to({_off:false,x:184.6,y:491.55},0).to({_off:true},1).wait(2).to({_off:false,x:217.45,y:469.55},0).to({_off:true},2).wait(2).to({_off:false,x:197.1,y:512.4},0).to({_off:true},1).wait(2).to({_off:false,x:243.4,y:511.25},0).wait(1).to({x:306.85,y:491.55},0).to({_off:true},26).wait(95));
 	this.timeline.addTween(cjs.Tween.get(this.crab12).wait(11).to({_off:false},0).to({_off:true},1).wait(2).to({_off:false,regX:13.5,regY:3.1,scaleX:0.4092,scaleY:0.4092,x:161.65,y:514.4},0).to({_off:true},1).wait(2).to({_off:false,regX:13.8,regY:3.5,scaleX:0.5238,scaleY:0.5238,x:324.35,y:440.9},0).to({_off:true},1).wait(1).to({_off:false,x:207.15,y:473.4},0).to({_off:true},1).wait(2).to({_off:false,x:201.15,y:463.3},0).to({_off:true},1).wait(3).to({_off:false,x:217.9,y:454.35},0).to({_off:true},1).wait(5).to({_off:false,regX:14.1,regY:3.7,scaleX:0.5034,scaleY:0.5034,x:240.15,y:461.65},0).to({_off:true},1).wait(4).to({_off:false,regX:13.8,regY:3.5,scaleX:0.5238,scaleY:0.5238,x:238.3,y:485.95},0).to({_off:true},1).wait(1).to({_off:false,x:209.5,y:466.65},0).to({_off:true},1).wait(3).to({_off:false,x:184.15,y:501.2},0).to({_off:true},1).wait(10).to({_off:false,x:211.9,y:463.4},0).to({_off:true},1).wait(2).to({_off:false,x:220.15,y:464},0).to({_off:true},1).wait(3).to({_off:false,x:211.9,y:478.85},0).to({_off:true},1).wait(3).to({_off:false,regX:14,scaleX:0.4557,scaleY:0.4557,x:183.1,y:472.75},0).to({_off:true},1).wait(2).to({_off:false,regX:13.8,scaleX:0.5238,scaleY:0.5238,x:188.25,y:488.5},0).to({_off:true},1).wait(3).to({_off:false,x:234.95,y:485.95},0).to({_off:true},1).wait(2).to({_off:false,x:217.65,y:495.1},0).to({_off:true},1).wait(123));
-	this.timeline.addTween(cjs.Tween.get(this.crab13).wait(12).to({_off:false},0).wait(1).to({regY:127,scaleX:0.3087,scaleY:0.3087,x:161.05,y:500.35},0).to({_off:true},1).wait(1).to({_off:false,regX:450.3,scaleX:0.3122,scaleY:0.3122,x:169.8,y:498.95},0).wait(1).to({x:214.45,y:490.7},0).to({_off:true},1).wait(7).to({_off:false,regX:450,scaleX:0.2959,scaleY:0.3106,skewY:180,x:664.55,y:500.2},0).to({_off:true},1).wait(174));
 
 	// Title
 	this.instance_16 = new lib.title_move();
@@ -7325,38 +8112,36 @@ if (reversed == null) { reversed = false; }
 	this.instance_18.setTransform(68.35,81.4,0.9098,0.9098);
 
 	this.instance_19 = new lib.clam_move();
-	this.instance_19.setTransform(185.55,471.9,0.9017,0.9017,0,0,0,187.1,131.8);
+	this.instance_19.setTransform(211.15,471.9,0.8263,0.8263,0,0,0,187.1,131.8);
 
 	this.instance_20 = new lib.crab_shadow_1();
-	this.instance_20.setTransform(778.25,462,0.8373,0.8373,0,0,0,215.2,174.3);
+	this.instance_20.setTransform(753.25,462,0.8373,0.8373,0,0,0,215.2,174.3);
 
 	this.text_18 = new cjs.Text("Intertidal Sandy Shore – Upper Shore", "bold 18px 'Arial'", "#2F1803");
 	this.text_18.textAlign = "center";
 	this.text_18.lineHeight = 22;
 	this.text_18.lineWidth = 506;
 	this.text_18.parent = this;
-	this.text_18.setTransform(487.95,23.3);
+	this.text_18.setTransform(487.95,25.8);
 	this.text_18._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16}]}).to({state:[]},2).to({state:[{t:this.text_18}]},1).to({state:[{t:this.text_18}]},13).to({state:[{t:this.text_18}]},18).to({state:[{t:this.text_18}]},17).to({state:[{t:this.text_18}]},3).to({state:[]},24).to({state:[{t:this.text_18}]},41).to({state:[]},8).wait(72));
-	this.timeline.addTween(cjs.Tween.get(this.text_18).wait(3).to({_off:false},0).wait(13).to({y:20.7,text:" Intertidal Sandy Shore – Middle Shore",font:"bold 18px 'Nirmala UI'",lineHeight:25.9},0).wait(18).to({x:483.45,y:18.8,text:" Intertidal Sandy Shore – Lower Shore"},0).wait(17).to({x:487.95,y:22,text:"Mangrove Ecosystem"},0).wait(3).to({y:20.7},0).to({_off:true},24).wait(41).to({_off:false,y:22,text:"Reference",font:"18px 'Nirmala UI'",color:"#000000"},0).to({_off:true},8).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16}]}).to({state:[]},2).to({state:[{t:this.text_18}]},1).to({state:[{t:this.text_18}]},13).to({state:[{t:this.text_18}]},18).to({state:[{t:this.text_18}]},17).to({state:[{t:this.text_18}]},13).to({state:[]},14).to({state:[{t:this.text_18}]},41).to({state:[]},8).wait(72));
+	this.timeline.addTween(cjs.Tween.get(this.text_18).wait(3).to({_off:false},0).wait(13).to({y:23.7,text:" Intertidal Sandy Shore – Middle Shore"},0).wait(18).to({x:483.45,y:25.8,text:" Intertidal Sandy Shore – Lower Shore"},0).wait(17).to({x:487.95,y:20.7,text:"Mangrove Ecosystem",font:"bold 18px 'Nirmala UI'",lineHeight:25.9},0).wait(13).to({y:22.7,text:"Subtidal Zone"},0).to({_off:true},14).wait(41).to({_off:false,y:22,text:"Reference",font:"18px 'Nirmala UI'",color:"#000000"},0).to({_off:true},8).wait(72));
 
 	// titleBg
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFDCAB").s().p("A54DPQhVAAg9g9Qg8g8AAhWQAAhUA8g9QA9g9BVAAQZ9AdZzgdQBWAAA8A9QA9A9AABUQAABWg9A8Qg8A9hWAAg");
 	this.shape_1.setTransform(487.725,34.375);
 
-	this.text_19 = new cjs.Text("Thank you for taking time to learn about the intertidal biodiversity of Starfish Bay. This unique bay, like much of Hong Kong’s coastal environment, is vulnerable to the pressures of human activities, such as plastic pollution, and so it is important that we learn about it and do what we can to protect it. Please go and visit Starfish Bay, enjoy the marine life that you can find there and share this hidden Hong Kong treasure with others!", "18px 'Arial'", "#0D3147");
-	this.text_19.lineHeight = 22;
-	this.text_19.lineWidth = 390;
-	this.text_19.parent = this;
-	this.text_19.setTransform(434.3,120.2);
+	this.speechBubbleThank = new lib.finalSb();
+	this.speechBubbleThank.name = "speechBubbleThank";
+	this.speechBubbleThank.setTransform(628.8,246.3,1,1,0,0,0,247.8,170.3);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFE3A3").s().p("A54DPQhVAAg9g9Qg8g8AAhWQAAhUA8g9QA9g9BVAAMAzwAAAQBWAAA8A9QA9A9AABUQAABWg9A8Qg8A9hWAAg");
 	this.shape_2.setTransform(487.725,34.375);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1}]},3).to({state:[{t:this.text_19}]},75).to({state:[]},51).to({state:[{t:this.shape_2}]},62).wait(8));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1}]},3).to({state:[{t:this.speechBubbleThank}]},75).to({state:[]},51).to({state:[{t:this.shape_2}]},62).wait(8));
 
 	// speechBubble
 	this.instance_21 = new lib.Symbol3();
@@ -7365,12 +8150,12 @@ if (reversed == null) { reversed = false; }
 
 	this.speechBubble = new lib.speechBubble_1();
 	this.speechBubble.name = "speechBubble";
-	this.speechBubble.setTransform(232.85,224.9,0.7597,0.7997,0,0,0,196,221.7);
+	this.speechBubble.setTransform(232.85,216,0.7597,0.7628,0,0,0,196,221.7);
 	this.speechBubble.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,6,4);
 
 	this.speechBubble2 = new lib.frame6SB();
 	this.speechBubble2.name = "speechBubble2";
-	this.speechBubble2.setTransform(721.45,272.25,0.7453,0.862,0,0,0,195.8,159.5);
+	this.speechBubble2.setTransform(721.45,242.2,0.7453,0.7257,0,0,0,195.8,159.7);
 	this.speechBubble2.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
 	this.speechBubble3 = new lib.frame6SB();
@@ -7402,7 +8187,7 @@ if (reversed == null) { reversed = false; }
 	this.speechBubble12.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
 	this.instance_24 = new lib.Symbol8();
-	this.instance_24.setTransform(625.8,278.1,0.8705,1,0,0,0,456.8,235.1);
+	this.instance_24.setTransform(625.9,262.5,0.8705,0.7998,0,0,0,456.9,235.2);
 	this.instance_24.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
 	this.instance_25 = new lib.Symbol11();
@@ -7413,56 +8198,63 @@ if (reversed == null) { reversed = false; }
 	this.instance_26.setTransform(336.9,416.35,0.7595,0.9089,0,0,0,238.5,66);
 	this.instance_26.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
-	this.text_20 = new cjs.Text("", "18px 'MicrosoftJhengHeiBold'");
+	this.text_19 = new cjs.Text("", "18px 'MicrosoftJhengHeiBold'");
+	this.text_19.textAlign = "center";
+	this.text_19.lineHeight = 26;
+	this.text_19.lineWidth = 100;
+	this.text_19.parent = this;
+	this.text_19.setTransform(-420.35,-102.4);
+
+	this.text_20 = new cjs.Text("There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!", "17px 'Arial'", "#0D3147");
 	this.text_20.textAlign = "center";
-	this.text_20.lineHeight = 26;
-	this.text_20.lineWidth = 100;
+	this.text_20.lineHeight = 21;
+	this.text_20.lineWidth = 208;
 	this.text_20.parent = this;
-	this.text_20.setTransform(-420.35,-102.4);
-
-	this.text_21 = new cjs.Text("There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!", "17px 'Arial'", "#0D3147");
-	this.text_21.textAlign = "center";
-	this.text_21.lineHeight = 21;
-	this.text_21.lineWidth = 208;
-	this.text_21.parent = this;
-	this.text_21.setTransform(191.55,148.2,0.9468,0.9468);
-
-	this.instance_27 = new lib.Symbol9();
-	this.instance_27.setTransform(194.35,248.8,0.8665,0.7769,0,0,0,240.2,241.7);
-	this.instance_27.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
-
-	this.text_22 = new cjs.Text("Solider crabs form these large groups when they are feeding. This behaviour is called ", "22px 'Arial'", "#16454E");
-	this.text_22.textAlign = "center";
-	this.text_22.lineHeight = 27;
-	this.text_22.lineWidth = 260;
-	this.text_22.parent = this;
-	this.text_22.setTransform(271.3055,127.2,0.8218,0.8218);
+	this.text_20.setTransform(191.55,148.2,0.9468,0.9468);
 
 	this.speechBubble_1 = new lib.Symbol9();
 	this.speechBubble_1.name = "speechBubble_1";
-	this.speechBubble_1.setTransform(230,247.6,1,0.723,0,0,0,240.5,242.2);
+	this.speechBubble_1.setTransform(194.35,236.35,0.8665,0.7249,0,0,0,240.2,241.8);
 	this.speechBubble_1.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
-	this.instance_28 = new lib.speechBubble3();
-	this.instance_28.setTransform(259,94,0.7813,0.7195);
+	this.speechBubble_2 = new lib.Symbol4();
+	this.speechBubble_2.name = "speechBubble_2";
+	this.speechBubble_2.setTransform(723.1,250.25,0.8318,0.9236,0,0,0,195.9,159.5);
+	this.speechBubble_2.shadow = new cjs.Shadow("rgba(102,102,102,1)",0,7,11);
 
-	this.instance_29 = new lib.movingSadCrab();
-	this.instance_29.setTransform(450.85,475.05,0.4047,0.4047,0,0,0,-3.1,-1);
+	this.text_21 = new cjs.Text("Solider crabs form these large groups when they are feeding. This behaviour is called ", "22px 'Arial'", "#16454E");
+	this.text_21.textAlign = "center";
+	this.text_21.lineHeight = 27;
+	this.text_21.lineWidth = 260;
+	this.text_21.parent = this;
+	this.text_21.setTransform(271.3055,127.2,0.8218,0.8218);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_21}]},3).to({state:[{t:this.speechBubble}]},1).to({state:[{t:this.speechBubble2}]},1).to({state:[{t:this.speechBubble3}]},1).to({state:[{t:this.instance_22,p:{x:628.65,y:250.4,regX:195.6,regY:159.3,scaleX:0.8823,scaleY:0.8823}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.7,regY:159.3,scaleX:0.8531,x:663.5,y:224.7}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.7,scaleX:0.6566,scaleY:0.7841,x:692.95,y:233.6}}]},1).to({state:[{t:this.instance_23,p:{regY:221.3,scaleY:0.7207,x:198.75,y:224.9}}]},1).to({state:[{t:this.speechBubble12}]},1).to({state:[{t:this.instance_24,p:{regY:235.1,scaleX:0.8705,scaleY:1,x:625.8,y:278.1}}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27,p:{regX:240.2,regY:241.7,scaleX:0.8665,scaleY:0.7769,x:194.35,y:248.8}},{t:this.text_21,p:{x:191.55,y:148.2,text:"There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!",font:"17px 'Arial'",lineHeight:21,lineWidth:208,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_20,p:{scaleX:1,scaleY:1,x:-420.35,y:-102.4,text:"",font:"18px 'MicrosoftJhengHeiBold'",color:"#000000",lineHeight:25.95,lineWidth:100,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.3,regY:241.9,scaleX:0.9345,scaleY:0.8293,x:217.4,y:236.7}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:213.35,y:134.35,text:" The Middle Shore environment is submerged for a longer period of time than the Upper Shore. Therefore, the sand is usually firmer and wetter, and contains more burrowing animals! Let’s see what lives here…",font:"17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.3,regY:241.8,scaleX:0.9345,scaleY:0.6474,x:556.2,y:281.5}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:552.15,y:205.2,text:"Which intertidal animal is blue and moves fast across the sand in large numbers?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.3,regY:241.8,scaleX:0.9345,scaleY:0.5597,x:257.4,y:258.85}},{t:this.text_21,p:{x:257.4,y:220.6208,text:"Soldier crabs!",font:"21px 'Arial'",lineHeight:25.45,lineWidth:264,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_20,p:{scaleX:1,scaleY:1,x:252.6,y:243.9,text:" (Mictyris longicarpus)",font:"italic 17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:204,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.3,regY:241.8,scaleX:0.8555,scaleY:0.5597,x:225.05,y:259.9}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:225.5,y:224.0708,text:"Why are these crabs \ncalled soldier crabs?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{x:626.2,y:263.55,regX:195.6,regY:159.3,scaleX:0.8823,scaleY:0.8823}},{t:this.text_20,p:{scaleX:0.8218,scaleY:0.8218,x:633.4555,y:230.25,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{x:723.1,y:250.25,regX:195.9,regY:159.5,scaleX:0.8318,scaleY:0.9236}},{t:this.text_20,p:{scaleX:0.8218,scaleY:0.8218,x:732.8555,y:181.75,text:"Yes! They form large groups that resemble an army!",font:"32px 'Arial'",color:"#16454E",lineHeight:37.75,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7938,x:270.4,y:224.7}},{t:this.text_22},{t:this.text_21,p:{x:271.5,y:216.45,text:"collective foraging. ",font:"bold 18px 'Arial'",lineHeight:22.1,lineWidth:213,scaleX:1,scaleY:1,color:"#16454E"}},{t:this.text_20,p:{scaleX:1,scaleY:1,x:271.9,y:243,text:"What are two advantages of feeding in a large group?",font:"18px 'Arial'",color:"#16454E",lineHeight:22.1,lineWidth:214,textAlign:"center"}}]},1).to({state:[{t:this.instance_24,p:{regY:235.6,scaleX:0.8759,scaleY:0.7875,x:309.35,y:245.8}},{t:this.text_20,p:{scaleX:1,scaleY:1,x:90.85,y:164.8,text:"Answer: \n1) Feeding in a large group means that each crab is less likely to be eaten by a predator!\n2) Feeding in a large group is also the most efficient way for these animals to feed since they are less likely to miss food hidden in the sand!”",font:"17px 'Arial'",color:"#333333",lineHeight:21,lineWidth:453,textAlign:""}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.6,scaleX:0.7387,scaleY:0.8185,x:737.65,y:275.25}},{t:this.text_20,p:{scaleX:0.8839,scaleY:0.8839,x:733.7,y:216.6,text:"Let’s see what else is hidden in the wet sand!",font:"27px 'Arial'",color:"#0A3337",lineHeight:32.15,lineWidth:231,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7055,x:280.25,y:239.8}},{t:this.text_20,p:{scaleX:0.7938,scaleY:0.7938,x:283.8368,y:180.3117,text:"A Clam! This is the Chinese Wedge Clam\n(Coecella chinensis) ",font:"27px 'Arial'",color:"#0C2D41",lineHeight:32.15,lineWidth:282,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.4,regY:242,scaleX:0.9243,scaleY:0.6175,x:261.05,y:234.35}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:266.05,y:175.9708,text:"Which taxonomic group or biological classification do clams belong to?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:221,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{x:595.65,y:271.85,regX:195.8,regY:159.4,scaleX:0.8207,scaleY:0.8823}},{t:this.text_20,p:{scaleX:0.8218,scaleY:0.8218,x:597.6555,y:225.65,text:"Wrong Answer\nTry Again!",font:"36px 'Arial'",color:"#16454E",lineHeight:42.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.8,regY:159.5,scaleX:0.78,x:642.35,y:227.45}},{t:this.text_20,p:{scaleX:0.8953,scaleY:0.8953,x:639.7029,y:171.5209,text:"Yes! \nIt's a Mollusc!",font:"34px 'Arial'",color:"#0A3337",lineHeight:40,lineWidth:294,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.5,regY:242,scaleX:0.8532,scaleY:0.6175,x:291.3,y:204.5}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:285.15,y:147.0708,text:"Look! People are digging for clams in the sand!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:246,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:291.8,y:222.65}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:287.55,y:135.1708,text:"Unregulated clam-digging is not good for the sandy-shore environment because it can lead to overharvesting! ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:227,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:284.15,y:248.85}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:283.1528,y:170.4708,text:"This can cause an imbalance in the food chain and have many ecological consequences!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:230,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7398,x:276.55,y:240.5}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:274.8,y:153.3208,text:"As well as being an important part of the food chain, why else do you think clams are important for the sandy-shore environment of Starfish Bay?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7534,x:254,y:237.5}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:249.55,y:152.4208,text:"Answer: They are important because they are filter feeders and so they help to remove harmful nutrients from seawater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:243,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7568,x:254,y:257.1}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:252.15,y:168.0208,text:"The Lower Shore environment is primarily marine as it is only exposed to air during low tide and is fully submerged in seawater most of the time. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6767,x:256.35,y:256.55}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:256.3,y:193.5208,text:"In this zone the sand is very wet and muddy and contains lots of intriguing animals!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.937,scaleY:0.6321,x:267.45,y:231.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:262.8,y:186.7708,text:"Come closer! There is something under the muddy sand!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.8994,scaleY:0.5939,x:247.3,y:253.1}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:249,y:207.8708,text:"What is this thick red-coloured worm?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7266,x:241.3,y:257.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:239,y:195.8208,text:"It’s a species of Spoon Worm! (Ochetostoma erythrogrammon)",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.3,scaleX:0.9297,scaleY:0.5399,x:236.4,y:241.35}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:236.4,y:209.5208,text:"Why do these worms appear red in colour?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_27,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6098,x:561.9,y:238.7}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:562.2,y:205.4208,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:1,scaleY:0.723,x:230,y:247.6}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:228.45,y:181.4708,text:"Yes! Because they have a large number of haemoglobin-containing cells!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:196.55,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:193.3,y:169.8708,text:" Look! There are eyes and legs peeping out from these shells. Let’s see who they belong to…",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:251,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.8979,x:191.4,y:248.9}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:191.4,y:131.6494,text:"They belong to hermit crabs! But it looks like these two crabs are different species…Can you spot the major difference between these two species of hermit crab?”",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:239,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.6889,x:201.75,y:221.85}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:197.35,y:159.8708,text:"The major difference between these two species of hermit crab is the size of their claws!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7646,x:199.25,y:240.25}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:203.35,y:149.1208,text:"This hermit crab has confused a plastic bottle cap for its shell. Unfortunately, hermit crabs often become trapped in plastic waste and end up dying!",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:244,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.7093,x:196.6,y:226.75}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:194.85,y:164.8208,text:"Make sure you always take away your plastic waste from the beach or find a bin to dispose of it safely!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7089,x:214.7,y:226.7}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:212.65,y:154.6708,text:"Hermit crabs are also filter feeders which means they are susceptible to feeding on tiny pieces of plastic called microplastics. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:261,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.5,scaleX:1.0339,scaleY:0.8895,x:204.75,y:239.85}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:204.35,y:141.0708,text:"Eating too much microplastic can change the behaviour of hermit crabs and cause them to make unwise decisions, such as to choose smaller, weaker shells to live in. This can lead to their death and in turn can threaten the stability of the food chain!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:281,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:207.55,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:207.3,y:164.4708,text:"Again, by making sure you take away all your plastic waste from the beach you can help to reduce the number of animals that are affected by plastic! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:255,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.7732,x:208.15,y:232.45}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:204.6,y:147.4208,text:"Microplastics form when larger plastic items break down into smaller pieces, so by removing large pieces of plastic from the beach you can also reduce the amount of microplastic!”",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:247,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:242.4,scaleX:0.922,scaleY:0.6826,x:231.85,y:239.25}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:233.2,y:173.0708,text:"Now I will introduce you to the intertidal mangrove habitat that can also be found at Starfish Bay! ",font:"18px 'Arial'",color:"#0D3147",lineHeight:22.1,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.6,scaleX:1.0954,scaleY:0.6613,x:223.15,y:234.25}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:221.9,y:173.6804,text:"Did you know that mangroves occur worldwide throughout the tropics and subtropics and have many impressive adaptations that allow them to survive in saltwater?!",font:"18px 'Arial'",color:"#0D3147",lineHeight:22.1,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.845,scaleY:0.6753,x:207.05,y:206.1}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:210.65,y:156.9208,text:"Wow! Unlike many tree species, mangroves grow in saltwater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:213.65,y:218.55}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:206.15,y:159.8708,text:"What is one adaptation that allows these trees to grow in saltwater?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.652,x:665.45,y:285.7}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:657.1,y:236.4208,text:"Try Again!",font:"21px 'Montserrat Medium'",color:"#0D3147",lineHeight:30.95,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:255.65,y:248.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:248.15,y:189.3708,text:"Yes! They have specialised leaves that excrete salt!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.905,scaleY:0.6753,x:269.55,y:218.55}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:267.8,y:159.8708,text:"Why is it important that we try to protect Hong Kong’s mangrove ecosystem?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.instance_28,p:{scaleX:0.7813,scaleY:0.7195,x:259,y:94}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:289.55,y:139.6208,text:"Answer:\n\nIt is important to protect Hong Kong’s mangrove ecosystem for many reasons! Here are three:\n\n1) Mangroves act as shelters and feeding grounds for many marine species and so play a crucial role in maintaining Hong Kong’s fish populations.\n\n2) Mangrove forests form a natural coastline defence system, they protect areas behind the mangroves from typhoons and storm surges.\n\n3) Mangroves are also home to many other animal species, such as birds, insects and reptiles. Therefore, by protecting mangroves we can protect a whole variety of Hong Kong’s wildlife!",font:"16px 'Arial'",color:"#0D3147",lineHeight:17.9,lineWidth:598,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:159.9,y:159.8708,text:"Look closely! There are big holes in the muddy sand surrounding the mangroves! I wonder what might be living in them…",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:250,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6766,x:275.3,y:218.85}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:171.3,y:154.0708,text:"It’s a Fiddler Crab! Fiddler Crabs are really interesting animals that have a bunch of cool adaptions!”",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6627,x:248.35,y:234.3}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:249.35,y:178.6208,text:"Why do male Fiddler Crabs have one very large claw?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:274.6122,y:159.8708,text:"Yes!\nTo attract female crabs!",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:222,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:1.0003,scaleY:0.8763,x:214.3,y:250.75}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:214.7635,y:149.4208,text:"The Subtidal Zone is the region of water immediately after the lower intertidal zone. This zone is continuously covered by water and therefore it has an exciting selection of marine animals that inhabit it!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:242.2,scaleX:0.8305,scaleY:0.5773,x:183.5,y:240.8}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:185.2,y:207.5208,text:" What spiny subtidal species is this?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.8641,scaleY:0.6067,x:235.8,y:232.2}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:234.65,y:199.7708,text:"Try again",font:"30px 'Arial'",color:"#0D3147",lineHeight:35.5,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.8773,scaleY:0.6534,x:191.55,y:213.3}},{t:this.text_21,p:{x:194.35,y:159.8708,text:"Yes! It’s a Decorator Urchin ",font:"21px 'Arial'",lineHeight:25.45,lineWidth:197,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_20,p:{scaleX:1,scaleY:1,x:87.15,y:210.05,text:"(Salmacis sphaeroides)",font:"italic 21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:220,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:220.7,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:219.55,y:159.8708,text:"Why does this shallow subtidal urchin decorate its spines with rocks and shells?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:633.85,y:245.75}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:632.7,y:152.5708,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.7,regY:242.2,scaleX:0.9562,scaleY:0.6578,x:323.85,y:235.9}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:323.8,y:176.0208,text:"Yes! \nTo protect itself from sunlight!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6493,x:275.3,y:224.7}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:164.9708,text:"Look! \nThere’s an octopus living in the subtidal zone!\n",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6819,x:275.3,y:232.6}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:180.0708,text:" What taxonomic group do Octopuses belong to?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:286.95,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:209.45,y:215.4208,text:"Try again",font:"34px 'Arial'",color:"#0D3147",lineHeight:40,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7241,x:275.3,y:253.1}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:275.25,y:205.1708,text:"Yes! Octopuses are a type of Cephalopod!",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:159.9,y:159.8708,text:"Octopuses have some incredibly weird cool facts about them. Which answer below is NOT true about Octopuses!?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6,x:598.95,y:258.15}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:518.15,y:229.0708,text:"Try Again",font:"35px 'Arial'",color:"#0D3147",lineHeight:41.1,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.3,scaleX:0.9562,scaleY:0.7303,x:275.3,y:241.55}},{t:this.text_20,p:{scaleX:0.9468,scaleY:0.9468,x:159.9,y:173.2708,text:"Yes! C is NOT true, which means all the other facts about Octopuses are true!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.instance_28,p:{scaleX:0.6197,scaleY:0.6392,x:381,y:76}}]},1).to({state:[]},41).to({state:[]},8).wait(72));
+	this.speechBubble_3 = new lib.sb3();
+	this.speechBubble_3.name = "speechBubble_3";
+	this.speechBubble_3.setTransform(569.95,291.75,1,1,0,0,0,312.5,191.8);
+
+	this.instance_27 = new lib.movingSadCrab();
+	this.instance_27.setTransform(450.85,475.05,0.4047,0.4047,0,0,0,-3.1,-1);
+
+	this.photo65 = new lib.Symbol9();
+	this.photo65.name = "photo65";
+	this.photo65.setTransform(214.3,250.75,1.0003,0.8763,0,0,0,240.5,242.2);
+	this.photo65.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_21}]},3).to({state:[{t:this.speechBubble}]},1).to({state:[{t:this.speechBubble2}]},1).to({state:[{t:this.speechBubble3}]},1).to({state:[{t:this.instance_22,p:{x:628.65,y:250.4}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.7,regY:159.3,scaleX:0.8531,x:663.5,y:224.7}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.7,scaleX:0.6566,scaleY:0.7841,x:692.95,y:233.6}}]},1).to({state:[{t:this.instance_23,p:{regY:221.3,scaleY:0.7207,x:198.75,y:224.9}}]},1).to({state:[{t:this.speechBubble12}]},1).to({state:[{t:this.instance_24,p:{regX:456.9,regY:235.2,scaleX:0.8705,scaleY:0.7998,x:625.9,y:262.5}}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:241.8,scaleX:0.8665,scaleY:0.7249,x:194.35,y:236.35}},{t:this.text_20,p:{x:191.55,y:148.2,text:"There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!",font:"17px 'Arial'",lineHeight:21,lineWidth:208,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:-420.35,y:-102.4,text:"",font:"18px 'MicrosoftJhengHeiBold'",color:"#000000",lineHeight:25.95,lineWidth:100,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.9,scaleX:0.9345,scaleY:0.8293,x:217.4,y:236.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:213.35,y:134.35,text:" The Middle Shore environment is submerged for a longer period of time than the Upper Shore. Therefore, the sand is usually firmer and wetter, and contains more burrowing animals! Let’s see what lives here…",font:"17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.9345,scaleY:0.6318,x:556.2,y:277.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:552.15,y:205.2,text:"Which intertidal animal is blue and moves fast across the sand in large numbers?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:241.8,scaleX:0.8457,scaleY:0.5597,x:257.5,y:258.85}},{t:this.text_20,p:{x:257.4,y:220.6208,text:"Soldier crabs!",font:"21px 'Arial'",lineHeight:25.45,lineWidth:264,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:252.6,y:243.9,text:" (Mictyris longicarpus)",font:"italic 17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:204,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.8555,scaleY:0.5597,x:225.05,y:259.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:225.5,y:224.0708,text:"Why are these crabs \ncalled soldier crabs?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{x:626.2,y:263.55}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:633.4555,y:230.25,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.9,regY:159.5,scaleX:0.8318,scaleY:0.9236,x:723.1,y:250.25}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:732.8555,y:181.75,text:"Yes! They form large groups that resemble an army!",font:"32px 'Arial'",color:"#16454E",lineHeight:37.75,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7938,x:270.4,y:224.7}},{t:this.text_21},{t:this.text_20,p:{x:271.5,y:216.45,text:"collective foraging. ",font:"bold 18px 'Arial'",lineHeight:22.1,lineWidth:213,scaleX:1,scaleY:1,color:"#16454E"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:271.9,y:243,text:"What are two advantages of feeding in a large group?",font:"18px 'Arial'",color:"#16454E",lineHeight:22.1,lineWidth:214,textAlign:"center"}}]},1).to({state:[{t:this.instance_24,p:{regX:456.8,regY:235.6,scaleX:0.8759,scaleY:0.7875,x:309.35,y:245.8}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:90.85,y:164.8,text:"Answer: \n1) Feeding in a large group means that each crab is less likely to be eaten by a predator!\n2) Feeding in a large group is also the most efficient way for these animals to feed since they are less likely to miss food hidden in the sand!”",font:"17px 'Arial'",color:"#333333",lineHeight:21,lineWidth:453,textAlign:""}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.6,scaleX:0.7387,scaleY:0.8185,x:737.65,y:275.25}},{t:this.text_19,p:{scaleX:0.8839,scaleY:0.8839,x:733.7,y:216.6,text:"Let’s see what else is hidden in the wet sand!",font:"27px 'Arial'",color:"#0A3337",lineHeight:32.15,lineWidth:231,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7055,x:280.25,y:239.8}},{t:this.text_19,p:{scaleX:0.7938,scaleY:0.7938,x:283.8368,y:180.3117,text:"A Clam! This is the Chinese Wedge Clam\n(Coecella chinensis) ",font:"27px 'Arial'",color:"#0C2D41",lineHeight:32.15,lineWidth:282,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:242,scaleX:0.9243,scaleY:0.6175,x:261.05,y:234.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:266.05,y:175.9708,text:"Which taxonomic group or biological classification do clams belong to?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:221,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.8,regY:159.4,scaleX:0.8207,scaleY:0.8823,x:595.65,y:271.85}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:597.6555,y:225.65,text:"Wrong Answer\nTry Again!",font:"36px 'Arial'",color:"#16454E",lineHeight:42.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.8,regY:159.5,scaleX:0.78,x:642.35,y:227.45}},{t:this.text_19,p:{scaleX:0.8953,scaleY:0.8953,x:639.7029,y:171.5209,text:"Yes! \nIt's a Mollusc!",font:"34px 'Arial'",color:"#0A3337",lineHeight:40,lineWidth:294,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242,scaleX:0.8532,scaleY:0.6175,x:291.3,y:204.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:285.15,y:147.0708,text:"Look! People are digging for clams in the sand!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:246,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:291.8,y:222.65}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:287.55,y:135.1708,text:"Unregulated clam-digging is not good for the sandy-shore environment because it can lead to overharvesting! ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:227,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:284.15,y:248.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:283.1528,y:170.4708,text:"This can cause an imbalance in the food chain and have many ecological consequences!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:230,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7398,x:276.55,y:240.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.8,y:153.3208,text:"As well as being an important part of the food chain, why else do you think clams are important for the sandy-shore environment of Starfish Bay?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7534,x:254,y:237.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.55,y:152.4208,text:"Answer: They are important because they are filter feeders and so they help to remove harmful nutrients from seawater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:243,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7568,x:254,y:257.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:252.15,y:168.0208,text:"The Lower Shore environment is primarily marine as it is only exposed to air during low tide and is fully submerged in seawater most of the time. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6767,x:256.35,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.3,y:193.5208,text:"In this zone the sand is very wet and muddy and contains lots of intriguing animals!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.937,scaleY:0.6321,x:267.45,y:231.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:262.8,y:186.7708,text:"Come closer! There is something under the muddy sand!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.8994,scaleY:0.5939,x:247.3,y:253.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249,y:207.8708,text:"What is this thick red-coloured worm?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7266,x:241.3,y:257.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:239,y:195.8208,text:"It’s a species of Spoon Worm! (Ochetostoma erythrogrammon)",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.3,scaleX:0.9297,scaleY:0.5399,x:236.4,y:241.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:236.4,y:209.5208,text:"Why do these worms appear red in colour?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6098,x:561.9,y:238.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:562.2,y:205.4208,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:1,scaleY:0.723,x:230,y:247.6}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:228.45,y:181.4708,text:"Yes! Because they have a large number of haemoglobin-containing cells!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9062,scaleY:0.7334,x:208.5,y:244.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.5346,y:177.0708,text:" Look! There are eyes and legs peeping out from these shells. Let’s see who they belong to…",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.8979,x:191.4,y:248.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:191.4,y:131.6494,text:"They belong to hermit crabs! But it looks like these two crabs are different species…Can you spot the major difference between these two species of hermit crab?”",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:239,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.6889,x:201.75,y:221.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.35,y:159.8708,text:"The major difference between these two species of hermit crab is the size of their claws!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7646,x:199.25,y:240.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:203.35,y:149.1208,text:"This hermit crab has confused a plastic bottle cap for its shell. Unfortunately, hermit crabs often become trapped in plastic waste and end up dying!",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:244,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.7093,x:196.6,y:226.75}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:194.85,y:164.8208,text:"Make sure you always take away your plastic waste from the beach or find a bin to dispose of it safely!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7089,x:214.7,y:226.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:212.65,y:154.6708,text:"Hermit crabs are also filter feeders which means they are susceptible to feeding on tiny pieces of plastic called microplastics. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:261,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.5,scaleX:1.0339,scaleY:0.8895,x:204.75,y:239.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.35,y:141.0708,text:"Eating too much microplastic can change the behaviour of hermit crabs and cause them to make unwise decisions, such as to choose smaller, weaker shells to live in. This can lead to their death and in turn can threaten the stability of the food chain!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:281,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:207.55,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:207.3,y:164.4708,text:"Again, by making sure you take away all your plastic waste from the beach you can help to reduce the number of animals that are affected by plastic! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:255,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.7732,x:208.15,y:232.45}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.6,y:147.4208,text:"Microplastics form when larger plastic items break down into smaller pieces, so by removing large pieces of plastic from the beach you can also reduce the amount of microplastic!”",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:247,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:242.4,scaleX:0.922,scaleY:0.6826,x:231.85,y:239.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:233.2,y:173.0708,text:"Now I will introduce you to the intertidal mangrove habitat that can also be found at Starfish Bay! ",font:"18px 'Arial'",color:"#0D3147",lineHeight:22.1,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.6,scaleX:1.0954,scaleY:0.6613,x:223.15,y:234.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:221.9,y:173.6804,text:"Did you know that mangroves occur worldwide throughout the tropics and subtropics and have many impressive adaptations that allow them to survive in saltwater?!",font:"18px 'Arial'",color:"#0D3147",lineHeight:22.1,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.845,scaleY:0.6753,x:228.1,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:231.7,y:207.3708,text:"Wow! Unlike many tree species, mangroves grow in saltwater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:213.65,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:206.15,y:159.8708,text:"What is one adaptation that allows these trees to grow in saltwater?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.652,x:665.45,y:285.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:657.1,y:236.4208,text:"Try Again!",font:"21px 'Montserrat Medium'",color:"#0D3147",lineHeight:30.95,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:255.65,y:248.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:248.15,y:189.3708,text:"Yes! They have specialised leaves that excrete salt!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.905,scaleY:0.6753,x:269.55,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:267.8,y:159.8708,text:"Why is it important that we try to protect Hong Kong’s mangrove ecosystem?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_3},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:289.55,y:139.6208,text:"Answer:\n\nIt is important to protect Hong Kong’s mangrove ecosystem for many reasons! Here are three:\n\n1) Mangroves act as shelters and feeding grounds for many marine species and so play a crucial role in maintaining Hong Kong’s fish populations.\n\n2) Mangrove forests form a natural coastline defence system, they protect areas behind the mangroves from typhoons and storm surges.\n\n3) Mangroves are also home to many other animal species, such as birds, insects and reptiles. Therefore, by protecting mangroves we can protect a whole variety of Hong Kong’s wildlife!",font:"16px 'Arial'",color:"#0D3147",lineHeight:17.9,lineWidth:598,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:159.9,y:159.8708,text:"Look closely! There are big holes in the muddy sand surrounding the mangroves! I wonder what might be living in them…",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:250,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6766,x:275.3,y:218.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:171.3,y:154.0708,text:"It’s a Fiddler Crab! Fiddler Crabs are really interesting animals that have a bunch of cool adaptions!”",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6627,x:248.35,y:234.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.35,y:178.6208,text:"Why do male Fiddler Crabs have one very large claw?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.6122,y:159.8708,text:"Yes!\nTo attract female crabs!",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:222,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:1.0003,scaleY:0.8763,x:214.3,y:250.75,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:214.7635,y:149.4208,text:"The Subtidal Zone is the region of water immediately after the lower intertidal zone. This zone is continuously covered by water and therefore it has an exciting selection of marine animals that inhabit it!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.3,scaleX:0.8305,scaleY:0.5773,x:183.5,y:240.8,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:185.2,y:207.5208,text:" What spiny subtidal species is this?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.8641,scaleY:0.6067,x:235.8,y:232.2,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:234.65,y:199.7708,text:"Try again",font:"30px 'Arial'",color:"#0D3147",lineHeight:35.5,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.8773,scaleY:0.6534,x:191.55,y:213.3,regY:242.2}},{t:this.text_20,p:{x:194.35,y:159.8708,text:"Yes! It’s a Decorator Urchin ",font:"21px 'Arial'",lineHeight:25.45,lineWidth:197,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:87.15,y:210.05,text:"(Salmacis sphaeroides)",font:"italic 21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:220,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.9562,scaleY:0.7102,x:220.6,y:227,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:219.55,y:159.8708,text:"Why does this shallow subtidal urchin decorate its spines with rocks and shells?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7744,x:633.85,y:235.3,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:632.7,y:198.5708,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.7,scaleX:0.8936,scaleY:0.6578,x:257.8,y:246.9,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.8,y:187.0208,text:"Yes! \nTo protect itself from sunlight!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6493,x:275.3,y:224.7,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:164.9708,text:"Look! \nThere’s an octopus living in the subtidal zone!\n",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6819,x:275.3,y:232.6,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:180.0708,text:" What taxonomic group do Octopuses belong to?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7061,x:286.95,y:226,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:209.45,y:192.2208,text:"Try again",font:"34px 'Arial'",color:"#0D3147",lineHeight:40,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7241,x:275.3,y:253.1,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:275.25,y:205.1708,text:"Yes! Octopuses are a type of Cephalopod!",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:159.8708,text:"Octopuses have some incredibly weird cool facts about them. Which answer below is NOT true about Octopuses!?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6,x:598.95,y:258.15,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:518.15,y:229.0708,text:"Try Again",font:"35px 'Arial'",color:"#0D3147",lineHeight:41.1,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7303,x:275.3,y:241.55,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:159.9,y:173.2708,text:"Yes! C is NOT true, which means all the other facts about Octopuses are true!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:""}}]},1).to({state:[]},1).to({state:[]},49).wait(72));
 
 	// EFFECT
-	this.instance_30 = new lib.rainDrops();
-	this.instance_30.setTransform(311.9,296.6,0.7281,0.7281,0,0,0,48,54);
-	this.instance_30._off = true;
+	this.instance_28 = new lib.rainDrops();
+	this.instance_28.setTransform(311.9,296.6,0.7281,0.7281,0,0,0,48,54);
+	this.instance_28._off = true;
 
 	this.flower = new lib.flowers();
 	this.flower.name = "flower";
 	this.flower.setTransform(432.25,321.3,0.8688,0.8688,0,0,0,219.9,80.2);
 	this.flower._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_30).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,x:240.3,y:335.9},0).to({_off:true},1).wait(6).to({_off:false,x:248.85,y:329.4},0).to({_off:true},1).wait(2).to({_off:false,x:67.7,y:389.4},0).to({_off:true},2).wait(13).to({_off:false,x:90.65,y:375.65},0).to({_off:true},4).wait(150));
-	this.timeline.addTween(cjs.Tween.get(this.flower).wait(8).to({_off:false},0).to({_off:true},1).wait(9).to({_off:false,x:249.65,y:349.3},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.739,scaleY:0.739,x:591.35,y:405.25},0).to({_off:true},1).wait(6).to({_off:false,regX:219.9,scaleX:0.8688,scaleY:0.8688,x:343.7,y:349.35},0).to({_off:true},1).wait(7).to({_off:false,scaleX:0.7821,scaleY:0.7821,x:255.9,y:366.75},0).to({_off:true},1).wait(1).to({_off:false,x:239.05,y:388.1},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.6083,scaleY:0.6083,x:231.75,y:407.6},0).to({_off:true},1).wait(14).to({_off:false,scaleX:0.6424,scaleY:0.6424,x:261.15,y:389.45},0).to({_off:true},1).wait(3).to({_off:false,x:219.05,y:403.85},0).to({_off:true},1).wait(2).to({_off:false,x:198.8,y:425.85},0).to({_off:true},1).wait(3).to({_off:false,x:201.6,y:400.4},0).to({_off:true},1).wait(3).to({_off:false,x:207.05,y:415.65},0).to({_off:true},1).wait(2).to({_off:false,x:222},0).to({_off:true},1).wait(2).to({_off:false,x:252.8,y:420.65},0).to({_off:true},1).wait(121));
+	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,x:240.3,y:335.9},0).to({_off:true},1).wait(6).to({_off:false,x:248.85,y:329.4},0).to({_off:true},1).wait(2).to({_off:false,x:67.7,y:389.4},0).to({_off:true},2).wait(13).to({_off:false,x:90.65,y:375.65},0).to({_off:true},4).wait(24).to({_off:false,x:167.2,y:364.3},0).to({_off:true},1).wait(125));
+	this.timeline.addTween(cjs.Tween.get(this.flower).wait(8).to({_off:false},0).to({_off:true},1).wait(9).to({_off:false,x:249.65,y:349.3},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.739,scaleY:0.739,x:591.35,y:405.25},0).to({_off:true},1).wait(6).to({_off:false,regX:219.9,scaleX:0.8688,scaleY:0.8688,x:343.7,y:349.35},0).to({_off:true},1).wait(7).to({_off:false,scaleX:0.7821,scaleY:0.7821,x:255.9,y:366.75},0).to({_off:true},1).wait(1).to({_off:false,x:239.05,y:388.1},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.6083,scaleY:0.6083,x:231.75,y:407.6},0).to({_off:true},1).wait(14).to({_off:false,scaleX:0.6424,scaleY:0.6424,x:261.15,y:389.45},0).to({_off:true},1).wait(3).to({_off:false,x:219.05,y:403.85},0).to({_off:true},1).wait(2).to({_off:false,x:198.8,y:425.85},0).to({_off:true},1).wait(3).to({_off:false,x:201.6,y:400.4},0).to({_off:true},1).wait(3).to({_off:false,x:207.05,y:415.65},0).to({_off:true},1).wait(2).to({_off:false,x:222},0).to({_off:true},1).wait(2).to({_off:false,x:252.8,y:420.65},0).wait(1).to({x:322.5,y:412.85},0).to({_off:true},41).wait(80));
 
 	// backBtn
 	this.backBtn = new lib.BackBtn();
@@ -7530,6 +8322,10 @@ if (reversed == null) { reversed = false; }
 	this.credit23.name = "credit23";
 	this.credit23.setTransform(799.3,381.85,1,1,0,0,0,123.4,60.8);
 
+	this.credit25 = new lib.credit3();
+	this.credit25.name = "credit25";
+	this.credit25.setTransform(235.25,558,0.9102,0.9102,0,0,0,164.2,39.6);
+
 	this.credit26 = new lib.creditp13();
 	this.credit26.name = "credit26";
 	this.credit26.setTransform(777.25,446.1,1,1,0,0,0,103.2,42.4);
@@ -7542,6 +8338,10 @@ if (reversed == null) { reversed = false; }
 	this.credit35.name = "credit35";
 	this.credit35.setTransform(830.7,409.35,1,1,0,0,0,92.2,18.8);
 
+	this.credit37 = new lib.credit3();
+	this.credit37.name = "credit37";
+	this.credit37.setTransform(793.6,518.9,0.9102,0.9102,0,0,0,164.2,39.6);
+
 	this.credit38 = new lib.creditp17();
 	this.credit38.name = "credit38";
 	this.credit38.setTransform(787.65,439.25,1,1,0,0,0,117.8,43);
@@ -7549,6 +8349,10 @@ if (reversed == null) { reversed = false; }
 	this.credit43 = new lib.creditp1819();
 	this.credit43.name = "credit43";
 	this.credit43.setTransform(849.55,401.1,1,1,0,0,0,103.1,80);
+
+	this.credit45 = new lib.creditp1819();
+	this.credit45.name = "credit45";
+	this.credit45.setTransform(849.55,443.25,1,1,0,0,0,103.1,80);
 
 	this.credit46 = new lib.creditp21();
 	this.credit46.name = "credit46";
@@ -7558,13 +8362,35 @@ if (reversed == null) { reversed = false; }
 	this.credit52.name = "credit52";
 	this.credit52.setTransform(831.4,461,1,1,0,0,0,76.5,44.9);
 
+	this.credit54 = new lib.creditp23();
+	this.credit54.name = "credit54";
+	this.credit54.setTransform(774.55,423.2,1,1,0,0,0,100.5,14.3);
+
+	this.credit57 = new lib.creditp23();
+	this.credit57.name = "credit57";
+	this.credit57.setTransform(807.65,419.95,1,1,0,0,0,100.5,14.3);
+
+	this.credit60 = new lib.creditp25();
+	this.credit60.name = "credit60";
+	this.credit60.setTransform(780.3,474,1,1,0,0,0,111,30.5);
+
 	this.credit61 = new lib.creditp25();
 	this.credit61.name = "credit61";
-	this.credit61.setTransform(780.3,474,1,1,0,0,0,111,30.5);
-	this.credit61._off = true;
+	this.credit61.setTransform(764.1,438.55,1,1,0,0,0,111,30.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.credit}]},3).to({state:[{t:this.credit2}]},2).to({state:[{t:this.credit2_2}]},1).to({state:[]},1).to({state:[{t:this.credit4,p:{scaleX:1,scaleY:1,x:228.15,y:557.35}}]},2).to({state:[{t:this.credit7}]},1).to({state:[{t:this.credit12}]},1).to({state:[]},1).to({state:[{t:this.credit14}]},1).to({state:[{t:this.credit6}]},1).to({state:[{t:this.credit16}]},1).to({state:[{t:this.credit17}]},1).to({state:[]},1).to({state:[{t:this.credit19}]},1).to({state:[{t:this.credit20}]},1).to({state:[]},1).to({state:[{t:this.credit22}]},1).to({state:[{t:this.credit23,p:{x:799.3,y:381.85}}]},1).to({state:[{t:this.credit23,p:{x:788.1,y:411.4}}]},1).to({state:[{t:this.credit4,p:{scaleX:0.9102,scaleY:0.9102,x:235.25,y:558}}]},1).to({state:[{t:this.credit26,p:{x:777.25,y:446.1}}]},1).to({state:[{t:this.credit26,p:{x:820.15,y:374.6}}]},1).to({state:[]},1).to({state:[{t:this.credit30}]},2).to({state:[{t:this.credit35}]},5).to({state:[{t:this.credit4,p:{scaleX:0.9102,scaleY:0.9102,x:793.6,y:518.9}}]},2).to({state:[{t:this.credit38,p:{x:787.65,y:439.25}}]},1).to({state:[{t:this.credit38,p:{x:798.8,y:375.6}}]},2).to({state:[]},1).to({state:[{t:this.credit38,p:{x:760,y:426.6}}]},1).to({state:[{t:this.credit43,p:{y:401.1}}]},1).to({state:[{t:this.credit43,p:{y:443.25}}]},1).to({state:[{t:this.credit46,p:{x:843.2}}]},2).to({state:[{t:this.credit46,p:{x:803}}]},1).to({state:[{t:this.credit52}]},5).to({state:[]},2).to({state:[{t:this.credit61}]},6).to({state:[{t:this.credit61}]},1).to({state:[{t:this.credit61}]},1).to({state:[]},1).to({state:[{t:this.credit61}]},1).to({state:[]},1).to({state:[]},62).wait(73));
-	this.timeline.addTween(cjs.Tween.get(this.credit61).wait(59).to({_off:false},0).wait(1).to({x:764.1,y:438.55},0).wait(1).to({x:795.7,y:396},0).to({_off:true},1).wait(1).to({_off:false,x:789.6,y:419.75},0).to({_off:true},1).wait(135));
+	this.credit65 = new lib.creditp26();
+	this.credit65.name = "credit65";
+	this.credit65.setTransform(784.4,447.55,1,1,0,0,0,93.2,36.5);
+
+	this.credit66 = new lib.credit_p26();
+	this.credit66.name = "credit66";
+	this.credit66.setTransform(812.7,412.25,1,1,0,0,0,91.5,21.2);
+
+	this.credit76 = new lib.credit_28();
+	this.credit76.name = "credit76";
+	this.credit76.setTransform(800,364.1,1,1,0,0,0,88,13.1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.credit}]},3).to({state:[{t:this.credit2}]},2).to({state:[{t:this.credit2_2}]},1).to({state:[]},1).to({state:[{t:this.credit4}]},2).to({state:[{t:this.credit7}]},1).to({state:[{t:this.credit12}]},1).to({state:[]},1).to({state:[{t:this.credit14}]},1).to({state:[{t:this.credit6}]},1).to({state:[{t:this.credit16}]},1).to({state:[{t:this.credit17}]},1).to({state:[]},1).to({state:[{t:this.credit19}]},1).to({state:[{t:this.credit20}]},1).to({state:[]},1).to({state:[{t:this.credit22}]},1).to({state:[{t:this.credit23,p:{x:799.3,y:381.85}}]},1).to({state:[{t:this.credit23,p:{x:788.1,y:411.4}}]},1).to({state:[{t:this.credit25}]},1).to({state:[{t:this.credit26,p:{x:777.25,y:446.1}}]},1).to({state:[{t:this.credit26,p:{x:820.15,y:374.6}}]},1).to({state:[]},1).to({state:[{t:this.credit30}]},2).to({state:[{t:this.credit35}]},5).to({state:[{t:this.credit37}]},2).to({state:[{t:this.credit38,p:{x:787.65,y:439.25}}]},1).to({state:[{t:this.credit38,p:{x:798.8,y:375.6}}]},2).to({state:[]},1).to({state:[{t:this.credit38,p:{x:760,y:426.6}}]},1).to({state:[{t:this.credit43,p:{y:401.1}}]},1).to({state:[{t:this.credit43,p:{y:443.25}}]},1).to({state:[{t:this.credit45}]},1).to({state:[{t:this.credit46,p:{x:843.2}}]},1).to({state:[{t:this.credit46,p:{x:803}}]},1).to({state:[{t:this.credit52}]},5).to({state:[{t:this.credit54,p:{x:774.55,y:423.2}}]},2).to({state:[{t:this.credit54,p:{x:787,y:378.15}}]},1).to({state:[]},1).to({state:[{t:this.credit57}]},1).to({state:[]},2).to({state:[{t:this.credit60}]},1).to({state:[{t:this.credit61,p:{x:764.1,y:438.55}}]},1).to({state:[{t:this.credit61,p:{x:795.7,y:396}}]},1).to({state:[]},1).to({state:[{t:this.credit61,p:{x:789.6,y:419.75}}]},1).to({state:[{t:this.credit65}]},1).to({state:[{t:this.credit66,p:{y:412.25,x:812.7}}]},1).to({state:[{t:this.credit66,p:{y:360.9,x:812.7}}]},3).to({state:[]},1).to({state:[{t:this.credit66,p:{y:443.25,x:784.7}}]},1).to({state:[]},1).to({state:[{t:this.credit76,p:{x:800,y:364.1}}]},4).to({state:[{t:this.credit76,p:{x:714.5,y:489.35}}]},1).to({state:[]},2).to({state:[]},48).wait(73));
 
 	// photo1
 	this.photoImg = new lib.Symbol2_1();
@@ -7623,6 +8449,10 @@ if (reversed == null) { reversed = false; }
 	this.photo23.name = "photo23";
 	this.photo23.setTransform(660.5,223.95,1,1,0,0,0,215.8,143.6);
 
+	this.photo25 = new lib.photo3();
+	this.photo25.name = "photo25";
+	this.photo25.setTransform(275.45,240.05,0.8732,0.8732,0,0,0,264.2,174.3);
+
 	this.photo26 = new lib.photo13();
 	this.photo26.name = "photo26";
 	this.photo26.setTransform(673.85,255.8,1,1,0,0,0,197.2,147.8);
@@ -7635,6 +8465,10 @@ if (reversed == null) { reversed = false; }
 	this.photo35.name = "photo35";
 	this.photo35.setTransform(650,249.2,1,1,0,0,0,212,141.2);
 
+	this.photo37 = new lib.photo3();
+	this.photo37.name = "photo37";
+	this.photo37.setTransform(696.05,230.65,0.7839,0.7839,0,0,0,264.4,174.5);
+
 	this.photo38 = new lib.photo17();
 	this.photo38.name = "photo38";
 	this.photo38.setTransform(627.9,266.6,1,1,0,0,0,210.9,140.6);
@@ -7643,22 +8477,29 @@ if (reversed == null) { reversed = false; }
 	this.photo43.name = "photo43";
 	this.photo43.setTransform(639.4,256.2,1,1,0,0,0,263.4,148.2);
 
-	this.instance_31 = new lib.Photo20min();
-	this.instance_31.setTransform(376,108,0.4116,0.4116);
+	this.photo45 = new lib.photo1819_detail();
+	this.photo45.name = "photo45";
+	this.photo45.setTransform(639.4,256.2,1,1,0,0,0,263.4,148.2);
 
 	this.photo46 = new lib.photo21();
 	this.photo46.name = "photo46";
 	this.photo46.setTransform(639.9,245.5,1,1,0,0,0,269.9,124.5);
 
+	this.photo51 = new lib.photo21();
+	this.photo51.name = "photo51";
+	this.photo51.setTransform(639.9,245.5,1,1,0,0,0,269.9,124.5);
+
 	this.photo52 = new lib.photo_22();
 	this.photo52.name = "photo52";
 	this.photo52.setTransform(652.1,268.8,1,1,0,0,0,240.1,159.8);
 
-	this.instance_32 = new lib.Photo23();
-	this.instance_32.setTransform(427,104,0.0864,0.0864);
+	this.photo54 = new lib.photo_23();
+	this.photo54.name = "photo54";
+	this.photo54.setTransform(621,268.05,1,1,0,0,0,201.8,151.3);
 
-	this.instance_33 = new lib.Photo23min();
-	this.instance_33.setTransform(428,86,0.081,0.081);
+	this.photo57 = new lib.photo_23();
+	this.photo57.name = "photo57";
+	this.photo57.setTransform(657.8,266.3,1,1,0,0,0,201.8,151.3);
 
 	this.photo60 = new lib.photo24();
 	this.photo60.name = "photo60";
@@ -7668,30 +8509,28 @@ if (reversed == null) { reversed = false; }
 	this.photo61.name = "photo61";
 	this.photo61.setTransform(651.3,257,1,1,0,0,0,201.3,151);
 
-	this.instance_34 = new lib.Photo26min();
-	this.instance_34.setTransform(400,93,0.2974,0.2974);
+	this.photo_65 = new lib.photo26();
+	this.photo_65.name = "photo_65";
+	this.photo_65.setTransform(638.8,251.8,1,1,0,0,0,238.8,158.8);
 
 	this.photo66 = new lib.photo27();
 	this.photo66.name = "photo66";
 	this.photo66.setTransform(613.9,258.5,1,1,0,0,0,209.9,157.5);
 
-	this.instance_35 = new lib.Photo27min();
-	this.instance_35.setTransform(466,74,0.1029,0.1029);
+	this.instance_29 = new lib.an_Video({'id': 'instance_29', 'src':'videos/Video%201-2.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
-	this.instance_36 = new lib.an_Video({'id': 'instance_36', 'src':'videos/Video%201-2.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
-
-	this.instance_36.setTransform(670.8,261.7,0.9986,1.3315,0,0,0,200.2,150.1);
+	this.instance_29.setTransform(670.8,261.7,0.9986,1.3315,0,0,0,200.2,150.1);
 
 	this.photo76 = new lib.photo28();
 	this.photo76.name = "photo76";
 	this.photo76.setTransform(662.1,229.1,1,1,0,0,0,111.1,148.1);
 
-	this.instance_37 = new lib.Photo28min();
-	this.instance_37.setTransform(562,75,0.0913,0.0913);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.photoImg,p:{scaleY:0.7735}}]},3).to({state:[{t:this.photoImg,p:{scaleY:0.7734}}]},1).to({state:[{t:this.photo2}]},1).to({state:[{t:this.photo2_2}]},1).to({state:[]},1).to({state:[{t:this.photo4,p:{x:333.9,y:236.95,regX:264.2,regY:174.3,scaleX:0.8732,scaleY:0.8732}}]},2).to({state:[{t:this.photo7}]},1).to({state:[{t:this.photo12}]},1).to({state:[]},1).to({state:[{t:this.photo14}]},1).to({state:[{t:this.photo6}]},1).to({state:[{t:this.photo16}]},1).to({state:[{t:this.photo17}]},1).to({state:[]},1).to({state:[{t:this.photo19}]},1).to({state:[{t:this.photo20}]},1).to({state:[]},1).to({state:[{t:this.photo22}]},1).to({state:[{t:this.photo23,p:{scaleX:1,scaleY:1,x:660.5,y:223.95}}]},1).to({state:[{t:this.photo23,p:{scaleX:0.7639,scaleY:0.7639,x:745.75,y:247.15}}]},1).to({state:[{t:this.photo4,p:{x:275.45,y:240.05,regX:264.2,regY:174.3,scaleX:0.8732,scaleY:0.8732}}]},1).to({state:[{t:this.photo26}]},1).to({state:[]},2).to({state:[{t:this.photo30}]},2).to({state:[{t:this.photo35}]},5).to({state:[{t:this.photo4,p:{x:696.05,y:230.65,regX:264.4,regY:174.5,scaleX:0.7839,scaleY:0.7839}}]},2).to({state:[{t:this.photo38,p:{x:627.9,y:266.6}}]},1).to({state:[{t:this.photo38,p:{x:646.3,y:230.8}}]},2).to({state:[]},1).to({state:[{t:this.photo38,p:{x:660.95,y:255.15}}]},1).to({state:[{t:this.photo43}]},1).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.photo46}]},1).to({state:[{t:this.photo52}]},6).to({state:[{t:this.instance_32}]},2).to({state:[{t:this.instance_33,p:{scaleX:0.081,scaleY:0.081,x:428,y:86}}]},1).to({state:[]},1).to({state:[{t:this.instance_33,p:{scaleX:0.083,scaleY:0.083,x:456,y:115}}]},1).to({state:[]},2).to({state:[{t:this.photo60}]},1).to({state:[{t:this.photo61,p:{x:651.3,y:257}}]},1).to({state:[]},2).to({state:[{t:this.photo61,p:{x:656.8,y:260.25}}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.photo66}]},1).to({state:[{t:this.instance_35,p:{x:466,y:74}}]},3).to({state:[]},1).to({state:[{t:this.instance_35,p:{x:497,y:135}}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.photo76}]},4).to({state:[]},1).to({state:[{t:this.instance_37}]},1).to({state:[]},1).to({state:[]},50).wait(71));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.photoImg,p:{scaleY:0.7735}}]},3).to({state:[{t:this.photoImg,p:{scaleY:0.7734}}]},1).to({state:[{t:this.photo2}]},1).to({state:[{t:this.photo2_2}]},1).to({state:[]},1).to({state:[{t:this.photo4}]},2).to({state:[{t:this.photo7}]},1).to({state:[{t:this.photo12}]},1).to({state:[]},1).to({state:[{t:this.photo14}]},1).to({state:[{t:this.photo6}]},1).to({state:[{t:this.photo16}]},1).to({state:[{t:this.photo17}]},1).to({state:[]},1).to({state:[{t:this.photo19}]},1).to({state:[{t:this.photo20}]},1).to({state:[]},1).to({state:[{t:this.photo22}]},1).to({state:[{t:this.photo23,p:{scaleX:1,scaleY:1,x:660.5,y:223.95}}]},1).to({state:[{t:this.photo23,p:{scaleX:0.7639,scaleY:0.7639,x:745.75,y:247.15}}]},1).to({state:[{t:this.photo25}]},1).to({state:[{t:this.photo26}]},1).to({state:[]},2).to({state:[{t:this.photo30}]},2).to({state:[{t:this.photo35}]},5).to({state:[{t:this.photo37}]},2).to({state:[{t:this.photo38,p:{x:627.9,y:266.6}}]},1).to({state:[{t:this.photo38,p:{x:646.3,y:230.8}}]},2).to({state:[]},1).to({state:[{t:this.photo38,p:{x:660.95,y:255.15}}]},1).to({state:[{t:this.photo43}]},1).to({state:[{t:this.photo45}]},2).to({state:[{t:this.photo46}]},1).to({state:[{t:this.photo51}]},5).to({state:[{t:this.photo52}]},1).to({state:[{t:this.photo54,p:{regY:151.3,scaleX:1,scaleY:1,x:621,y:268.05}}]},2).to({state:[{t:this.photo54,p:{regY:151.5,scaleX:0.9884,scaleY:0.9884,x:631,y:243.05}}]},1).to({state:[]},1).to({state:[{t:this.photo57}]},1).to({state:[]},2).to({state:[{t:this.photo60}]},1).to({state:[{t:this.photo61,p:{x:651.3,y:257}}]},1).to({state:[]},2).to({state:[{t:this.photo61,p:{x:656.8,y:260.25}}]},1).to({state:[{t:this.photo_65}]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:613.9,y:258.5}}]},1).to({state:[{t:this.photo66,p:{regX:210.1,scaleX:0.889,scaleY:0.889,x:665.55,y:226.55}}]},3).to({state:[]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:644.95,y:273.1}}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.photo76,p:{scaleX:1,scaleY:1,x:662.1,y:229.1}}]},4).to({state:[]},1).to({state:[{t:this.photo76,p:{scaleX:1.198,scaleY:1.198,x:669.35,y:298.75}}]},1).to({state:[]},1).to({state:[]},50).wait(71));
 
 	// Layer_3
+	this.instance_30 = new lib.border_waterCol();
+	this.instance_30.setTransform(-22,-15,0.9079,0.8171);
+
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("rgba(0,0,0,0.247)").s().p("EhF4AtqMAAAhbTMCLxAAAMAAABbTg");
 	this.shape_3.setTransform(480.15,319.175);
@@ -7700,35 +8539,38 @@ if (reversed == null) { reversed = false; }
 	this.shape_4.graphics.f("rgba(255,255,255,0.639)").s().p("EhCJAi2MAAAhFrMCETAAAMAAABFrg");
 	this.shape_4.setTransform(480.975,330.825);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3}]},2).to({state:[{t:this.shape_4}]},117).to({state:[]},2).to({state:[]},6).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_30}]}).to({state:[{t:this.shape_3}]},2).to({state:[]},76).to({state:[{t:this.shape_4}]},41).to({state:[]},2).to({state:[]},6).wait(72));
 
 	// Background
-	this.instance_38 = new lib.droneShot7min();
-	this.instance_38.setTransform(-86,-15,0.2405,0.21);
+	this.instance_31 = new lib.droneShot7min();
+	this.instance_31.setTransform(-86,-15,0.2405,0.21);
 
-	this.instance_39 = new lib.droneShot4min();
-	this.instance_39.setTransform(-170,0,0.2241,0.2043);
+	this.instance_32 = new lib.droneShot4min();
+	this.instance_32.setTransform(-170,0,0.2241,0.2043);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#E2BF91").s().p("EhQPALkIAA3HMCgfAAAIAAXHg");
 	this.shape_5.setTransform(11.6741,161.8128,0.189,0.189);
 
-	this.instance_40 = new lib.droneShot3min();
-	this.instance_40.setTransform(1,-1,0.1788,0.1788);
+	this.instance_33 = new lib.droneShot3min();
+	this.instance_33.setTransform(1,-1,0.1788,0.1788);
 
-	this.instance_41 = new lib.droneShot8min();
-	this.instance_41.setTransform(0,-22,0.1813,0.1813);
+	this.instance_34 = new lib.droneShot8min();
+	this.instance_34.setTransform(0,-22,0.1813,0.1813);
 
-	this.instance_42 = new lib.droneShot10min();
-	this.instance_42.setTransform(0,0,0.2021,0.2021);
+	this.instance_35 = new lib.droneShot10min();
+	this.instance_35.setTransform(0,0,0.2021,0.2021);
 
-	this.instance_43 = new lib.droneShot9min();
-	this.instance_43.setTransform(0,0,0.1813,0.1813);
+	this.instance_36 = new lib.droneShot9min();
+	this.instance_36.setTransform(0,0,0.1813,0.1813);
 
-	this.instance_44 = new lib.CachedBmp_7();
-	this.instance_44.setTransform(0.35,-36.15,0.5,0.5);
+	this.instance_37 = new lib.droneShot1();
+	this.instance_37.setTransform(0,0,0.1813,0.1813);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_38,p:{scaleX:0.2405,scaleY:0.21,x:-86,y:-15}}]}).to({state:[{t:this.shape_5},{t:this.instance_39}]},5).to({state:[{t:this.instance_40}]},4).to({state:[{t:this.instance_41}]},4).to({state:[{t:this.instance_38,p:{scaleX:0.2021,scaleY:0.2021,x:0,y:0}}]},3).to({state:[{t:this.instance_42}]},18).to({state:[{t:this.instance_43}]},17).to({state:[{t:this.instance_44},{t:this.instance_38,p:{scaleX:0.2405,scaleY:0.21,x:-77,y:0}}]},68).to({state:[]},8).wait(72));
+	this.instance_38 = new lib.CachedBmp_20();
+	this.instance_38.setTransform(0.35,-36.15,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_31,p:{scaleX:0.2405,scaleY:0.21,x:-86,y:-15}}]}).to({state:[{t:this.shape_5},{t:this.instance_32}]},5).to({state:[{t:this.instance_33}]},4).to({state:[{t:this.instance_34}]},4).to({state:[{t:this.instance_31,p:{scaleX:0.2021,scaleY:0.2021,x:0,y:0}}]},3).to({state:[{t:this.instance_35}]},18).to({state:[{t:this.instance_36}]},17).to({state:[{t:this.instance_37}]},27).to({state:[{t:this.instance_38},{t:this.instance_31,p:{scaleX:0.2405,scaleY:0.21,x:-77,y:0}}]},41).to({state:[]},8).wait(72));
 
 	this._renderFirstFrame();
 
@@ -7744,6 +8586,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
+		{src:"images/droneShot1.jpg", id:"droneShot1"},
 		{src:"images/droneShot10min.jpg", id:"droneShot10min"},
 		{src:"images/droneShot3min.jpg", id:"droneShot3min"},
 		{src:"images/droneShot4min.jpg", id:"droneShot4min"},
@@ -7751,7 +8594,6 @@ lib.properties = {
 		{src:"images/droneShot8min.jpg", id:"droneShot8min"},
 		{src:"images/droneShot9min.jpg", id:"droneShot9min"},
 		{src:"images/Photo23min.jpg", id:"Photo23min"},
-		{src:"images/Photo23.jpg", id:"Photo23"},
 		{src:"images/Photo27min.jpg", id:"Photo27min"},
 		{src:"images/Photo28min.jpg", id:"Photo28min"},
 		{src:"images/Photo3min.jpg", id:"Photo3min"},
@@ -7801,6 +8643,7 @@ lib.properties = {
 		{src:"images/StarFishBayGame_atlas_43.png", id:"StarFishBayGame_atlas_43"},
 		{src:"images/StarFishBayGame_atlas_44.png", id:"StarFishBayGame_atlas_44"},
 		{src:"images/StarFishBayGame_atlas_45.png", id:"StarFishBayGame_atlas_45"},
+		{src:"images/StarFishBayGame_atlas_46.png", id:"StarFishBayGame_atlas_46"},
 		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/video/src/video.js", id:"an.Video"},

@@ -4239,10 +4239,6 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		this.credit2_2.visible = false;
 		
-		
-		attempt++;
-		
-		
 		var ABtnEvent = root.ABtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(root));
 		
 		

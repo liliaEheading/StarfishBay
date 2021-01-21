@@ -8,52 +8,52 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"StarFishBayGame_atlas_1", frames: [[0,0,602,185],[1183,0,652,158],[388,329,575,120],[388,195,596,132],[1203,530,428,97],[1203,462,354,55],[1183,160,531,169],[604,0,577,193],[1351,634,393,45],[628,677,357,48],[388,451,396,108],[1633,530,405,102],[1746,634,302,40],[1746,676,302,40],[314,681,302,40],[908,629,441,46],[0,701,302,40],[628,561,278,78],[786,451,122,106],[986,195,100,88],[0,187,386,272],[1954,112,76,72],[1716,160,236,237],[965,331,236,237],[1917,399,96,108],[1203,331,355,129],[1560,399,355,129],[0,461,312,118],[314,561,312,118],[0,581,312,118],[1837,0,209,110]]},
-		{name:"StarFishBayGame_atlas_2", frames: [[0,0,683,710],[0,712,683,710],[1386,925,495,387],[1529,1726,391,295],[977,1378,550,366],[0,1424,975,450],[1529,1314,370,410],[1487,0,512,512],[685,925,699,451],[685,0,800,533],[685,535,944,388]]},
-		{name:"StarFishBayGame_atlas_3", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_4", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_5", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_6", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_7", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_8", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_9", frames: [[902,802,683,710],[0,770,898,673],[1026,0,800,800],[0,1445,900,600],[0,0,1024,768]]},
-		{name:"StarFishBayGame_atlas_10", frames: [[0,722,1107,830],[0,0,1280,720]]},
-		{name:"StarFishBayGame_atlas_11", frames: [[0,0,1280,720],[0,722,1280,720]]},
-		{name:"StarFishBayGame_atlas_12", frames: [[0,0,1024,1024],[0,1026,1280,720]]},
-		{name:"StarFishBayGame_atlas_13", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_14", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_15", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_16", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_17", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_18", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_19", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_20", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_21", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_1", frames: [[0,0,1917,1441]]},
+		{name:"StarFishBayGame_atlas_2", frames: [[0,0,1892,1258]]},
+		{name:"StarFishBayGame_atlas_3", frames: [[0,0,1780,1186]]},
+		{name:"StarFishBayGame_atlas_4", frames: [[0,0,1776,1182]]},
+		{name:"StarFishBayGame_atlas_5", frames: [[0,0,1606,1068]]},
+		{name:"StarFishBayGame_atlas_6", frames: [[0,0,1400,1050],[0,1052,1600,900]]},
+		{name:"StarFishBayGame_atlas_7", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_8", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_9", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_10", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_11", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_12", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_13", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_14", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_15", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_16", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_17", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_18", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_19", frames: [[0,0,1268,1024]]},
+		{name:"StarFishBayGame_atlas_20", frames: [[0,0,1268,1024],[0,1026,1300,953]]},
+		{name:"StarFishBayGame_atlas_21", frames: [[0,955,1024,1024],[0,0,1300,953]]},
 		{name:"StarFishBayGame_atlas_22", frames: [[0,0,1024,1024]]},
 		{name:"StarFishBayGame_atlas_23", frames: [[0,0,1024,1024]]},
 		{name:"StarFishBayGame_atlas_24", frames: [[0,0,1024,1024]]},
 		{name:"StarFishBayGame_atlas_25", frames: [[0,0,1024,1024]]},
-		{name:"StarFishBayGame_atlas_26", frames: [[0,955,1024,1024],[0,0,1300,953]]},
-		{name:"StarFishBayGame_atlas_27", frames: [[0,0,1268,1024],[0,1026,1300,953]]},
-		{name:"StarFishBayGame_atlas_28", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_29", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_30", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_31", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_32", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_33", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_34", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_35", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_36", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_37", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_38", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_39", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_40", frames: [[0,0,1268,1024]]},
-		{name:"StarFishBayGame_atlas_41", frames: [[0,0,1400,1050],[0,1052,1600,900]]},
-		{name:"StarFishBayGame_atlas_42", frames: [[0,0,1606,1068]]},
-		{name:"StarFishBayGame_atlas_43", frames: [[0,0,1776,1182]]},
-		{name:"StarFishBayGame_atlas_44", frames: [[0,0,1780,1186]]},
-		{name:"StarFishBayGame_atlas_45", frames: [[0,0,1917,1441]]},
-		{name:"StarFishBayGame_atlas_46", frames: [[0,0,1892,1258]]}
+		{name:"StarFishBayGame_atlas_26", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_27", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_28", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_29", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_30", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_31", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_32", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_33", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_34", frames: [[0,0,1024,1024]]},
+		{name:"StarFishBayGame_atlas_35", frames: [[0,0,1024,1024],[0,1026,1280,720]]},
+		{name:"StarFishBayGame_atlas_36", frames: [[0,0,1280,720],[0,722,1280,720]]},
+		{name:"StarFishBayGame_atlas_37", frames: [[0,722,1107,830],[0,0,1280,720]]},
+		{name:"StarFishBayGame_atlas_38", frames: [[902,802,683,710],[0,770,898,673],[1026,0,800,800],[0,1445,900,600],[0,0,1024,768]]},
+		{name:"StarFishBayGame_atlas_39", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_40", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_41", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_42", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_43", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_44", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
+		{name:"StarFishBayGame_atlas_45", frames: [[0,0,683,710],[0,712,683,710],[1386,925,495,387],[1529,1726,391,295],[977,1378,550,366],[0,1424,975,450],[1529,1314,370,410],[1487,0,512,512],[685,925,699,451],[685,0,800,533],[685,535,944,388]]},
+		{name:"StarFishBayGame_atlas_46", frames: [[0,0,602,185],[1183,0,652,158],[388,329,575,120],[388,195,596,132],[1203,530,428,97],[1203,462,354,55],[1183,160,531,169],[604,0,577,193],[1351,634,393,45],[628,677,357,48],[388,451,396,108],[1633,530,405,102],[1746,634,302,40],[1746,676,302,40],[314,681,302,40],[908,629,441,46],[0,701,302,40],[628,561,278,78],[786,451,122,106],[986,195,100,88],[0,187,386,272],[1954,112,76,72],[1716,160,236,237],[965,331,236,237],[1917,399,96,108],[1203,331,355,129],[1560,399,355,129],[0,461,312,118],[314,561,312,118],[0,581,312,118],[1837,0,209,110]]}
 ];
 
 
@@ -134,560 +134,560 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_17 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_16 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_20 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_45"]);
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.border_waterCol = function() {
-	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.bubble1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.bubble2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.clam_shadow = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00000 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_26"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00001 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_25"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00002 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_24"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00003 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_23"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00004 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_22"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00005 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_21"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00006 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_20"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00007 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_19"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00008 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_18"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00009 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_17"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00010 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_16"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00011 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_15"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00012 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_14"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00013 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_13"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab2_SadCrab_00014 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_12"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00000 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00001 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00002 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00003 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00004 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00005 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00006 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00007 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00008 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00009 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00010 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00011 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00012 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00013 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00014 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00015 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00016 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00017 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00018 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00019 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00020 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00021 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00022 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00023 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00024 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00025 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00026 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00000 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_40"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00001 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_39"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00002 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_38"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00003 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_37"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00004 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_36"]);
+(lib.bubble1 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.bubble2 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.clam_shadow = function() {
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00000 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_21"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00005 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_35"]);
+(lib.Crab2_SadCrab_00001 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_22"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00006 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_34"]);
+(lib.Crab2_SadCrab_00002 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00007 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_33"]);
+(lib.Crab2_SadCrab_00003 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_24"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00008 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_32"]);
+(lib.Crab2_SadCrab_00004 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_25"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00009 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_31"]);
+(lib.Crab2_SadCrab_00005 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_26"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab1_HappyCrab_00010 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_30"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00011 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_29"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00012 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_28"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab1_HappyCrab_00013 = function() {
+(lib.Crab2_SadCrab_00006 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_27"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.Crab2_SadCrab_00007 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_28"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00008 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_29"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00009 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_30"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00010 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_31"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00011 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_32"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00012 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_33"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00013 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_34"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab2_SadCrab_00014 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_35"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00000 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_38"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00001 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_39"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00002 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_39"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00003 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_39"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00004 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_39"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00005 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_40"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00006 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_40"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00007 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_40"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00008 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_40"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00009 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00010 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00011 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00012 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00013 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_42"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00014 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_42"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00015 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_42"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00016 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_42"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00017 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_43"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00018 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_43"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00019 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_43"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00020 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_43"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00021 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_44"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00022 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_44"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00023 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_44"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00024 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_44"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00025 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00026 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00000 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00001 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00002 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00003 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00004 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00005 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00006 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_13"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00007 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_14"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00008 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_15"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00009 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00010 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_17"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00011 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00012 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_19"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab1_HappyCrab_00013 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_20"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.crab_shadow = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
@@ -736,112 +736,112 @@ p.nominalBounds = new cjs.Rectangle(0,0,5413,3609);
 
 
 (lib.flower = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo1min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_46"]);
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo10min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo11min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo13min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.initialize(ss["StarFishBayGame_atlas_38"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo14min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.initialize(ss["StarFishBayGame_atlas_38"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo15min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_44"]);
+	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo17min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.initialize(ss["StarFishBayGame_atlas_38"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo1819min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_12"]);
+	this.initialize(ss["StarFishBayGame_atlas_35"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo2min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_27"]);
+	this.initialize(ss["StarFishBayGame_atlas_20"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_26"]);
+	this.initialize(ss["StarFishBayGame_atlas_21"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo20min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_11"]);
+	this.initialize(ss["StarFishBayGame_atlas_36"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo21_cropmin = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo22min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_43"]);
+	this.initialize(ss["StarFishBayGame_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -854,21 +854,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,4864,3648);
 
 
 (lib.Photo24min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.initialize(ss["StarFishBayGame_atlas_38"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo25min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.initialize(ss["StarFishBayGame_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo26min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_42"]);
+	this.initialize(ss["StarFishBayGame_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -893,7 +893,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2916,3888);
 
 
 (lib.Photo4min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_41"]);
+	this.initialize(ss["StarFishBayGame_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -906,98 +906,98 @@ p.nominalBounds = new cjs.Rectangle(0,0,4025,3019);
 
 
 (lib.Photo67min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_11"]);
+	this.initialize(ss["StarFishBayGame_atlas_36"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo8min = function() {
-	this.initialize(ss["StarFishBayGame_atlas_10"]);
+	this.initialize(ss["StarFishBayGame_atlas_37"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.raindrop = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sb2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sbbbbb = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.speechBubble = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.speechBubble3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.title = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.initialize(ss["StarFishBayGame_atlas_45"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn1_blue = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2_blue = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn2_grey = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waterColBtn3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.initialize(ss["StarFishBayGame_atlas_46"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -3108,7 +3108,7 @@ if (reversed == null) { reversed = false; }
 	this.text.lineHeight = 19;
 	this.text.lineWidth = 197;
 	this.text.parent = this;
-	this.text.setTransform(100.45,2);
+	this.text.setTransform(100.45,6.8);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AvsCPIAAkdIfZAAIAAEdg");
@@ -3118,7 +3118,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.creditp23, new cjs.Rectangle(0,0,201,39.6), null);
+}).prototype = getMCSymbolPrototype(lib.creditp23, new cjs.Rectangle(0,0,201,44.4), null);
 
 
 (lib.creditp22 = function(mode,startPosition,loop,reversed) {
@@ -3422,12 +3422,12 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Photo 28 – Own Photo", "16px 'Arial'", "#333333");
+	this.text = new cjs.Text("Photo 28 – Own Photo", "14px 'Arial'", "#333333");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 20;
+	this.text.lineHeight = 18;
 	this.text.lineWidth = 171;
 	this.text.parent = this;
-	this.text.setTransform(88.45,3.85);
+	this.text.setTransform(88.45,4.65);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AtvCWIAAkrIbfAAIAAErg");
@@ -4585,7 +4585,7 @@ if (reversed == null) { reversed = false; }
 		
 		function setCaret() {
 			document.getElementById('answer_box_q1').focus(); //highlight the textfiel
-			document.getElementById('answer_box_q1').maxLength = "70";
+			document.getElementById('answer_box_q1').maxLength = "200";
 		}
 		
 		function getValue() {
@@ -4805,7 +4805,7 @@ if (reversed == null) { reversed = false; }
 		
 		function setCaret() {
 			document.getElementById('answer_box_q2').focus(); //highlight the textfield
-			document.getElementById('answer_box_q2').maxLength = "70";
+			document.getElementById('answer_box_q2').maxLength = "200";
 		}
 		
 		function getValue() {
@@ -5268,9 +5268,9 @@ if (reversed == null) { reversed = false; }
 		//answerBox
 		function setCaret() {
 			document.getElementById('answer_box_q3_1').focus(); //highlight the textfiel
-			document.getElementById('answer_box_q3_1').maxLength = "70";
+			document.getElementById('answer_box_q3_1').maxLength = "200";
 			
-			document.getElementById('answer_box_q3_2').maxLength = "70";
+			document.getElementById('answer_box_q3_2').maxLength = "200";
 		}
 		
 		
@@ -5740,7 +5740,7 @@ if (reversed == null) { reversed = false; }
 		//answerBox
 		function setCaret() {
 			document.getElementById('answer_box_q4').focus(); //highlight the textfiel
-			document.getElementById('answer_box_q4').maxLength = "70";
+			document.getElementById('answer_box_q4').maxLength = "200";
 		}
 		
 		
@@ -6224,7 +6224,7 @@ if (reversed == null) { reversed = false; }
 		//answerBox
 		function setCaret() {
 			document.getElementById('answer_box_q5').focus(); //highlight the textfiel
-			document.getElementById('answer_box_q5').maxLength = "70";
+			document.getElementById('answer_box_q5').maxLength = "200";
 		}
 		
 		
@@ -6769,7 +6769,7 @@ if (reversed == null) { reversed = false; }
 		//answerBox
 		function setCaret() {
 			document.getElementById('answer_box_q6').focus(); //highlight the textfiel
-			document.getElementById('answer_box_q6').maxLength = "70";
+			document.getElementById('answer_box_q6').maxLength = "200";
 		}
 		
 		
@@ -7560,41 +7560,41 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_email = new lib.an_TextInput({'id': 'answer_box_email', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_email.name = "answer_box_email";
-	this.answer_box_email.setTransform(550.35,440.05,2.4136,2.1938,0,0,0,50,10.8);
+	this.answer_box_email.setTransform(550.95,443.85,2.55,2.5461,0,0,0,50,10.8);
 
 	this.answer_box_class = new lib.an_TextInput({'id': 'answer_box_class', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_class.name = "answer_box_class";
-	this.answer_box_class.setTransform(550.35,360.65,2.4136,2.1931,0,0,0,50,11);
+	this.answer_box_class.setTransform(550.95,364.55,2.5501,2.5454,0,0,0,50,11);
 
-	this.text = new cjs.Text("email", "28px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Email:", "28px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 33;
 	this.text.lineWidth = 123;
 	this.text.parent = this;
-	this.text.setTransform(342.55,428.6);
+	this.text.setTransform(346.45,431);
 	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",3,3,4);
 
-	this.text_1 = new cjs.Text("school", "28px 'Arial'", "#FFFFFF");
+	this.text_1 = new cjs.Text("School:", "28px 'Arial'", "#FFFFFF");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 33;
 	this.text_1.lineWidth = 126;
 	this.text_1.parent = this;
-	this.text_1.setTransform(348,261.15);
+	this.text_1.setTransform(348,269.15);
 	this.text_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",3,3,4);
 
-	this.text_2 = new cjs.Text("class", "28px 'Arial'", "#FFFFFF");
+	this.text_2 = new cjs.Text("Class:", "28px 'Arial'", "#FFFFFF");
 	this.text_2.textAlign = "center";
 	this.text_2.lineHeight = 33;
-	this.text_2.lineWidth = 108;
+	this.text_2.lineWidth = 127;
 	this.text_2.parent = this;
-	this.text_2.setTransform(339,342.7);
+	this.text_2.setTransform(348.6,349.75);
 	this.text_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",3,3,4);
 
 	this.answer_box_school = new lib.an_TextInput({'id': 'answer_box_school', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_school.name = "answer_box_school";
-	this.answer_box_school.setTransform(550.35,279.15,2.4136,2.1931,0,0,0,50,10.9);
+	this.answer_box_school.setTransform(550.95,283.25,2.5498,2.5453,0,0,0,50,11);
 
 	this.text_3 = new cjs.Text("ok", "44px 'Tw Cen MT'", "#156074");
 	this.text_3.textAlign = "center";
@@ -7604,7 +7604,7 @@ if (reversed == null) { reversed = false; }
 	this.text_3.setTransform(821.25,519.85);
 
 	this.instance = new lib.Symbol2("synched",0);
-	this.instance.setTransform(407.5,326.2,1,0.9669,0,0,0,368.5,95.6);
+	this.instance.setTransform(407.5,329.4,1,0.9669,0,0,0,368.5,95.6);
 
 	this.okBtn = new lib.generalBtn_();
 	this.okBtn.name = "okBtn";
@@ -7615,7 +7615,7 @@ if (reversed == null) { reversed = false; }
 	this.answer_box = new lib.an_TextInput({'id': 'answer_box', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box.name = "answer_box";
-	this.answer_box.setTransform(550.35,201.75,2.4136,2.1936,0,0,0,50,10.9);
+	this.answer_box.setTransform(549.95,201.35,2.5502,2.5458,0,0,0,50,10.9);
 
 	this.instance_1 = new lib.an_CSS({'id': 'instance_1', 'href':'assets/style.css'});
 
@@ -7714,7 +7714,7 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_q2.name = "answer_box_q2";
 	this.answer_box_q2.setTransform(577.3,528.6,4.7485,1.45,0,0,0,50.2,11.1);
 
-	this.instance_5 = new lib.an_CSS({'id': 'instance_5', 'href':'assets/style3.css'});
+	this.instance_5 = new lib.an_CSS({'id': 'instance_5', 'href':'assets/style2.css'});
 
 	this.instance_5.setTransform(888.7,72.05,1,1,0,0,0,50,11);
 
@@ -7724,7 +7724,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.Symbol1("synched",0);
 	this.instance_7.setTransform(691.2,538.75,0.5288,0.5288,0,0,0,314.7,126);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_4}]},3).to({state:[{t:this.text_5}]},1).to({state:[{t:this.text_6}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_8},{t:this.text_7},{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_3}]},1).to({state:[{t:this.instance_4},{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_6},{t:this.instance_5},{t:this.answer_box_q2}]},1).to({state:[]},1).to({state:[{t:this.instance_7}]},89).to({state:[]},15).to({state:[]},8).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_4}]},3).to({state:[{t:this.text_5}]},1).to({state:[{t:this.text_6}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_8},{t:this.text_7},{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_3}]},1).to({state:[{t:this.instance_4},{t:this.text_4}]},1).to({state:[{t:this.text_4}]},1).to({state:[{t:this.text_4},{t:this.instance_6},{t:this.instance_5,p:{x:888.7,y:72.05}},{t:this.answer_box_q2}]},1).to({state:[]},1).to({state:[{t:this.instance_5,p:{x:593.65,y:320.25}}]},7).to({state:[{t:this.instance_7}]},82).to({state:[]},15).to({state:[]},8).wait(72));
 	this.timeline.addTween(cjs.Tween.get(this.text_4).wait(3).to({_off:false},0).to({_off:true},1).wait(2).to({_off:false,scaleX:0.7993,scaleY:0.7993,x:252.25,y:167.5687,text:"What animal creates these patterns?",font:"31px 'Arial'",color:"#333333",lineHeight:36.6,lineWidth:248},0).wait(1).to({scaleX:0.8218,scaleY:0.8218,x:633.4555,y:197.1,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263},0).wait(1).to({scaleX:0.8953,scaleY:0.8953,x:668.0029,y:165.3709,text:"Yes! \nIt's a crab",font:"41px 'Arial'",color:"#0A3337",lineHeight:47.8,lineWidth:275},0).wait(1).to({scaleX:0.8839,scaleY:0.8839,x:687.5,y:181.35,text:"Let's see what's hiding in the burrow…",font:"25px 'Arial'",lineHeight:29.95,lineWidth:202},0).wait(1).to({scaleX:1,scaleY:1,x:207.2,y:166.5,text:" (Scopimera globosa). ",font:"italic 19px 'Arial'",color:"#0C2D41",lineHeight:23.25,lineWidth:216},0).wait(1).to({scaleX:1.0299,scaleY:1.0299,x:220.3284,y:175.1,text:"How do you think the sand bubbler crab created this pattern?",font:"19px 'Arial'",color:"#0D3147",lineWidth:213},0).wait(1).to({scaleX:1,scaleY:1,x:-122.25,y:117.1,text:"",font:"19px 'ArialMT'",color:"#FFFFFF",lineWidth:100},0).wait(1).to({scaleX:0.8701,scaleY:0.8701,x:211.95,y:164.45,text:"Look! There are other animals besides crabs living here! \nLet's have a closer look…",font:"24px 'Arial'",color:"#333333",lineHeight:28.85,lineWidth:217},0).wait(1).to({scaleX:0.5813,scaleY:0.5813,x:333.25,y:387.5448,text:"These snails look alike but are not the same species! Can you spot at least 3 differences?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:506},0).to({_off:true},1).wait(184));
 
 	// mcAnsT
@@ -7733,28 +7733,28 @@ if (reversed == null) { reversed = false; }
 	this.text_9.lineHeight = 29;
 	this.text_9.lineWidth = 192;
 	this.text_9.parent = this;
-	this.text_9.setTransform(780.3,503.2,0.7427,0.7427);
+	this.text_9.setTransform(780.3,510.4,0.7427,0.7427);
 
 	this.text_10 = new cjs.Text("C) A Bird", "24px 'Arial'", "#0A3337");
 	this.text_10.textAlign = "center";
 	this.text_10.lineHeight = 29;
 	this.text_10.lineWidth = 192;
 	this.text_10.parent = this;
-	this.text_10.setTransform(538,503.2,0.7427,0.7427);
+	this.text_10.setTransform(538,510.4,0.7427,0.7427);
 
 	this.text_11 = new cjs.Text("B) A Crab", "24px 'Arial'", "#0A3337");
 	this.text_11.textAlign = "center";
 	this.text_11.lineHeight = 29;
 	this.text_11.lineWidth = 192;
 	this.text_11.parent = this;
-	this.text_11.setTransform(780.3,429.05,0.7427,0.7427);
+	this.text_11.setTransform(780.3,436.25,0.7427,0.7427);
 
 	this.text_12 = new cjs.Text("A) A Fish", "24px 'Arial'", "#0A3337");
 	this.text_12.textAlign = "center";
 	this.text_12.lineHeight = 29;
 	this.text_12.lineWidth = 192;
 	this.text_12.parent = this;
-	this.text_12.setTransform(538,429.05,0.7427,0.7427);
+	this.text_12.setTransform(538,436.25,0.7427,0.7427);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_12},{t:this.text_11},{t:this.text_10},{t:this.text_9}]},6).to({state:[]},1).to({state:[]},120).wait(72));
 
@@ -7782,7 +7782,7 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_q1 = new lib.an_TextInput({'id': 'answer_box_q1', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_q1.name = "answer_box_q1";
-	this.answer_box_q1.setTransform(645.5,468.1,4.7657,1.7347,0,0,0,50.1,11);
+	this.answer_box_q1.setTransform(645.5,463.1,4.7657,1.7347,0,0,0,50.1,11);
 
 	this.instance_8 = new lib.an_CSS({'id': 'instance_8', 'href':'assets/style2.css'});
 
@@ -7792,13 +7792,13 @@ if (reversed == null) { reversed = false; }
 	this.text_13.lineHeight = 20;
 	this.text_13.lineWidth = 405;
 	this.text_13.parent = this;
-	this.text_13.setTransform(432.4,385.3,0.9791,1);
+	this.text_13.setTransform(432.4,392.5,0.9791,1);
 
 	this.text_14 = new cjs.Text("C) They know no fear and will defend their territory at all costs", "15px 'Arial'", "#0D3147");
 	this.text_14.lineHeight = 19;
 	this.text_14.lineWidth = 404;
 	this.text_14.parent = this;
-	this.text_14.setTransform(432.4,502.9,0.9791,1);
+	this.text_14.setTransform(432.4,510.1,0.9791,1);
 
 	this.mcAnsC = new lib.MCButtonLong();
 	this.mcAnsC.name = "mcAnsC";
@@ -7809,7 +7809,7 @@ if (reversed == null) { reversed = false; }
 	this.text_15.lineHeight = 20;
 	this.text_15.lineWidth = 405;
 	this.text_15.parent = this;
-	this.text_15.setTransform(431.7,445.75,0.9791,1);
+	this.text_15.setTransform(431.7,452.95,0.9791,1);
 
 	this.mcAnsA = new lib.MCButtonLong();
 	this.mcAnsA.name = "mcAnsA";
@@ -7836,7 +7836,7 @@ if (reversed == null) { reversed = false; }
 	this.text_16.lineHeight = 35;
 	this.text_16.lineWidth = 192;
 	this.text_16.parent = this;
-	this.text_16.setTransform(519,433.5,0.7427,0.7427);
+	this.text_16.setTransform(519,434.3,0.7427,0.7427);
 
 	this.mc3_Dbtn = new lib.mcAnsBox();
 	this.mc3_Dbtn.name = "mc3_Dbtn";
@@ -7864,7 +7864,7 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_q4 = new lib.an_TextInput({'id': 'answer_box_q4', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_q4.name = "answer_box_q4";
-	this.answer_box_q4.setTransform(669.3,488.1,4.4441,1.3213,0,0,0,50.2,11.1);
+	this.answer_box_q4.setTransform(669.3,486.65,4.4441,1.893,0,0,0,50.2,11.2);
 
 	this.mc4_Cbtn = new lib.MCButtonLong();
 	this.mc4_Cbtn.name = "mc4_Cbtn";
@@ -7887,7 +7887,7 @@ if (reversed == null) { reversed = false; }
 	this.answer_box_q5 = new lib.an_TextInput({'id': 'answer_box_q5', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.answer_box_q5.name = "answer_box_q5";
-	this.answer_box_q5.setTransform(630.85,498.2,4.4441,1.3213,0,0,0,50.2,11.1);
+	this.answer_box_q5.setTransform(630.85,499.8,4.4441,1.4654,0,0,0,50.2,11.1);
 
 	this.mc5_Cbtn = new lib.MCButtonLong();
 	this.mc5_Cbtn.name = "mc5_Cbtn";
@@ -8012,7 +8012,7 @@ if (reversed == null) { reversed = false; }
 	this.mc10_Bbtn.setTransform(663.25,465.6,0.8869,0.8844,0,0,0,219.3,26.8);
 	new cjs.ButtonHelper(this.mc10_Bbtn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ABtn},{t:this.CBtn},{t:this.BBtn},{t:this.DBtn}]},6).to({state:[]},1).to({state:[{t:this.instance_8},{t:this.answer_box_q1}]},4).to({state:[]},1).to({state:[{t:this.mcAnsB},{t:this.mcAnsA},{t:this.text_15,p:{scaleX:0.9791,scaleY:1,x:431.7,y:445.75,text:"B) They fight each other just like soldiers",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405}},{t:this.mcAnsC},{t:this.text_14,p:{scaleX:0.9791,x:432.4,y:502.9,text:"C) They know no fear and will defend their territory at all costs",font:"15px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:18.8,lineWidth:404,scaleY:1}},{t:this.text_13,p:{scaleX:0.9791,x:432.4,y:385.3,text:"A) They form large groups that resemble an army",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405,scaleY:1}}]},7).to({state:[]},1).to({state:[{t:this.text_14,p:{scaleX:1,x:414.05,y:396.65,text:"1.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:414.05,y:449.8,text:"2.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.answer_box_q3_1},{t:this.answer_box_q3_2}]},2).to({state:[]},1).to({state:[{t:this.mc3_Abtn},{t:this.mc3_Cbtn},{t:this.mc3_Bbtn},{t:this.mc3_Dbtn},{t:this.text_16,p:{x:519,y:433.5,text:"A) Worms",font:"bold 24px 'Montserrat'",lineHeight:35.1,lineWidth:192,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:761.3,y:433.5,text:"B) Molluscs",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192}},{t:this.text_14,p:{scaleX:0.7427,x:519,y:507.65,text:"C) Jellyfish",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:761.3,y:507.65,text:"D) Sharks",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.answer_box_q4},{t:this.instance_9}]},5).to({state:[]},1).to({state:[{t:this.mc4_Bbtn},{t:this.mc4_Abtn},{t:this.mc4_Cbtn},{t:this.text_15,p:{scaleX:1,scaleY:1,x:456.3,y:415.35,text:"A) Because the red colour acts as a camouflage",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399}},{t:this.text_14,p:{scaleX:1,x:456.3,y:478.15,text:"B) Because the food they eat is always red ",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:455.8,y:534.8,text:"C) Because they have a large number of cells that contain \n     haemoglobin (this protein makes our blood cells red)",font:"17px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:20.5,lineWidth:399,scaleY:1}}]},6).to({state:[]},1).to({state:[{t:this.answer_box_q5},{t:this.instance_10}]},3).to({state:[]},1).to({state:[{t:this.mc5_Bbtn},{t:this.mc5_Abtn},{t:this.mc5_Cbtn},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:442.45,y:416.55,text:"A) Their roots can turn salt into oxygen",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:442.45,y:475.85,text:"B) They have specialised leaves that excrete salt",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.text_13,p:{scaleX:0.9444,x:442.45,y:526.8,text:"C) They have gills that allow them to breath underwater",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},10).to({state:[]},1).to({state:[{t:this.answer_box_q6},{t:this.instance_11}]},2).to({state:[]},1).to({state:[{t:this.mc6_Abtn},{t:this.mc6_Cbtn},{t:this.mc6_Bbtn},{t:this.mc6_Dbtn},{t:this.text_16,p:{x:536.65,y:447.9,text:"A) To climb mangroves",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:776.55,y:447.55,text:"B) To dig burrows faster",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:536.65,y:522.45,text:"C) To chop up their food",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:776.55,y:522.75,text:"D) To attract female crabs",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc7_Abtn},{t:this.mc7_Cbtn},{t:this.mc7_Bbtn},{t:this.mc7_Dbtn},{t:this.text_16,p:{x:495.45,y:453.55,text:"A) Lionfish",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:735.35,y:453.2,text:"B) Anemone",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:495.45,y:526.6,text:"C) Decorator Urchin",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:735.35,y:526.6,text:"D) Crown of Thorns Starfish",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc8_Bbtn},{t:this.mc8_Abtn},{t:this.mc8_Cbtn},{t:this.text_16,p:{x:472.85,y:395.3,text:"A) To protect itself from sunlight",font:"18px 'Arial'",lineHeight:22.1,lineWidth:399,scaleX:0.9444,scaleY:0.9444,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:472.85,y:454.6,text:"B) To look pretty and attract mates\n",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:472.85,y:511.55,text:"C) To defend itself from predators",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.mc8_Dbtn},{t:this.text_13,p:{scaleX:0.9444,x:471.5,y:563.6,text:"D) To show off its rock and shell collection to other urchins",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},2).to({state:[]},1).to({state:[{t:this.mc9_Abtn},{t:this.mc9_Cbtn},{t:this.mc9_Bbtn},{t:this.mc9_Dbtn},{t:this.text_16,p:{x:551.1,y:486.3,text:"A) Sea Slugs",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:791,y:485.95,text:"B) Sea Snails",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:551.1,y:553.85,text:"C) Sponges",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:791,y:552.8,text:"D) Cephalopods",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc10_Bbtn},{t:this.mc10_Abtn},{t:this.text_16,p:{x:488.05,y:398.25,text:"A) They have blue blood",font:"18px 'Tw Cen MT'",lineHeight:21.6,lineWidth:399,scaleX:0.8844,scaleY:0.8844,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.8844,scaleY:0.8844,x:488.05,y:453.8,text:"B) They can change the colour and texture of their skin\n",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399}},{t:this.mc10_Cbtn},{t:this.text_14,p:{scaleX:0.8844,x:488.05,y:511.3,text:"C) They can jump 10 meters out of the water",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}},{t:this.mc10_Dbtn},{t:this.text_13,p:{scaleX:0.8844,x:488.05,y:566.55,text:"D)They have three hearts",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}}]},2).to({state:[]},1).to({state:[]},51).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ABtn},{t:this.CBtn},{t:this.BBtn},{t:this.DBtn}]},6).to({state:[]},1).to({state:[{t:this.instance_8},{t:this.answer_box_q1}]},4).to({state:[]},1).to({state:[{t:this.mcAnsB},{t:this.mcAnsA},{t:this.text_15,p:{scaleX:0.9791,scaleY:1,x:431.7,y:452.95,text:"B) They fight each other just like soldiers",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405}},{t:this.mcAnsC},{t:this.text_14,p:{scaleX:0.9791,x:432.4,y:510.1,text:"C) They know no fear and will defend their territory at all costs",font:"15px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:18.8,lineWidth:404,scaleY:1}},{t:this.text_13,p:{scaleX:0.9791,x:432.4,y:392.5,text:"A) They form large groups that resemble an army",font:"16px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:19.9,lineWidth:405,scaleY:1}}]},7).to({state:[]},1).to({state:[{t:this.text_14,p:{scaleX:1,x:414.05,y:396.65,text:"1.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:414.05,y:449.8,text:"2.",font:"bold 20px 'Montserrat'",color:"#FFFFFF",textAlign:"center",lineHeight:29.6,lineWidth:41,scaleY:1}},{t:this.answer_box_q3_1},{t:this.answer_box_q3_2}]},2).to({state:[]},1).to({state:[{t:this.mc3_Abtn},{t:this.mc3_Cbtn},{t:this.mc3_Bbtn},{t:this.mc3_Dbtn},{t:this.text_16,p:{x:519,y:434.3,text:"A) Worms",font:"bold 24px 'Montserrat'",lineHeight:35.1,lineWidth:192,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:761.3,y:434.3,text:"B) Molluscs",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192}},{t:this.text_14,p:{scaleX:0.7427,x:519,y:508.45,text:"C) Jellyfish",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:761.3,y:508.45,text:"D) Sharks",font:"bold 24px 'Montserrat'",color:"#0A3337",textAlign:"center",lineHeight:35.1,lineWidth:192,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.answer_box_q4},{t:this.instance_9}]},5).to({state:[]},1).to({state:[{t:this.mc4_Bbtn},{t:this.mc4_Abtn},{t:this.mc4_Cbtn},{t:this.text_15,p:{scaleX:1,scaleY:1,x:456.3,y:415.35,text:"A) Because the red colour acts as a camouflage",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399}},{t:this.text_14,p:{scaleX:1,x:456.3,y:478.15,text:"B) Because the food they eat is always red ",font:"20px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:23.75,lineWidth:399,scaleY:1}},{t:this.text_13,p:{scaleX:1,x:455.8,y:534.8,text:"C) Because they have a large number of cells that contain \n     haemoglobin (this protein makes our blood cells red)",font:"17px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:20.5,lineWidth:399,scaleY:1}}]},6).to({state:[]},1).to({state:[{t:this.answer_box_q5},{t:this.instance_10}]},3).to({state:[]},1).to({state:[{t:this.mc5_Bbtn},{t:this.mc5_Abtn},{t:this.mc5_Cbtn},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:442.45,y:416.55,text:"A) Their roots can turn salt into oxygen",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:442.45,y:475.85,text:"B) They have specialised leaves that excrete salt",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.text_13,p:{scaleX:0.9444,x:442.45,y:526.8,text:"C) They have gills that allow them to breath underwater",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},10).to({state:[]},1).to({state:[{t:this.answer_box_q6},{t:this.instance_11}]},2).to({state:[]},1).to({state:[{t:this.mc6_Abtn},{t:this.mc6_Cbtn},{t:this.mc6_Bbtn},{t:this.mc6_Dbtn},{t:this.text_16,p:{x:536.65,y:447.9,text:"A) To climb mangroves",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:776.55,y:447.55,text:"B) To dig burrows faster",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:536.65,y:522.45,text:"C) To chop up their food",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:776.55,y:522.75,text:"D) To attract female crabs",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc7_Abtn},{t:this.mc7_Cbtn},{t:this.mc7_Bbtn},{t:this.mc7_Dbtn},{t:this.text_16,p:{x:495.45,y:453.55,text:"A) Lionfish",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:735.35,y:453.2,text:"B) Anemone",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:495.45,y:526.6,text:"C) Decorator Urchin",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:735.35,y:526.6,text:"D) Crown of Thorns Starfish",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc8_Bbtn},{t:this.mc8_Abtn},{t:this.mc8_Cbtn},{t:this.text_16,p:{x:472.85,y:395.3,text:"A) To protect itself from sunlight",font:"18px 'Arial'",lineHeight:22.1,lineWidth:399,scaleX:0.9444,scaleY:0.9444,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.9444,scaleY:0.9444,x:472.85,y:454.6,text:"B) To look pretty and attract mates\n",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399}},{t:this.text_14,p:{scaleX:0.9444,x:472.85,y:511.55,text:"C) To defend itself from predators",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}},{t:this.mc8_Dbtn},{t:this.text_13,p:{scaleX:0.9444,x:471.5,y:563.6,text:"D) To show off its rock and shell collection to other urchins",font:"18px 'Arial'",color:"#0D3147",textAlign:"",lineHeight:22.1,lineWidth:399,scaleY:0.9444}}]},2).to({state:[]},1).to({state:[{t:this.mc9_Abtn},{t:this.mc9_Cbtn},{t:this.mc9_Bbtn},{t:this.mc9_Dbtn},{t:this.text_16,p:{x:551.1,y:486.3,text:"A) Sea Slugs",font:"bold 20px 'Arial'",lineHeight:24.35,lineWidth:277,scaleX:0.7427,scaleY:0.7427,color:"#0A3337",textAlign:"center"}},{t:this.text_15,p:{scaleX:0.7427,scaleY:0.7427,x:791,y:485.95,text:"B) Sea Snails",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277}},{t:this.text_14,p:{scaleX:0.7427,x:551.1,y:553.85,text:"C) Sponges",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}},{t:this.text_13,p:{scaleX:0.7427,x:791,y:552.8,text:"D) Cephalopods",font:"bold 20px 'Arial'",color:"#0A3337",textAlign:"center",lineHeight:24.35,lineWidth:277,scaleY:0.7427}}]},3).to({state:[]},1).to({state:[{t:this.mc10_Bbtn},{t:this.mc10_Abtn},{t:this.text_16,p:{x:488.05,y:398.25,text:"A) They have blue blood",font:"18px 'Tw Cen MT'",lineHeight:21.6,lineWidth:399,scaleX:0.8844,scaleY:0.8844,color:"#0D3147",textAlign:""}},{t:this.text_15,p:{scaleX:0.8844,scaleY:0.8844,x:488.05,y:453.8,text:"B) They can change the colour and texture of their skin\n",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399}},{t:this.mc10_Cbtn},{t:this.text_14,p:{scaleX:0.8844,x:488.05,y:511.3,text:"C) They can jump 10 meters out of the water",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}},{t:this.mc10_Dbtn},{t:this.text_13,p:{scaleX:0.8844,x:488.05,y:566.55,text:"D)They have three hearts",font:"18px 'Tw Cen MT'",color:"#0D3147",textAlign:"",lineHeight:21.6,lineWidth:399,scaleY:0.8844}}]},2).to({state:[]},1).to({state:[]},51).wait(72));
 
 	// hCrabAnim
 	this.instance_12 = new lib.movingHappyCrab();
@@ -8228,7 +8228,7 @@ if (reversed == null) { reversed = false; }
 	this.photo65.setTransform(214.2,243.3,1.0003,0.845,0,0,0,240.4,242.3);
 	this.photo65.shadow = new cjs.Shadow("rgba(102,102,102,0.498)",0,7,11);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_21}]},3).to({state:[{t:this.speechBubble}]},1).to({state:[{t:this.speechBubble2}]},1).to({state:[{t:this.speechBubble3}]},1).to({state:[{t:this.instance_22,p:{regX:195.8,scaleX:0.7615,scaleY:0.8126,x:621.5,y:234.05}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.7,regY:159.3,scaleX:0.8531,x:663.5,y:224.7}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.7,scaleX:0.6566,scaleY:0.7841,x:692.95,y:233.6}}]},1).to({state:[{t:this.instance_23,p:{regY:221.3,scaleY:0.7207,x:198.75,y:224.9}}]},1).to({state:[{t:this.speechBubble12}]},1).to({state:[{t:this.instance_24,p:{regX:456.9,regY:235.2,scaleX:0.8705,scaleY:0.7998,x:625.9,y:262.5}}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:241.8,scaleX:0.8665,scaleY:0.7249,x:194.35,y:236.35}},{t:this.text_20,p:{x:191.55,y:148.2,text:"There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!",font:"17px 'Arial'",lineHeight:21,lineWidth:208,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:-420.35,y:-102.4,text:"",font:"18px 'MicrosoftJhengHeiBold'",color:"#000000",lineHeight:25.95,lineWidth:100,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.9,scaleX:0.9345,scaleY:0.8293,x:217.4,y:236.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:213.35,y:134.35,text:" The Middle Shore environment is submerged for a longer period of time than the Upper Shore. Therefore, the sand is usually firmer and wetter, and contains more burrowing animals! Let’s see what lives here…",font:"17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.9345,scaleY:0.6318,x:556.2,y:277.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:552.15,y:205.2,text:"Which intertidal animal is blue and moves fast across the sand in large numbers?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:241.8,scaleX:0.8457,scaleY:0.5597,x:257.5,y:258.85}},{t:this.text_20,p:{x:257.4,y:220.6208,text:"Soldier crabs!",font:"21px 'Arial'",lineHeight:25.45,lineWidth:264,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:252.6,y:243.9,text:" (Mictyris longicarpus)",font:"italic 17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:204,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.8555,scaleY:0.5597,x:225.05,y:259.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:225.5,y:224.0708,text:"Why are these crabs \ncalled soldier crabs?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{regX:195.6,scaleX:0.8823,scaleY:0.8823,x:626.2,y:263.55}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:633.4555,y:230.25,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.9,regY:159.5,scaleX:0.8318,scaleY:0.9236,x:723.1,y:250.25}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:732.8555,y:181.75,text:"Yes! They form large groups that resemble an army!",font:"32px 'Arial'",color:"#16454E",lineHeight:37.75,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7938,x:270.4,y:224.7}},{t:this.text_21},{t:this.text_20,p:{x:271.5,y:216.45,text:"collective foraging. ",font:"bold 18px 'Arial'",lineHeight:22.1,lineWidth:213,scaleX:1,scaleY:1,color:"#16454E"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:271.9,y:243,text:"What are two advantages of feeding in a large group?",font:"18px 'Arial'",color:"#16454E",lineHeight:22.1,lineWidth:214,textAlign:"center"}}]},1).to({state:[{t:this.instance_24,p:{regX:456.8,regY:235.6,scaleX:0.8759,scaleY:0.7875,x:309.35,y:245.8}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:90.85,y:164.8,text:"Answer: \n1) Feeding in a large group means that each crab is less likely to be eaten by a predator!\n2) Feeding in a large group is also the most efficient way for these animals to feed since they are less likely to miss food hidden in the sand!”",font:"17px 'Arial'",color:"#333333",lineHeight:21,lineWidth:453,textAlign:""}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.6,scaleX:0.7387,scaleY:0.8185,x:737.65,y:275.25}},{t:this.text_19,p:{scaleX:0.8839,scaleY:0.8839,x:733.7,y:216.6,text:"Let’s see what else is hidden in the wet sand!",font:"27px 'Arial'",color:"#0A3337",lineHeight:32.15,lineWidth:231,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7055,x:280.25,y:239.8}},{t:this.text_20,p:{x:283.8368,y:180.3117,text:"A Clam! This is the Chinese Wedge Clam",font:"27px 'Arial'",lineHeight:32.15,lineWidth:282,scaleX:0.7938,scaleY:0.7938,color:"#0C2D41"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:282.95,y:233.65,text:"(Coecella chinensis) ",font:"italic 20px 'Arial'",color:"#0C2D41",lineHeight:24.35,lineWidth:224,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:242,scaleX:0.9243,scaleY:0.6175,x:261.05,y:234.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:266.05,y:175.9708,text:"Which taxonomic group or biological classification do clams belong to?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:221,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.8,regY:159.4,scaleX:0.8207,scaleY:0.8823,x:595.65,y:271.85}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:597.6555,y:225.65,text:"Wrong Answer\nTry Again!",font:"36px 'Arial'",color:"#16454E",lineHeight:42.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.8,regY:159.5,scaleX:0.78,x:642.35,y:227.45}},{t:this.text_19,p:{scaleX:0.8953,scaleY:0.8953,x:639.7029,y:171.5209,text:"Yes! \nIt's a Mollusc!",font:"34px 'Arial'",color:"#0A3337",lineHeight:40,lineWidth:294,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242,scaleX:0.8532,scaleY:0.6175,x:291.3,y:204.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:285.15,y:147.0708,text:"Look! People are digging for clams in the sand!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:246,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:291.8,y:222.65}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:287.55,y:135.1708,text:"Unregulated clam-digging is not good for the sandy-shore environment because it can lead to overharvesting! ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:227,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:284.15,y:248.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:283.1528,y:170.4708,text:"This can cause an imbalance in the food chain and have many ecological consequences!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:230,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7398,x:276.55,y:240.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.8,y:153.3208,text:"As well as being an important part of the food chain, why else do you think clams are important for the sandy-shore environment of Starfish Bay?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7534,x:254,y:237.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.55,y:152.4208,text:"Answer: They are important because they are filter feeders and so they help to remove harmful nutrients from seawater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:243,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7568,x:254,y:257.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:252.15,y:168.0208,text:"The Lower Shore environment is primarily marine as it is only exposed to air during low tide and is fully submerged in seawater most of the time. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6767,x:256.35,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.3,y:193.5208,text:"In this zone the sand is very wet and muddy and contains lots of intriguing animals!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.937,scaleY:0.6321,x:267.45,y:231.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:262.8,y:186.7708,text:"Come closer! There is something under the muddy sand!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.8994,scaleY:0.5939,x:247.3,y:253.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249,y:207.8708,text:"What is this thick red-coloured worm?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7266,x:241.3,y:257.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:239,y:195.8208,text:"It’s a species of Spoon Worm! (Ochetostoma erythrogrammon)",font:"24px 'Arial'",color:"#0D3147",lineHeight:28.85,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.3,scaleX:0.9297,scaleY:0.5399,x:236.4,y:241.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:236.4,y:209.5208,text:"Why do these worms appear red in colour?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6098,x:561.9,y:238.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:562.2,y:205.4208,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:1,scaleY:0.723,x:230,y:247.6}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:228.45,y:181.4708,text:"Yes! Because they have a large number of haemoglobin-containing cells!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9062,scaleY:0.7334,x:208.5,y:244.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.5346,y:177.0708,text:" Look! There are eyes and legs peeping out from these shells. Let’s see who they belong to…",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.8979,x:191.4,y:248.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:191.4,y:131.6494,text:"They belong to hermit crabs! But it looks like these two crabs are different species…Can you spot the major difference between these two species of hermit crab?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:239,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.6889,x:201.75,y:234.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.35,y:172.1208,text:"The major difference between these two species of hermit crab is the size of their claws!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7646,x:199.25,y:240.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:203.35,y:149.1208,text:"This hermit crab has confused a plastic bottle cap for its shell. Unfortunately, hermit crabs often become trapped in plastic waste and end up dying!",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:244,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.7093,x:196.6,y:226.75}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:194.85,y:164.8208,text:"Make sure you always take away your plastic waste from the beach or find a bin to dispose of it safely!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7089,x:214.7,y:226.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:212.65,y:154.6708,text:"Hermit crabs are also filter feeders which means they are susceptible to feeding on tiny pieces of plastic called microplastics. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:261,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.5,scaleX:1.0339,scaleY:0.8895,x:204.75,y:239.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.35,y:141.0708,text:"Eating too much microplastic can change the behaviour of hermit crabs and cause them to make unwise decisions, such as to choose smaller, weaker shells to live in. This can lead to their death and in turn can threaten the stability of the food chain!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:281,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:207.55,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:207.3,y:164.4708,text:"Again, by making sure you take away all your plastic waste from the beach you can help to reduce the number of animals that are affected by plastic! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:255,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.7732,x:208.15,y:232.45}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.6,y:147.4208,text:"Microplastics form when larger plastic items break down into smaller pieces, so by removing large pieces of plastic from the beach you can also reduce the amount of microplastic!”",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:247,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:242.4,scaleX:0.922,scaleY:0.6826,x:231.85,y:239.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:230.1,y:182.3708,text:"Now I will introduce you to the intertidal mangrove habitat that can also be found at Starfish Bay! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.6,scaleX:1.0954,scaleY:0.6613,x:223.15,y:234.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:221.9,y:164.9304,text:"Did you know that mangroves occur worldwide throughout the tropics and subtropics and have many impressive adaptations that allow them to survive in saltwater?!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.845,scaleY:0.6753,x:228.1,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:231.7,y:207.3708,text:"Wow! Unlike many tree species, mangroves grow in saltwater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:213.65,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:212.15,y:159.8708,text:"What is one adaptation that allows these trees to grow in saltwater?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:238,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.652,x:665.45,y:274.4}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:662.1,y:236.4208,text:"Try Again!",font:"30px 'Montserrat Medium'",color:"#0D3147",lineHeight:43.35,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:255.65,y:248.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:248.15,y:189.3708,text:"Yes! They have specialised leaves that excrete salt!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.905,scaleY:0.6753,x:269.55,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:267.8,y:159.8708,text:"Why is it important that we try to protect Hong Kong’s mangrove ecosystem?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_3},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:289.55,y:139.6208,text:"Answer:\n\nIt is important to protect Hong Kong’s mangrove ecosystem for many reasons! Here are three:\n\n1) Mangroves act as shelters and feeding grounds for many marine species and so play a crucial role in maintaining Hong Kong’s fish populations.\n\n2) Mangrove forests form a natural coastline defence system, they protect areas behind the mangroves from typhoons and storm surges.\n\n3) Mangroves are also home to many other animal species, such as birds, insects and reptiles. Therefore, by protecting mangroves we can protect a whole variety of Hong Kong’s wildlife!",font:"16px 'Arial'",color:"#0D3147",lineHeight:17.9,lineWidth:598,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:278.15,y:167.4208,text:"Look closely! There are big holes in the muddy sand surrounding the mangroves! I wonder what might be living in them…",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6766,x:257.7,y:255.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:257.9,y:182.9708,text:"It’s a Fiddler Crab! Fiddler Crabs are really interesting animals that have a bunch of cool adaptions!”",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6627,x:248.35,y:234.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.35,y:178.6208,text:"Why do male Fiddler Crabs have one very large claw?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6903,x:250.15,y:239.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.4622,y:177.3208,text:"Yes!\nTo attract female crabs!",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:222,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.4,scaleX:1.0003,scaleY:0.845,x:214.2,y:243.3,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:214.7635,y:149.4208,text:"The Subtidal Zone is the region of water immediately after the lower intertidal zone. This zone is continuously covered by water and therefore it has an exciting selection of marine animals that inhabit it!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.2,scaleX:0.8567,scaleY:0.6085,x:189.7,y:244.7,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:185.2,y:207.5208,text:" What spiny subtidal species is this?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.8641,scaleY:0.6067,x:235.8,y:232.2,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:234.65,y:199.7708,text:"Try again",font:"42px 'Arial'",color:"#0D3147",lineHeight:48.9,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.8773,scaleY:0.6534,x:191.55,y:213.3,regY:242.2}},{t:this.text_20,p:{x:192,y:161.6927,text:"Yes! It’s a Decorator Urchin ",font:"22px 'Arial'",lineHeight:26.55,lineWidth:216,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:83.4,y:217.55,text:"(Salmacis sphaeroides)",font:"italic 21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:220,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.9562,scaleY:0.7102,x:220.6,y:227,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:219.55,y:159.8708,text:"Why does this shallow subtidal urchin decorate its spines with rocks and shells?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6547,x:633.85,y:241.6,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:632.7,y:198.5708,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.7,scaleX:0.8936,scaleY:0.6578,x:257.8,y:246.9,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.8,y:187.0208,text:"Yes! \nTo protect itself from sunlight!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6493,x:252.7,y:242.3,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:251.55,y:171.2208,text:"Look! \nThere’s an octopus living in the subtidal zone!\n",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6819,x:275.3,y:232.6,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:178.8208,text:" What taxonomic group do Octopuses belong to?",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.8474,scaleY:0.6257,x:267.7,y:237.35,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:190.25,y:203.5708,text:"Try again",font:"34px 'Arial'",color:"#0D3147",lineHeight:40,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7241,x:275.3,y:253.1,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:275.25,y:205.1708,text:"Yes! Octopuses are a type of Cephalopod!",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7633,x:275.3,y:239.9,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:159.8708,text:"Octopuses have some incredibly weird cool facts about them. Which answer below is NOT true about Octopuses!?",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6,x:598.95,y:258.15,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:518.15,y:229.0708,text:"Try Again",font:"35px 'Arial'",color:"#0D3147",lineHeight:41.1,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7303,x:275.3,y:241.55,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:173.2708,text:"Yes! C is NOT true, which means all the other facts about Octopuses are true!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[]},1).to({state:[]},49).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_21}]},3).to({state:[{t:this.speechBubble}]},1).to({state:[{t:this.speechBubble2}]},1).to({state:[{t:this.speechBubble3}]},1).to({state:[{t:this.instance_22,p:{regX:195.8,scaleX:0.7615,scaleY:0.8126,x:621.5,y:234.05}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.7,regY:159.3,scaleX:0.8531,x:663.5,y:224.7}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.7,scaleX:0.6566,scaleY:0.7841,x:692.95,y:233.6}}]},1).to({state:[{t:this.instance_23,p:{regY:221.3,scaleY:0.7207,x:198.75,y:224.9}}]},1).to({state:[{t:this.speechBubble12}]},1).to({state:[{t:this.instance_24,p:{regX:456.9,regY:235.2,scaleX:0.8705,scaleY:0.7998,x:625.9,y:262.5}}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:241.8,scaleX:0.8665,scaleY:0.7249,x:194.35,y:236.35}},{t:this.text_20,p:{x:191.55,y:148.2,text:"There is actually \na total of four visual differences between these two species. These can be seen when you compare the ends of their shells, the shoulder, the opening and the colouration!",font:"17px 'Arial'",lineHeight:21,lineWidth:208,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:-420.35,y:-102.4,text:"",font:"18px 'MicrosoftJhengHeiBold'",color:"#000000",lineHeight:25.95,lineWidth:100,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.9,scaleX:0.9345,scaleY:0.8293,x:217.4,y:236.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:213.35,y:134.35,text:" The Middle Shore environment is submerged for a longer period of time than the Upper Shore. Therefore, the sand is usually firmer and wetter, and contains more burrowing animals! Let’s see what lives here…",font:"17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.9345,scaleY:0.6318,x:556.2,y:277.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:552.15,y:205.2,text:"Which intertidal animal is blue and moves fast across the sand in large numbers?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:208,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:241.8,scaleX:0.8457,scaleY:0.5597,x:257.5,y:258.85}},{t:this.text_20,p:{x:257.4,y:220.6208,text:"Soldier crabs!",font:"21px 'Arial'",lineHeight:25.45,lineWidth:264,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:252.6,y:243.9,text:" (Mictyris longicarpus)",font:"italic 17px 'Arial'",color:"#0D3147",lineHeight:21,lineWidth:204,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.3,regY:241.8,scaleX:0.8555,scaleY:0.5597,x:225.05,y:259.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:225.5,y:224.0708,text:"Why are these crabs \ncalled soldier crabs?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.instance_22,p:{regX:195.6,scaleX:0.8823,scaleY:0.8823,x:626.2,y:263.55}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:633.4555,y:230.25,text:"Wrong Answer\nTry Again!",font:"33px 'Arial'",color:"#16454E",lineHeight:38.85,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.9,regY:159.5,scaleX:0.8318,scaleY:0.9236,x:723.1,y:250.25}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:732.8555,y:181.75,text:"Yes! They form large groups that resemble an army!",font:"32px 'Arial'",color:"#16454E",lineHeight:37.75,lineWidth:263,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7938,x:270.4,y:224.7}},{t:this.text_21},{t:this.text_20,p:{x:271.5,y:216.45,text:"collective foraging. ",font:"bold 18px 'Arial'",lineHeight:22.1,lineWidth:213,scaleX:1,scaleY:1,color:"#16454E"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:271.9,y:243,text:"What are two advantages of feeding in a large group?",font:"18px 'Arial'",color:"#16454E",lineHeight:22.1,lineWidth:214,textAlign:"center"}}]},1).to({state:[{t:this.instance_24,p:{regX:456.8,regY:235.6,scaleX:0.8759,scaleY:0.7875,x:309.35,y:245.8}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:90.85,y:164.8,text:"Answer: \n1) Feeding in a large group means that each crab is less likely to be eaten by a predator!\n2) Feeding in a large group is also the most efficient way for these animals to feed since they are less likely to miss food hidden in the sand!”",font:"17px 'Arial'",color:"#333333",lineHeight:21,lineWidth:453,textAlign:""}}]},1).to({state:[{t:this.speechBubble4,p:{regX:195.6,scaleX:0.7387,scaleY:0.8185,x:737.65,y:275.25}},{t:this.text_19,p:{scaleX:0.8839,scaleY:0.8839,x:733.7,y:216.6,text:"Let’s see what else is hidden in the wet sand!",font:"27px 'Arial'",color:"#0A3337",lineHeight:32.15,lineWidth:231,textAlign:"center"}}]},1).to({state:[{t:this.instance_23,p:{regY:221.2,scaleY:0.7055,x:280.25,y:239.8}},{t:this.text_20,p:{x:283.8368,y:180.3117,text:"A Clam! This is the Chinese Wedge Clam",font:"27px 'Arial'",lineHeight:32.15,lineWidth:282,scaleX:0.7938,scaleY:0.7938,color:"#0C2D41"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:282.95,y:233.65,text:"(Coecella chinensis) ",font:"italic 20px 'Arial'",color:"#0C2D41",lineHeight:24.35,lineWidth:224,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.4,regY:242,scaleX:0.9243,scaleY:0.6175,x:261.05,y:234.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:266.05,y:175.9708,text:"Which taxonomic group or biological classification do clams belong to?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:221,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_2,p:{regX:195.8,regY:159.4,scaleX:0.8207,scaleY:0.8823,x:595.65,y:271.85}},{t:this.text_19,p:{scaleX:0.8218,scaleY:0.8218,x:597.6555,y:225.65,text:"Wrong Answer\nTry Again!",font:"36px 'Arial'",color:"#16454E",lineHeight:42.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble3_2,p:{regX:195.8,regY:159.5,scaleX:0.78,x:642.35,y:227.45}},{t:this.text_19,p:{scaleX:0.8953,scaleY:0.8953,x:639.7029,y:171.5209,text:"Yes! \nIt's a Mollusc!",font:"34px 'Arial'",color:"#0A3337",lineHeight:40,lineWidth:294,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242,scaleX:0.8532,scaleY:0.6175,x:291.3,y:204.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:285.15,y:147.0708,text:"Look! People are digging for clams in the sand!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:246,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:291.8,y:222.65}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:287.55,y:135.1708,text:"Unregulated clam-digging is not good for the sandy-shore environment because it can lead to overharvesting! ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:227,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9243,scaleY:0.7757,x:284.15,y:248.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:283.1528,y:170.4708,text:"This can cause an imbalance in the food chain and have many ecological consequences!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:230,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7398,x:276.55,y:240.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.8,y:153.3208,text:"As well as being an important part of the food chain, why else do you think clams are important for the sandy-shore environment of Starfish Bay?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7534,x:254,y:237.5}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.55,y:152.4208,text:"Answer: They are important because they are filter feeders and so they help to remove harmful nutrients from seawater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:243,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7568,x:254,y:257.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:252.15,y:168.0208,text:"The Lower Shore environment is primarily marine as it is only exposed to air during low tide and is fully submerged in seawater most of the time. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6767,x:256.35,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.3,y:193.5208,text:"In this zone the sand is very wet and muddy and contains lots of intriguing animals!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.937,scaleY:0.6321,x:267.45,y:231.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:262.8,y:186.7708,text:"Come closer! There is something under the muddy sand!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.8994,scaleY:0.5939,x:247.3,y:253.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249,y:207.8708,text:"What is this thick red-coloured worm?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7266,x:241.3,y:257.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:239,y:195.8208,text:"It’s a species of Spoon Worm! (Ochetostoma erythrogrammon)",font:"24px 'Arial'",color:"#0D3147",lineHeight:28.85,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.3,scaleX:0.9297,scaleY:0.5399,x:236.4,y:241.35}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:236.4,y:209.5208,text:"Why do these worms appear red in colour?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6098,x:561.9,y:238.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:562.2,y:205.4208,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:1,scaleY:0.723,x:230,y:247.6}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:228.45,y:181.4708,text:"Yes! Because they have a large number of haemoglobin-containing cells!",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9062,scaleY:0.7334,x:208.5,y:244.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.5346,y:177.0708,text:" Look! There are eyes and legs peeping out from these shells. Let’s see who they belong to…",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.8979,x:207.4,y:248.9}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:201.8,y:142.8494,text:"They belong to hermit crabs! But it looks like these two crabs are different species…Can you spot the major difference between these two species of hermit crab?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:239,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.6889,x:201.75,y:234.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:197.35,y:172.1208,text:"The major difference between these two species of hermit crab is the size of their claws!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.7646,x:199.25,y:240.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:203.35,y:149.1208,text:"This hermit crab has confused a plastic bottle cap for its shell. Unfortunately, hermit crabs often become trapped in plastic waste and end up dying!",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:244,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.1,scaleX:0.9562,scaleY:0.7093,x:196.6,y:226.75}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:194.85,y:164.8208,text:"Make sure you always take away your plastic waste from the beach or find a bin to dispose of it safely!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:264,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.7089,x:214.7,y:226.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:212.65,y:154.6708,text:"Hermit crabs are also filter feeders which means they are susceptible to feeding on tiny pieces of plastic called microplastics. ",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:261,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.5,scaleX:1.0339,scaleY:0.8895,x:204.75,y:239.85}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.35,y:141.0708,text:"Eating too much microplastic can change the behaviour of hermit crabs and cause them to make unwise decisions, such as to choose smaller, weaker shells to live in. This can lead to their death and in turn can threaten the stability of the food chain!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:281,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:207.55,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:207.3,y:164.4708,text:"Again, by making sure you take away all your plastic waste from the beach you can help to reduce the number of animals that are affected by plastic! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:255,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.5,regY:242.2,scaleX:0.9562,scaleY:0.7732,x:208.15,y:232.45}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:204.6,y:147.4208,text:"Microplastics form when larger plastic items break down into smaller pieces, so by removing large pieces of plastic from the beach you can also reduce the amount of microplastic!”",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:247,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.2,regY:242.4,scaleX:0.922,scaleY:0.6826,x:231.85,y:239.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:230.1,y:182.3708,text:"Now I will introduce you to the intertidal mangrove habitat that can also be found at Starfish Bay! ",font:"20px 'Arial'",color:"#0D3147",lineHeight:24.35,lineWidth:234,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.6,scaleX:1.0954,scaleY:0.6613,x:223.15,y:234.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:221.9,y:164.9304,text:"Did you know that mangroves occur worldwide throughout the tropics and subtropics and have many impressive adaptations that allow them to survive in saltwater?!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:314,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.845,scaleY:0.6753,x:228.1,y:256.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:231.7,y:207.3708,text:"Wow! Unlike many tree species, mangroves grow in saltwater!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:213.65,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:212.15,y:159.8708,text:"What is one adaptation that allows these trees to grow in saltwater?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:238,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.652,x:665.45,y:274.4}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:662.1,y:236.4208,text:"Try Again!",font:"30px 'Montserrat Medium'",color:"#0D3147",lineHeight:43.35,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6753,x:255.65,y:248.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:248.15,y:189.3708,text:"Yes! They have specialised leaves that excrete salt!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.905,scaleY:0.6753,x:269.55,y:218.55}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:267.8,y:159.8708,text:"Why is it important that we try to protect Hong Kong’s mangrove ecosystem?",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:228,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_3},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:289.55,y:139.6208,text:"Answer:\n\nIt is important to protect Hong Kong’s mangrove ecosystem for many reasons! Here are three:\n\n1) Mangroves act as shelters and feeding grounds for many marine species and so play a crucial role in maintaining Hong Kong’s fish populations.\n\n2) Mangrove forests form a natural coastline defence system, they protect areas behind the mangroves from typhoons and storm surges.\n\n3) Mangroves are also home to many other animal species, such as birds, insects and reptiles. Therefore, by protecting mangroves we can protect a whole variety of Hong Kong’s wildlife!",font:"16px 'Arial'",color:"#0D3147",lineHeight:17.9,lineWidth:598,textAlign:""}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.8179,x:275.3,y:253.05}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:278.15,y:167.4208,text:"Look closely! There are big holes in the muddy sand surrounding the mangroves! I wonder what might be living in them…",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.1,scaleX:0.9562,scaleY:0.6766,x:257.7,y:255.25}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:257.9,y:182.9708,text:"It’s a Fiddler Crab! Fiddler Crabs are really interesting animals that have a bunch of cool adaptions!”",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6627,x:248.35,y:234.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.35,y:178.6208,text:"Why do male Fiddler Crabs have one very large claw?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.speechBubble_1,p:{regX:240.6,regY:242.2,scaleX:0.9562,scaleY:0.6903,x:250.15,y:239.7}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:249.4622,y:177.3208,text:"Yes!\nTo attract female crabs!",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:222,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.4,scaleX:1.0003,scaleY:0.845,x:214.2,y:243.3,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:214.7635,y:149.4208,text:"The Subtidal Zone is the region of water immediately after the lower intertidal zone. This zone is continuously covered by water and therefore it has an exciting selection of marine animals that inhabit it!",font:"19px 'Arial'",color:"#0D3147",lineHeight:23.25,lineWidth:250,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.2,scaleX:0.8567,scaleY:0.6085,x:189.7,y:244.7,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:185.2,y:207.5208,text:" What spiny subtidal species is this?",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.8641,scaleY:0.6067,x:235.8,y:232.2,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:234.65,y:199.7708,text:"Try again",font:"42px 'Arial'",color:"#0D3147",lineHeight:48.9,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.8773,scaleY:0.6534,x:191.55,y:213.3,regY:242.2}},{t:this.text_20,p:{x:192,y:161.6927,text:"Yes! It’s a Decorator Urchin ",font:"22px 'Arial'",lineHeight:26.55,lineWidth:216,scaleX:0.9468,scaleY:0.9468,color:"#0D3147"}},{t:this.text_19,p:{scaleX:1,scaleY:1,x:83.4,y:217.55,text:"(Salmacis sphaeroides)",font:"italic 21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:220,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.5,scaleX:0.9562,scaleY:0.7102,x:220.6,y:227,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:219.55,y:159.8708,text:"Why does this shallow subtidal urchin decorate its spines with rocks and shells?",font:"22px 'Arial'",color:"#0D3147",lineHeight:26.55,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6547,x:633.85,y:241.6,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:632.7,y:198.5708,text:"Try again",font:"37px 'Arial'",color:"#0D3147",lineHeight:43.35,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.7,scaleX:0.8936,scaleY:0.6578,x:257.8,y:246.9,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:256.8,y:187.0208,text:"Yes! \nTo protect itself from sunlight!",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6493,x:252.7,y:242.3,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:251.55,y:171.2208,text:"Look! \nThere’s an octopus living in the subtidal zone!\n",font:"27px 'Arial'",color:"#0D3147",lineHeight:32.15,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6819,x:275.3,y:232.6,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:178.8208,text:" What taxonomic group do Octopuses belong to?",font:"26px 'Arial'",color:"#0D3147",lineHeight:31.05,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.8474,scaleY:0.6257,x:267.7,y:237.35,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:190.25,y:203.5708,text:"Try again",font:"34px 'Arial'",color:"#0D3147",lineHeight:40,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7241,x:275.3,y:253.1,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:275.25,y:205.1708,text:"Yes! Octopuses are a type of Cephalopod!",font:"25px 'Arial'",color:"#0D3147",lineHeight:29.95,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7633,x:275.3,y:239.9,regY:242.2}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:159.8708,text:"Octopuses have some incredibly weird cool facts about them. Which answer below is NOT true about Octopuses!?",font:"23px 'Arial'",color:"#0D3147",lineHeight:27.65,lineWidth:241,textAlign:"center"}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.6,x:598.95,y:258.15,regY:242.1}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:518.15,y:229.0708,text:"Try Again",font:"35px 'Arial'",color:"#0D3147",lineHeight:41.1,lineWidth:241,textAlign:""}}]},1).to({state:[{t:this.photo65,p:{regX:240.6,scaleX:0.9562,scaleY:0.7303,x:275.3,y:241.55,regY:242.3}},{t:this.text_19,p:{scaleX:0.9468,scaleY:0.9468,x:274.15,y:173.2708,text:"Yes! C is NOT true, which means all the other facts about Octopuses are true!",font:"21px 'Arial'",color:"#0D3147",lineHeight:25.45,lineWidth:241,textAlign:"center"}}]},1).to({state:[]},1).to({state:[]},49).wait(72));
 
 	// EFFECT
 	this.instance_28 = new lib.rainDrops();
@@ -8240,7 +8240,7 @@ if (reversed == null) { reversed = false; }
 	this.flower.setTransform(432.25,321.3,0.8688,0.8688,0,0,0,219.9,80.2);
 	this.flower._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,x:240.3,y:335.9},0).to({_off:true},1).wait(6).to({_off:false,x:248.85,y:329.4},0).to({_off:true},1).wait(2).to({_off:false,x:67.7,y:389.4},0).to({_off:true},2).wait(13).to({_off:false,x:90.65,y:375.65},0).to({_off:true},4).wait(24).to({_off:false,x:167.2,y:364.3},0).to({_off:true},1).wait(125));
+	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(7).to({_off:false},0).to({_off:true},1).wait(12).to({_off:false,x:302.15,y:335.9},0).to({_off:true},1).wait(6).to({_off:false,x:248.85,y:329.4},0).to({_off:true},1).wait(2).to({_off:false,x:156.8,y:389.4},0).to({_off:true},2).wait(13).to({_off:false,x:133.2,y:375.65},0).to({_off:true},4).wait(24).to({_off:false,x:167.2,y:364.3},0).to({_off:true},1).wait(125));
 	this.timeline.addTween(cjs.Tween.get(this.flower).wait(8).to({_off:false},0).to({_off:true},1).wait(9).to({_off:false,x:249.65,y:349.3},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.739,scaleY:0.739,x:591.35,y:405.25},0).to({_off:true},1).wait(6).to({_off:false,regX:219.9,scaleX:0.8688,scaleY:0.8688,x:343.7,y:349.35},0).to({_off:true},1).wait(7).to({_off:false,scaleX:0.7821,scaleY:0.7821,x:255.9,y:366.75},0).to({_off:true},1).wait(1).to({_off:false,x:239.05,y:388.1},0).to({_off:true},1).wait(2).to({_off:false,regX:220.1,scaleX:0.6083,scaleY:0.6083,x:231.75,y:407.6},0).to({_off:true},1).wait(14).to({_off:false,scaleX:0.6424,scaleY:0.6424,x:261.15,y:389.45},0).to({_off:true},1).wait(3).to({_off:false,x:259.3,y:384.5},0).to({_off:true},1).wait(2).to({_off:false,x:249.05,y:400.8},0).to({_off:true},1).wait(3).to({_off:false,x:201.6,y:400.4},0).to({_off:true},1).wait(3).to({_off:false,x:207.05,y:415.65},0).to({_off:true},1).wait(2).to({_off:false,x:271.05,y:400.6},0).to({_off:true},1).wait(2).to({_off:false,x:252.8,y:420.65},0).wait(1).to({x:322.5,y:412.85},0).to({_off:true},41).wait(80));
 
 	// backBtn
@@ -8319,7 +8319,7 @@ if (reversed == null) { reversed = false; }
 
 	this.credit30 = new lib.creditp14();
 	this.credit30.name = "credit30";
-	this.credit30.setTransform(811.95,452.25,1,1,0,0,0,107.5,35.4);
+	this.credit30.setTransform(809.15,423.15,1,1,0,0,0,107.5,35.4);
 
 	this.credit35 = new lib.creditp15();
 	this.credit35.name = "credit35";
@@ -8335,27 +8335,27 @@ if (reversed == null) { reversed = false; }
 
 	this.credit43 = new lib.creditp1819();
 	this.credit43.name = "credit43";
-	this.credit43.setTransform(849.55,401.1,1,1,0,0,0,103.1,80);
+	this.credit43.setTransform(820.5,386.45,0.715,0.715,0,0,0,103.2,80);
 
 	this.credit45 = new lib.creditp1819();
 	this.credit45.name = "credit45";
-	this.credit45.setTransform(849.55,443.25,1,1,0,0,0,103.1,80);
+	this.credit45.setTransform(833.05,440.8,0.7087,0.7087,0,0,0,103.2,80.1);
 
 	this.credit46 = new lib.creditp21();
 	this.credit46.name = "credit46";
-	this.credit46.setTransform(843.2,406.15,1,1,0,0,0,106.8,36);
+	this.credit46.setTransform(803,406.15,1,1,0,0,0,106.8,36);
 
 	this.credit52 = new lib.creditp22();
 	this.credit52.name = "credit52";
-	this.credit52.setTransform(831.4,461,1,1,0,0,0,76.5,44.9);
+	this.credit52.setTransform(815.8,473.5,1,1,0,0,0,76.5,44.9);
 
 	this.credit54 = new lib.creditp23();
 	this.credit54.name = "credit54";
-	this.credit54.setTransform(774.55,423.2,1,1,0,0,0,100.5,14.3);
+	this.credit54.setTransform(749.95,436.9,1,1,0,0,0,100.5,14.3);
 
 	this.credit57 = new lib.creditp23();
 	this.credit57.name = "credit57";
-	this.credit57.setTransform(807.65,419.95,1,1,0,0,0,100.5,14.3);
+	this.credit57.setTransform(759.1,431.95,1,1,0,0,0,100.5,14.3);
 
 	this.credit60 = new lib.creditp25();
 	this.credit60.name = "credit60";
@@ -8377,7 +8377,7 @@ if (reversed == null) { reversed = false; }
 	this.credit76.name = "credit76";
 	this.credit76.setTransform(800,364.1,1,1,0,0,0,88,13.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.credit}]},3).to({state:[{t:this.credit2}]},2).to({state:[{t:this.credit2_2}]},1).to({state:[]},1).to({state:[{t:this.credit4}]},2).to({state:[{t:this.credit7}]},1).to({state:[{t:this.credit12}]},1).to({state:[]},1).to({state:[{t:this.credit14}]},1).to({state:[{t:this.credit6}]},1).to({state:[{t:this.credit16}]},1).to({state:[{t:this.credit17}]},1).to({state:[]},1).to({state:[{t:this.credit19}]},1).to({state:[{t:this.credit20}]},1).to({state:[]},1).to({state:[{t:this.credit22}]},1).to({state:[{t:this.credit23,p:{x:799.3,y:381.85}}]},1).to({state:[{t:this.credit23,p:{x:788.1,y:411.4}}]},1).to({state:[{t:this.credit25}]},1).to({state:[{t:this.credit26,p:{x:777.25,y:446.1}}]},1).to({state:[{t:this.credit26,p:{x:820.15,y:374.6}}]},1).to({state:[]},1).to({state:[{t:this.credit30}]},2).to({state:[{t:this.credit35}]},5).to({state:[{t:this.credit37}]},2).to({state:[{t:this.credit38,p:{x:787.65,y:439.25}}]},1).to({state:[{t:this.credit38,p:{x:798.8,y:375.6}}]},2).to({state:[]},1).to({state:[{t:this.credit38,p:{x:760,y:426.6}}]},1).to({state:[{t:this.credit43,p:{y:401.1}}]},1).to({state:[{t:this.credit43,p:{y:443.25}}]},1).to({state:[{t:this.credit45}]},1).to({state:[{t:this.credit46,p:{x:843.2}}]},1).to({state:[{t:this.credit46,p:{x:803}}]},1).to({state:[{t:this.credit52}]},5).to({state:[{t:this.credit54,p:{x:774.55,y:423.2}}]},2).to({state:[{t:this.credit54,p:{x:787,y:378.15}}]},1).to({state:[]},1).to({state:[{t:this.credit57}]},1).to({state:[]},2).to({state:[{t:this.credit60}]},1).to({state:[{t:this.credit61,p:{x:764.1,y:438.55}}]},1).to({state:[{t:this.credit61,p:{x:795.7,y:396}}]},1).to({state:[]},1).to({state:[{t:this.credit61,p:{x:780.8,y:419.75}}]},1).to({state:[{t:this.credit65}]},1).to({state:[{t:this.credit66,p:{y:412.25,x:812.7}}]},1).to({state:[{t:this.credit66,p:{y:360.9,x:812.7}}]},3).to({state:[]},1).to({state:[{t:this.credit66,p:{y:443.25,x:784.7}}]},1).to({state:[]},1).to({state:[{t:this.credit76,p:{x:800,y:364.1}}]},4).to({state:[]},1).to({state:[{t:this.credit76,p:{x:714.5,y:489.35}}]},1).to({state:[]},1).to({state:[]},48).wait(73));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.credit}]},3).to({state:[{t:this.credit2}]},2).to({state:[{t:this.credit2_2}]},1).to({state:[]},1).to({state:[{t:this.credit4}]},2).to({state:[{t:this.credit7}]},1).to({state:[{t:this.credit12}]},1).to({state:[]},1).to({state:[{t:this.credit14}]},1).to({state:[{t:this.credit6}]},1).to({state:[{t:this.credit16}]},1).to({state:[{t:this.credit17}]},1).to({state:[]},1).to({state:[{t:this.credit19}]},1).to({state:[{t:this.credit20}]},1).to({state:[]},1).to({state:[{t:this.credit22}]},1).to({state:[{t:this.credit23,p:{x:799.3,y:381.85}}]},1).to({state:[{t:this.credit23,p:{x:788.1,y:411.4}}]},1).to({state:[{t:this.credit25}]},1).to({state:[{t:this.credit26,p:{x:777.25,y:446.1}}]},1).to({state:[{t:this.credit26,p:{x:820.15,y:374.6}}]},1).to({state:[]},1).to({state:[{t:this.credit30}]},2).to({state:[{t:this.credit35}]},5).to({state:[{t:this.credit37}]},2).to({state:[{t:this.credit38,p:{x:787.65,y:439.25}}]},1).to({state:[{t:this.credit38,p:{x:798.8,y:375.6}}]},2).to({state:[]},1).to({state:[{t:this.credit38,p:{x:760,y:426.6}}]},1).to({state:[{t:this.credit43,p:{regX:103.2,scaleX:0.715,scaleY:0.715,x:820.5,y:386.45}}]},1).to({state:[{t:this.credit43,p:{regX:103.1,scaleX:0.7502,scaleY:0.7502,x:816.95,y:399.65}}]},1).to({state:[{t:this.credit45}]},1).to({state:[{t:this.credit46}]},1).to({state:[{t:this.credit46}]},1).to({state:[{t:this.credit52}]},5).to({state:[{t:this.credit54,p:{x:749.95,y:436.9}}]},2).to({state:[{t:this.credit54,p:{x:730,y:378.15}}]},1).to({state:[]},1).to({state:[{t:this.credit57}]},1).to({state:[]},2).to({state:[{t:this.credit60}]},1).to({state:[{t:this.credit61,p:{x:764.1,y:438.55}}]},1).to({state:[{t:this.credit61,p:{x:795.7,y:396}}]},1).to({state:[]},1).to({state:[{t:this.credit61,p:{x:780.8,y:419.75}}]},1).to({state:[{t:this.credit65}]},1).to({state:[{t:this.credit66,p:{y:412.25,x:812.7}}]},1).to({state:[{t:this.credit66,p:{y:360.9,x:812.7}}]},3).to({state:[]},1).to({state:[{t:this.credit66,p:{y:443.25,x:784.7}}]},1).to({state:[]},1).to({state:[{t:this.credit76,p:{x:800,y:364.1}}]},4).to({state:[]},1).to({state:[{t:this.credit76,p:{x:714.5,y:489.35}}]},1).to({state:[]},1).to({state:[]},48).wait(73));
 
 	// photo1
 	this.photoImg = new lib.Symbol2_1();
@@ -8462,7 +8462,7 @@ if (reversed == null) { reversed = false; }
 
 	this.photo43 = new lib.photo1819();
 	this.photo43.name = "photo43";
-	this.photo43.setTransform(639.4,256.2,1,1,0,0,0,263.4,148.2);
+	this.photo43.setTransform(633.4,259.6,0.9772,0.9772,0,0,0,263.4,148.2);
 
 	this.photo45 = new lib.photo1819_detail();
 	this.photo45.name = "photo45";
@@ -8482,7 +8482,7 @@ if (reversed == null) { reversed = false; }
 
 	this.photo54 = new lib.photo_23();
 	this.photo54.name = "photo54";
-	this.photo54.setTransform(621,268.05,1,1,0,0,0,201.8,151.3);
+	this.photo54.setTransform(648.65,268.05,1,1,0,0,0,201.8,151.3);
 
 	this.photo57 = new lib.photo_23();
 	this.photo57.name = "photo57";
@@ -8512,7 +8512,7 @@ if (reversed == null) { reversed = false; }
 	this.photo76.name = "photo76";
 	this.photo76.setTransform(662.1,229.1,1,1,0,0,0,111.1,148.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.photoImg,p:{scaleY:0.7735}}]},3).to({state:[{t:this.photoImg,p:{scaleY:0.7734}}]},1).to({state:[{t:this.photo2}]},1).to({state:[{t:this.photo2_2}]},1).to({state:[]},1).to({state:[{t:this.photo4}]},2).to({state:[{t:this.photo7}]},1).to({state:[{t:this.photo12}]},1).to({state:[]},1).to({state:[{t:this.photo14}]},1).to({state:[{t:this.photo6}]},1).to({state:[{t:this.photo16}]},1).to({state:[{t:this.photo17}]},1).to({state:[]},1).to({state:[{t:this.photo19}]},1).to({state:[{t:this.photo20}]},1).to({state:[]},1).to({state:[{t:this.photo22}]},1).to({state:[{t:this.photo23,p:{scaleX:1,scaleY:1,x:660.5,y:223.95}}]},1).to({state:[{t:this.photo23,p:{scaleX:0.7639,scaleY:0.7639,x:745.75,y:247.15}}]},1).to({state:[{t:this.photo25}]},1).to({state:[{t:this.photo26}]},1).to({state:[]},2).to({state:[{t:this.photo30}]},2).to({state:[{t:this.photo35}]},5).to({state:[{t:this.photo37}]},2).to({state:[{t:this.photo38,p:{x:627.9,y:266.6}}]},1).to({state:[{t:this.photo38,p:{x:646.3,y:230.8}}]},2).to({state:[]},1).to({state:[{t:this.photo38,p:{x:660.95,y:255.15}}]},1).to({state:[{t:this.photo43}]},1).to({state:[{t:this.photo45}]},2).to({state:[{t:this.photo46}]},1).to({state:[{t:this.photo51}]},5).to({state:[{t:this.photo52}]},1).to({state:[{t:this.photo54,p:{regY:151.3,scaleX:1,scaleY:1,x:621,y:268.05}}]},2).to({state:[{t:this.photo54,p:{regY:151.5,scaleX:0.9884,scaleY:0.9884,x:631,y:243.05}}]},1).to({state:[]},1).to({state:[{t:this.photo57}]},1).to({state:[]},2).to({state:[{t:this.photo60}]},1).to({state:[{t:this.photo61,p:{x:651.3,y:257}}]},1).to({state:[]},2).to({state:[{t:this.photo61,p:{x:648,y:260.25}}]},1).to({state:[{t:this.photo_65}]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:613.9,y:258.5}}]},1).to({state:[{t:this.photo66,p:{regX:210.1,scaleX:0.889,scaleY:0.889,x:665.55,y:226.55}}]},3).to({state:[]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:644.95,y:273.1}}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.photo76,p:{scaleX:1,scaleY:1,x:662.1,y:229.1}}]},4).to({state:[]},1).to({state:[{t:this.photo76,p:{scaleX:1.198,scaleY:1.198,x:669.35,y:298.75}}]},1).to({state:[]},1).to({state:[]},50).wait(71));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.photoImg,p:{scaleY:0.7735}}]},3).to({state:[{t:this.photoImg,p:{scaleY:0.7734}}]},1).to({state:[{t:this.photo2}]},1).to({state:[{t:this.photo2_2}]},1).to({state:[]},1).to({state:[{t:this.photo4}]},2).to({state:[{t:this.photo7}]},1).to({state:[{t:this.photo12}]},1).to({state:[]},1).to({state:[{t:this.photo14}]},1).to({state:[{t:this.photo6}]},1).to({state:[{t:this.photo16}]},1).to({state:[{t:this.photo17}]},1).to({state:[]},1).to({state:[{t:this.photo19}]},1).to({state:[{t:this.photo20}]},1).to({state:[]},1).to({state:[{t:this.photo22}]},1).to({state:[{t:this.photo23,p:{scaleX:1,scaleY:1,x:660.5,y:223.95}}]},1).to({state:[{t:this.photo23,p:{scaleX:0.7639,scaleY:0.7639,x:745.75,y:247.15}}]},1).to({state:[{t:this.photo25}]},1).to({state:[{t:this.photo26}]},1).to({state:[]},2).to({state:[{t:this.photo30}]},2).to({state:[{t:this.photo35}]},5).to({state:[{t:this.photo37}]},2).to({state:[{t:this.photo38,p:{x:627.9,y:266.6}}]},1).to({state:[{t:this.photo38,p:{x:646.3,y:230.8}}]},2).to({state:[]},1).to({state:[{t:this.photo38,p:{x:660.95,y:255.15}}]},1).to({state:[{t:this.photo43}]},1).to({state:[{t:this.photo45}]},2).to({state:[{t:this.photo46}]},1).to({state:[{t:this.photo51}]},5).to({state:[{t:this.photo52}]},1).to({state:[{t:this.photo54,p:{regY:151.3,scaleX:1,scaleY:1,x:648.65,y:268.05}}]},2).to({state:[{t:this.photo54,p:{regY:151.5,scaleX:0.9884,scaleY:0.9884,x:631,y:243.05}}]},1).to({state:[]},1).to({state:[{t:this.photo57}]},1).to({state:[]},2).to({state:[{t:this.photo60}]},1).to({state:[{t:this.photo61,p:{x:651.3,y:257}}]},1).to({state:[]},2).to({state:[{t:this.photo61,p:{x:648,y:260.25}}]},1).to({state:[{t:this.photo_65}]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:613.9,y:258.5}}]},1).to({state:[{t:this.photo66,p:{regX:210.1,scaleX:0.889,scaleY:0.889,x:665.55,y:226.55}}]},3).to({state:[]},1).to({state:[{t:this.photo66,p:{regX:209.9,scaleX:1,scaleY:1,x:644.95,y:273.1}}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.photo76,p:{scaleX:1,scaleY:1,x:662.1,y:229.1}}]},4).to({state:[]},1).to({state:[{t:this.photo76,p:{scaleX:1.198,scaleY:1.198,x:669.35,y:298.75}}]},1).to({state:[]},1).to({state:[]},50).wait(71));
 
 	// Layer_3
 	this.instance_30 = new lib.border_waterCol();
@@ -8554,7 +8554,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_37 = new lib.droneShot1();
 	this.instance_37.setTransform(0,0,0.1813,0.1813);
 
-	this.instance_38 = new lib.CachedBmp_20();
+	this.instance_38 = new lib.CachedBmp_7();
 	this.instance_38.setTransform(0.35,-36.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_31,p:{scaleX:0.2405,scaleY:0.21,x:-86,y:-15}}]}).to({state:[{t:this.shape_5},{t:this.instance_32}]},5).to({state:[{t:this.instance_33}]},4).to({state:[{t:this.instance_34}]},4).to({state:[{t:this.instance_31,p:{scaleX:0.2021,scaleY:0.2021,x:0,y:0}}]},3).to({state:[{t:this.instance_35}]},18).to({state:[{t:this.instance_36}]},17).to({state:[{t:this.instance_37}]},27).to({state:[{t:this.instance_38},{t:this.instance_31,p:{scaleX:0.2405,scaleY:0.21,x:-77,y:0}}]},41).to({state:[]},8).wait(72));

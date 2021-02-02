@@ -4574,8 +4574,8 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
 			this.gotoAndStop(2);
-			this.nextBtn.removeEventListener("click", nextButtonEvent);
-			this.nextBtn.stop();
+			this.skipBtn.removeEventListener("click", skipButtonEvent );
+			this.skipBtn.stop();
 		}
 	}
 	this.frame_2 = function() {
@@ -4686,7 +4686,7 @@ if (reversed == null) { reversed = false; }
 		
 		
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
-		console.log(this.bar.scaleX);
+		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 	}
 	this.frame_4 = function() {
@@ -4697,7 +4697,6 @@ if (reversed == null) { reversed = false; }
 		
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
-		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
 		
 		
 		
@@ -5507,7 +5506,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_2()
 		{
 			this.credit16.visible = true;
-			console.log("mouseOver");
+		
 		}
 		
 		this.photo16.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5515,7 +5514,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			this.credit16.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -5529,7 +5528,6 @@ if (reversed == null) { reversed = false; }
 		
 		var nextButtonEvent = this.nextBtn.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
-		var crab_FadeOutCbk = fl_FadeSymbolOut.bind(this);
 		
 		
 		
@@ -5601,7 +5599,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit19.visible = true;
-			console.log("mouseOver");
+		
 		}
 		
 		this.photo19.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5609,7 +5607,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit19.visible = false;
-			console.log("mouseOut");
+			
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -5987,7 +5985,6 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit26.visible = true;
-			console.log("mouseOver");
 		}
 		
 		this.photo26.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -5995,7 +5992,6 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit26.visible = false;
-			console.log("mouseOut");
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -6083,7 +6079,6 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler_3()
 		{
 		  root.credit26.visible = true;
-			console.log("mouseOver");
 		}
 		
 		this.photo26.addEventListener("mouseout", fl_MouseOverHandler.bind(this));
@@ -6091,7 +6086,7 @@ if (reversed == null) { reversed = false; }
 		function fl_MouseOverHandler()
 		{
 			root.credit26.visible = false;
-			console.log("mouseOut");
+		
 		}
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -6375,7 +6370,6 @@ if (reversed == null) { reversed = false; }
 		
 		
 		
-		this.credit35.visible = false;
 		
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
@@ -6940,13 +6934,12 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		
 		
-		//this.flower.visible = false;
 		
 		var nextButtonEvent = this.nextBtn2.addEventListener("click", fl_ClickToGoToAndPlayAtFrame.bind(this));
 		
 		
 		function fl_ClickToGoToAndPlayAtFrame() {
-			console.log("pressBnext");
+			
 			 root.nextBtn2.removeEventListener("click", nextButtonEvent);
 		     root.gotoAndStop(54); 
 		}
@@ -7328,31 +7321,6 @@ if (reversed == null) { reversed = false; }
 		
 		this.bar.scaleX=(this.currentFrame/76)*3.0502;
 		this.progressText.text=Math.floor((this.currentFrame/76)*100)+"%";
-		
-		
-		
-		//hover over
-		
-		//hover over
-		
-		this.credit65.visible = false;
-		
-		this.photo_65.addEventListener("mouseover", fl_MouseOverHandler_65.bind(this));
-		
-		function fl_MouseOverHandler_65()
-		{
-			console.log("mouseover65")
-		    root.credit65.visible = true;
-			
-		}
-		
-		this.photo_65.addEventListener("mouseout", fl_MouseOverHandler652.bind(this));
-		
-		function fl_MouseOverHandler652()
-		{
-			root.credit65.visible = false;
-			
-		}
 	}
 	this.frame_65 = function() {
 		var root=this;

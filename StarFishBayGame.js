@@ -8,15 +8,15 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"StarFishBayGame_atlas_1", frames: [[1861,239,156,86],[1861,327,156,86],[1861,415,156,86],[0,1076,441,39],[869,297,602,185],[579,484,652,158],[956,742,575,120],[0,644,596,132],[755,864,428,97],[1282,1061,354,55],[1233,571,531,169],[0,412,577,193],[357,846,396,108],[1185,941,405,102],[839,1045,441,46],[1185,864,302,40],[0,1029,302,40],[1638,1061,302,40],[443,1076,302,40],[839,963,278,78],[598,644,356,200],[869,0,495,278],[1890,810,122,106],[956,644,100,88],[1473,297,386,272],[0,0,495,387],[1233,484,76,72],[1759,0,236,237],[1766,571,236,237],[1366,0,391,295],[1906,918,96,108],[497,0,370,410],[0,778,355,129],[1533,810,355,129],[0,909,312,118],[1592,941,312,118],[314,956,312,118],[628,963,209,110]]},
-		{name:"StarFishBayGame_atlas_2", frames: [[0,0,683,710],[0,712,683,710],[977,1378,590,443],[1386,925,550,366],[0,1424,975,450],[1487,0,512,512],[685,925,699,451],[685,0,800,533],[685,535,944,388]]},
+		{name:"StarFishBayGame_atlas_1", frames: [[1767,670,156,86],[1866,758,156,86],[1866,846,156,86],[407,1503,441,39],[1262,813,602,185],[579,1110,652,158],[1131,1274,575,120],[533,1270,596,132],[357,1404,428,97],[0,1423,354,55],[0,1121,531,169],[0,926,577,193],[1488,1396,396,108],[0,1503,405,102],[0,842,441,46],[869,754,302,40],[1708,1322,302,40],[787,1404,302,40],[787,1446,302,40],[1767,590,278,78],[1650,1000,356,200],[579,926,122,106],[357,1292,100,88],[1262,1000,386,272],[0,453,495,387],[1925,670,76,72],[1807,0,236,237],[1807,239,236,237],[1215,0,590,443],[1215,445,550,366],[869,813,391,295],[703,926,96,108],[497,514,370,410],[701,0,512,512],[0,0,699,451],[0,1292,355,129],[1131,1396,355,129],[869,514,312,118],[869,634,312,118],[1708,1202,312,118],[1767,478,209,110]]},
+		{name:"StarFishBayGame_atlas_2", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[0,1424,975,450],[685,712,800,533],[977,1247,944,388]]},
 		{name:"StarFishBayGame_atlas_3", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_4", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_5", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_6", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
 		{name:"StarFishBayGame_atlas_7", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_8", frames: [[0,0,683,710],[0,712,683,710],[685,0,683,710],[685,712,683,710]]},
-		{name:"StarFishBayGame_atlas_9", frames: [[1001,1277,683,710],[0,1411,999,588],[0,0,1080,607],[1082,0,898,673],[0,609,800,800],[802,675,900,600]]},
+		{name:"StarFishBayGame_atlas_8", frames: [[902,0,683,710],[0,602,683,710],[0,1314,683,710],[685,712,683,710],[0,0,900,600]]},
+		{name:"StarFishBayGame_atlas_9", frames: [[802,1219,999,588],[0,610,1080,607],[1082,0,898,673],[0,1219,800,800],[0,0,1080,608]]},
 		{name:"StarFishBayGame_atlas_10", frames: [[0,0,1080,608],[0,610,1080,608],[0,1220,1080,608]]},
 		{name:"StarFishBayGame_atlas_11", frames: [[0,0,1080,718],[0,1440,1080,608],[0,720,1080,718]]},
 		{name:"StarFishBayGame_atlas_12", frames: [[0,0,1080,720],[0,722,1080,719]]},
@@ -283,13 +283,6 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.Bitmap3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.border_waterCol = function() {
 	this.initialize(ss["StarFishBayGame_atlas_15"]);
 	this.gotoAndStop(0);
@@ -299,21 +292,21 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.bubble1 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(22);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubble2 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.clam_shadow = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -424,7 +417,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.Crab3_QuestionMarkCrab_00000 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.initialize(ss["StarFishBayGame_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -432,182 +425,182 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.Crab3_QuestionMarkCrab_00001 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00002 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00003 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00004 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_8"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_7"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00005 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00006 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00007 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00008 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_7"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_6"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00009 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00010 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00011 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00012 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_6"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_5"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00013 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00014 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00015 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00016 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_5"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_4"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00017 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00018 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00019 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00020 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_4"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_3"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00021 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00022 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crab3_QuestionMarkCrab_00023 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_3"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crab3_QuestionMarkCrab_00024 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00025 = function() {
+(lib.Crab3_QuestionMarkCrab_00024 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crab3_QuestionMarkCrab_00026 = function() {
+(lib.Crab3_QuestionMarkCrab_00025 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
 	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crab3_QuestionMarkCrab_00026 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -712,7 +705,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.crab_shadow = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -768,21 +761,21 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.flower = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(26);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next1 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(27);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next2 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(28);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -801,14 +794,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 (lib.Photo30_cp = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Photo31 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -822,7 +815,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 (lib.photo29_cp = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -849,22 +842,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 
 (lib.photo_compressed10 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.photo_compressed12 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.photo_compressed13 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -877,22 +870,29 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 
 (lib.photo_compressed16 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_9"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["StarFishBayGame_atlas_8"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.photo_compressed18 = function() {
+(lib.photo_compressed17 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_11"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.photo_compressed18 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.photo_compressed19 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -941,7 +941,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 (lib.photo_compressed4 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -955,105 +955,105 @@ p.nominalBounds = new cjs.Rectangle(0,0,3024,4032);
 
 (lib.photo_compressed6 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.photo_compressed7 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_10"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["StarFishBayGame_atlas_9"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.photo_compressed9 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(29);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.raindrop = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(30);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sb2 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.sbbbbb = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.speechBubble = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.speechBubble3 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.title = function() {
-	this.initialize(ss["StarFishBayGame_atlas_2"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.waterColBtn1 = function() {
-	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.waterColBtn1_blue = function() {
+(lib.sbbbbb = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.waterColBtn2 = function() {
+(lib.speechBubble = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.waterColBtn2_blue = function() {
+(lib.speechBubble3 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.title = function() {
+	this.initialize(ss["StarFishBayGame_atlas_2"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.waterColBtn1 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.waterColBtn2_grey = function() {
+(lib.waterColBtn1_blue = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.waterColBtn3 = function() {
+(lib.waterColBtn2 = function() {
 	this.initialize(ss["StarFishBayGame_atlas_1"]);
 	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.waterColBtn2_blue = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.waterColBtn2_grey = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.waterColBtn3 = function() {
+	this.initialize(ss["StarFishBayGame_atlas_1"]);
+	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -3168,7 +3168,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.photo_compressed18();
+	this.instance = new lib.photo_compressed17();
 	this.instance.setTransform(0,0,0.4687,0.4687);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -3322,13 +3322,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Bitmap3();
+	this.instance = new lib.photo_compressed17();
+	this.instance.setTransform(0,12,0.4405,0.4405);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib._p18192, new cjs.Rectangle(0,0,495,278), null);
+}).prototype = getMCSymbolPrototype(lib._p18192, new cjs.Rectangle(0,12,475.7,267.8), null);
 
 
 (lib.title_move = function(mode,startPosition,loop,reversed) {
@@ -3822,7 +3823,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,495,366.9);
+p.nominalBounds = new cjs.Rectangle(0,12,495,354.9);
 
 
 (lib.photo1819_detail = function(mode,startPosition,loop,reversed) {
